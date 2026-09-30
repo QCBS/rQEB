@@ -1,0 +1,124 @@
+---
+format:
+  # pdf:
+  #   fig-pos: 'h'
+  html:
+    embed-resources: true
+fig-subcap: false
+mermaid: 
+  theme: neutral
+---
+
+:::::: {layout="[[52,48], [100]]"}
+<div>
+
+<figcaption>
+
+(a) 
+
+</figcaption>
+
+```{mermaid}
+---
+config:
+  theme: base
+  flowchart: 
+    padding: 0
+---
+
+flowchart TD
+
+A["Does the project involve Indigenous knowledge<br>or data collected on Indigenous territory?"]
+
+A -->|No| Z["Apply general governance<br>and ethics standards"]
+
+A -->|Yes| B["Identify the relevant nation or community"]
+
+B --> Y["Does the research involve<br>personal data?"]
+
+Y -->|Yes| Q["Approval from a university<br>research ethics committee"]
+Y -->|No| C["Engage legitimate authorities"]
+
+Q --> C
+```
+
+</div>
+
+<div>
+
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gouvernance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+
+(b) 
+
+</figcaption>
+
+```{mermaid}
+---
+config:
+  flowchart: 
+    padding: 0
+  theme: base
+---
+
+flowchart TD
+
+C["Engagement with legitimate authorities"]
+
+C --> D["Free, prior, and informed consent (FPIC)<br>obtained?"]
+
+D -->|No| X["Do not proceed"]
+
+D -->|Yes| E["Define a formal<br>data governance agreement"]
+
+E --> F["Specific restrictions or conditions?"]
+
+F -->|Yes| G["Integrate conditions into<br>protocols and metadata"]
+
+F -->|No| H["Proceed according to the agreement"]
+
+G --> I["Collection / Analysis"]
+H --> I
+```
+
+</div>
+
+<div>
+
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gouvernance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+
+(c) 
+
+</figcaption>
+
+```{mermaid}
+---
+config:
+  theme: base
+  flowchart: 
+    padding: 0
+    nodeSpacing: 10
+    rankSpacing: 20
+---
+
+flowchart LR
+
+I["Collection /<br>Analysis"]
+
+I --> J["Publication or<br>dissemination<br>planned?"]
+
+J -->|Yes| K["Submit for<br>community review<br>and approval"]
+
+J -->|No| L["Archive according to the agreement"]
+
+K --> M["Approval<br>granted?"]
+
+M -->|No| N["Modify or withdraw content"]
+
+M -->|Yes| O["Dissemination in compliance with conditions"]
+
+O --> P["Ongoing monitoring and governance"]
+L --> P
+```
+
+</div>
+::::::

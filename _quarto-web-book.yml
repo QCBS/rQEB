@@ -1,0 +1,69 @@
+project:
+  type: book
+  output-dir: _book
+
+warning: false
+message: false
+
+
+title-en: "Quebec Assessment of Biodiversity and Nature's Contribution to People"
+author-en: "Quebec Center for Biodiversity Science"
+
+book:
+  title: "Évaluation québécoise de la biodiversité et des contributions de la nature aux populations"
+  author: "Centre de la science de la biodiversité du Québec"
+  date: last-modified
+  
+  chapters:
+    - index.qmd
+    - part: Fondement
+      part-en: Foundations
+      chapters:
+        - "P1_fondement/1_contexte_approche.qmd"
+    - part: Moteurs de chanagements
+      part-en: Drivers of Change
+      chapters:
+        - "P3_moteurs_changement/7_pression_sur_biodiv.qmd"
+        - "P3_moteurs_changement/8_affectation_terres.qmd"
+
+  appendices:
+    - 'CONTRIBUTE.qmd'
+    - 'scope/TDM.qmd'
+    - 'scope/Scoping.qmd'
+    - 'references.qmd'
+  repo-url: https://github.com/QCBS/rQEB
+  repo-actions: [issue, source, edit]
+
+format:
+  html:
+    include-in-header:
+      - dev/config.html # restricts hypothesis comments to QEB group
+    # embed-resources: true
+    theme:
+      - cosmo
+      - brand
+  # pdf: default
+  # docx: default
+
+comments:
+  hypothesis: true
+
+# Make references appear at the end of each chapter
+# filters:
+#   # Run Quarto's default filters first
+#   - quarto
+#   - section-bibliographies
+# reference-section-title: References
+citeproc: true
+
+## Multilingual settings
+
+babelquarto:
+  mainlanguage: 'fr'
+  languages: ['en']
+  languagecodes:
+  - name: fr
+    text: "Version en français"
+  - name: en
+    text: 'English version'
+

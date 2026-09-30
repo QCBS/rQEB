@@ -1,0 +1,29 @@
+---
+format: #docx
+  html:
+   self-contained: true
+description: ""
+---
+
+# Working group workflow {#sec-wg-workflow}
+
+```{mermaid}
+
+---
+config:
+  theme: neutral
+---
+flowchart TD
+I["Select topic (based on priority)"]
+I --> J["Identify experts: <br /> 1. QCBS researcher(s) <br /> 2. NGO or governament partners"]
+J --> K["Assemble team"]
+K --> L["Working Group (QCBS sponsored)"]
+L --> M["Decide on scope:<br /> - Questions <br /> - Literature <br /> - Methods <br /> - Assign tasks"]
+M --> N["Work happens ⏳"]
+N --> O["Reviewers"]
+O --> J
+O --> P["Publish"]
+P --> Q["Receive general feedback"]
+Q --> J
+
+```

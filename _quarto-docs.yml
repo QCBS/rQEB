@@ -1,0 +1,15 @@
+project:
+  output-dir: _QC_biodiv_docx
+  render:
+    - "*.qmd"
+    - "Notes/Notes.md"
+    - "!P3_moteurs_changement/cartographie/1_ResidentialCommercialDev.qmd"
+    - "!scope/Fig/ethic-diagram.qmd"
+    - "!scope/Fig/ethic-diagram.en.qmd"
+
+format: docx
+
+toc: true
+number-depth: 3
+toc-depth: 3
+number-sections: true

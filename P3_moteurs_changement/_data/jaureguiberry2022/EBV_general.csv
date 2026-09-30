@@ -1,0 +1,7 @@
+EBV class,Partial search strings
+Community composition,"(((communit* OR assemblage* OR taxonom* OR species) AND (dominance* OR richness OR turnover OR diversit* OR composition OR similarit)) OR (""species interaction"" OR ""biotic interaction*""))"
+Ecosystem function,"(""ecosystem function"" OR ""net primary productivity"" OR ""secondary productivity"" OR ""nutrient retention"" OR ""disturbance regime"" OR ""carbon sequestration"")"
+Ecosystem structure,"(""ecosystem* structure"" OR ""habitat structure"" OR ((ecosystem OR habitat*) AND ((extent OR area OR coverage OR proportion) AND fragmentation)) OR ((ecosystem OR landscape) AND composition AND ""functional type""))"
+Genetic composition,"(""genetic* composition"" OR (co-ancestr* OR coancestr) OR ""allel diversit"" OR ""phylogenetic diversit"" OR (""population diversit"" OR (population AND ""genetic differen"")) OR ((breed OR variet) AND diversit) OR ""intra-specific diversit"" OR ""genetic diversit"" OR ""genetic variation"")"
+Species populations,(species OR population) AND ((distribution OR range) OR (abundance OR size* OR densit* OR demograph* OR dynamic* OR reproduct* OR surviv* OR growth OR persistence OR viab*) OR (structure AND (age OR size)))
+Species traits,"((""ecological trait"" OR ""biological trait"" OR ""species trait"") OR (""body mass"" OR ""body size"") OR ""natal dispers"" OR ((migrat* OR dispers* OR demograph* OR physiolog* OR life-history* OR phenolog) AND (trait OR behav* OR attribute OR feature)))"

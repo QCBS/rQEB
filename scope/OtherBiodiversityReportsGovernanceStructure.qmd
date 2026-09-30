@@ -1,0 +1,109 @@
+---
+title: "Writing and Review Structures"
+format: docx
+editor: visual
+---
+
+## State of Ontario's Biodiversity Report
+
+Developed by:
+
+- Ontario Biodiversity Council
+
+  - 42 volunteers from various NGOs, federations, associations, companies and universities
+
+  - Chaired by Intact centre on climate adaptation at UofWaterloo
+
+- Ontario Ministry of Natural Resources (partner)
+
+Guidance committee:
+
+- Sub-committee of Ontario Biodiversity Council
+
+Reviewed by members of:
+
+- Ontario Biodiversity Council
+
+- Ontario Public Service Biodiversity Network
+
+Detailed list of contributors: <https://sobr.ca/about/>
+
+# State of nature in the EU
+
+Developed and written by:
+
+- Members of European Topic Centre on Biological Diversity (ETC/BD)
+
+  - European consortium of scientific institutions, led by the Muséum national d’Histoire naturelle.
+
+  - coordinated by an international team based at the Muséum
+
+  - financial support mainly from:
+
+    - European Environment Agency
+
+    - French Ministry of Ecology, Sustainable Development and Energy
+
+- Members of BirdLife International (NGO) under contract of the European Commission
+
+- Carlos Romão (European Environment Agency)
+
+Support in data processing, assesment, guidance was provided by members from:
+
+- Members of ETC/BD
+
+- European Environment Agency
+
+- Birdlife
+
+- NASA Extreme Environment Mission Operations
+
+- Director General for the Environment (?)
+
+Feedback on final draft:
+
+- European Environment Information and Observation Network
+
+  - EEA and circa 400 national institutions from 38 countries
+
+  - Gather and develop data, knowledge, and advice to policy makers about Europe's environment
+
+- Expert Group on Reporting under the Nature Directives
+
+  - Unclear what this is, but seems to be related to EU environmental laws
+
+# Institut de **québécois de la biodiversité ([IQBIO](https://iqbio.qc.ca/))**
+
+Regroupement de personnes de milieux académique, gouvernementaux et ONG.
+
+Axé principalement sur le maintient de listes de collections (herbarium, collections d'insectes, champignons) du Québec, mais a un mandat plus large de gestion de connaissances et de diffusion scientifique.
+
+# DataStream
+
+ONG de stockage et partage de données aquatiques citoyennes.
+
+Composante Grands Lacs: <https://greatlakesdatastream.ca/fr/>
+
+Composante Atlantique: <https://atlanticdatastream.ca/fr/>
+
+# Nature Québec
+
+Ressource pour la mobilisation citoyenne en lien avec la valorisation de la biodiversité, a protection des milieux naturels et des espèces, le contact avec la nature et le dév. durable.
+
+Équipe de 20 personnes + réseau de scientifiques + milliers de membres.
+
+# Fondation de la Faune
+
+Organisme para-gouvernemental (crée par Gov. du Qc en 1984), maintenant une ONG.
+
+Financé par chasse et pêche. Finance à son tour des projets de restauration et conservation.
+
+# Canards illimités canada
+
+ONG effectuant des projets de conservation des milieux humides (au profit des oiseaux migrateurs).
+
+# Ouranos
+
+Consortium (OBNL) de climatlogie et d'adaptation aux chnagements climatique.
+
+Données climatiques ici.

@@ -1,0 +1,502 @@
+---
+format: html
+author: 'Egor Katkov; El-Amine Mimouni; Guillaume Banchet; Fanie Pelletier'
+date: last-modified
+editor_options:
+  markdown:
+    wrap: sentence
+    canonical: true
+---
+
+::: callout-caution
+This chapter is currently under review and is subject to change.
+:::
+
+# Contribution Guide
+
+{{< include assets/local_context_notices/collab_notice.en.qmd >}}
+
+Thank you for taking the time to review this guide!
+This guide will ensure that the evaluation (@nte-eval) has a consistent format, allows users to adapt it to their needs, and ensures its reproducibility for future updates.
+
+The main objective of the assessment is to synthesize existing knowledge and data in order to make them accessible to people who are not necessarily scientists but who may need to make decisions related to Quebec’s biodiversity.
+
+::: {#nte-eval .callout-note}
+### Glossary
+
+**Assessment**: The Quebec Assessment of Biodiversity and Nature’s Contributions to People.
+This includes the e-book, the executive summary, as well as all associated source code, data, and synthesis work.
+
+**Section**: One of the main themes of the assessment:
+
+1.  Preamble
+2.  Rationale and Approach
+3.  Overview of Biodiversity
+4.  Drivers of Change
+5.  Nature’s Contributions to People (NCP)
+6.  Future Opportunities
+7.  Solutions
+8.  Conclusions and Recommendations
+
+**Chapter**: a section of the assessment that could be published independently of the others.
+See [@sec-TDM] for the table of contents, including the preliminary list of chapters.
+:::
+
+## Types of Contributions
+
+### Corrections and Suggestions
+
+Everyone is invited to submit suggestions and requests for corrections.
+You are invited to comment on any chapter or appendix of this e-book, including the table of contents [@sec-TDM], the scoping document [@sec-scoping], the preliminary module on land-use changes (expected draft for September 2026), or even this guide itself.
+Your contribution will be acknowledged in the acknowledgments section.
+
+When a chapter is open for review, this type of contribution is especially encouraged.
+
+If you have a GitHub account, you can create an “Issue” (report a problem) or a “pull request” (suggest a change) in [the project repository](https://github.com/QCBS/rQEB).
+You can also submit feedback by emailing [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+### Lead Chapter Development (Co-author)
+
+This role is well-suited for students, but is also open to anyone with scientific expertise and an interest in one of the chapters listed in the table of contents : [@sec-TDM].
+There are many possible tasks associated with this role; here are a few examples:
+
+- Reviewing scientific and gray literature
+- Making data that is difficult to reuse accessible
+- Drafting summary text following an established framework
+- Analyzing openly available data
+
+For more details regarding the writing process, see @sec-anatomie-chapitre and @sec-TDM.
+Your contribution will be acknowledged by adding your name to the list of authors for the chapters to which you contributed (see @sec-ordre-auteurs for the convention on author order).
+
+CSBQ student members may apply for two grants to support their involvement in the project:
+
+- [To contribute to the analysis and drafting of the evaluation](https://qcbs.ca/champion-grants-assess-biodiversity-and-natures-contribution-to-people-in-quebec/)
+- [To make data available and accessible](https://qcbs.ca/champion-grants-to-rescue-quebecs-biodiversity-data/)
+
+You will be invited to participate in working groups (see dates in the next section).
+
+To express your interest, please fill out [this form](https://forms.cloud.microsoft/r/wGdRbvhqAz) or email [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+### Supervise Chapter Development (co-author)
+
+This role is suited for individuals with expertise related to at least one of the chapters in the table of contents: [@sec-TDM].
+Co-researchers from [the Quebec Center for Biodiversity Science](https://qcbs.ca/fr/) are particularly encouraged to participate.
+
+You will be expected to help recruit experts and other potential contributors, plan the content of a chapter, guide the writers and analysts, and review both the final and interim drafts.
+Your contribution will be acknowledged by including your name in the list of co-authors for each of the chapters to which you have contributed (see @sec-ordre-auteurs for the convention regarding author order).
+
+Ideally, you should be available for the working group meeting dates.
+Here are the dates for the 2026–2027 academic year:
+
+- November 5–6, 2026
+- February 4–5, 2027
+- April 29–30, 2027
+
+The location of the meetings has yet to be determined.
+
+To express your interest, please fill out [this form](https://forms.cloud.microsoft/r/wGdRbvhqAz) or email [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+### Revise
+
+This role is open to all stakeholders in the biodiversity sector in Quebec and Canada.
+Your task involves evaluating the relevance of the findings, the quality of the methodology, and the credibility of the data sources.
+You will be required to complete an evaluation form and provide constructive feedback within a set timeframe.
+
+Your contribution will be acknowledged in the acknowledgments section.
+
+To express your interest, please fill out [this form](https://forms.cloud.microsoft/r/wGdRbvhqAz) or email [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+## Tentative Timeline
+
+This timeline is a suggestion.
+The modular format of the assessment allows the publication of chapters as they are ready, and the possibility of future updates.
+
+**September–October 2026**: Team formation and planning of chapter contents (sub-themes).
+
+**➝ November 5, 2026**: Meeting in Bromont between chapter supervisors to align chapter content.
+
+**November 2026–February 2027**: First draft writing and identification of roadblocks.
+
+**➝ February 4–5, 2027**: Troubleshooting and problem-solving meeting.
+
+**February–April 2027**: Writing and revisions.
+
+**➝ April 29–30, 2027**: Progress review meeting.
+
+**April–May 2027**: Finalization of the internal review.
+
+**➝ May 31, 2027**: Suggested deadline for completion of the internal review.
+
+**Summer 2027**: External review.
+
+**Fall 2027**: Final revisions and publication with a DOI.
+
+**After 2027**: Regular updates (versioned DOI).
+
+## Development of a chapter {#sec-anatomie-chapitre}
+
+::: callout-note
+A working template will be made available by October 2026.
+:::
+
+To introduce the chapter, summarize what is generally known about Indigenous roles, knowledge, and perspectives related to the theme, taking into account the diversity of Indigenous voices.
+
+Provide a broad overview of Western science by identifying a few articles or analyses with a global geographic scope (ideally) related to the chapter’s theme.
+Justify the relevance of the theme.
+Identify and justify the use of one or more key indicators or variables that could be used to measure temporal change and spatial variations related to the topic.
+
+### Literature Review
+
+First, identify relevant sources pertaining to the province of Quebec; comprehensive coverage of the province is not required.
+To do so, you will have access to a database containing primary research articles and gray literature sources, along with an artificial intelligence tool to conduct searches within it.
+You are also encouraged to use other research tools (e.g., Google Scholar) or artificial intelligence tools (e.g., [AstaAI](Asta.allen.ai)), or to reach out to your network and that of the CSBQ to obtain additional gray literature sources to add to our database.
+Pay particular attention to identifying sources relevant to Indigenous roles, perspectives, or knowledge.
+Note the methodological details of your search, such as the search engines used, the keywords used, the dates of the searches, the people contacted, and the criteria used to include or exclude a source.
+
+Second, evaluate the information provided by each source in terms of its spatial, temporal, and methodological aspects.
+For the sections on drivers of change and solutions, try to assess the impacts of the driver or solution in question on aspects of biodiversity, using the vocabulary of Essential Biodiversity Variables ([EBVs](https://geobon.org/ebvs/what-are-ebvs); @kissling2018).
+For the section on nature’s contributions to people (NCPs), try to assess the influence of biodiversity (EBV terminology) on the contribution in question.
+Classify the measured NCPs according to the classification of Essential Ecosystem Service Variables ([EESV](https://geobon.org/ebvs/ecosystem-services-working-group/what-are-eesvs/); @balvanera2022).
+Specify the geographic location(s) associated with each source.
+Pay particular attention to sources with a temporal component to understand how the variables or indicators change over time, and take note of any predictions.
+Briefly describe the methodological approach used by the sources.
+Note any shortcomings, whether in terms of spatial or temporal coverage, or reliability.
+You may use the CSBQ’s AI tool to facilitate this task, but be sure to verify the information provided (see the section on AI policy @sec-pol-IA).
+
+### Analysis of Available Data
+
+::: callout-warning
+Before diving into an analysis, discuss it with a representative from [Biodiversité Québec](https://biodiversite-quebec.ca/fr/contactez_nous) to avoid duplicating analyses already in progress.
+:::
+
+If one or more data sources are available and cover a wide spatial area, it may be appropriate to produce an analysis tailored to Quebec.
+To do this, start by describing each data source, specifying its methodology, including resolution and spatial and temporal scope.
+Assess the strength of the data presented, specifying whether the data represent a limited sample of the territory (strength: low) or a complete census (strength: high).
+Next, use the data to answer the following questions
+
+- What is the current status, or at least the most up-to-date estimate (specifying the date of the estimate), of the variable or indicator?
+- How has the variable or indicator changed over the past 5, 10, 20, 50, or 100 years (depending on data availability)?
+- If any predictions have been made, what are they, and what are they based on?
+
+For each answer to the questions above, specify:
+
+- Summary statistics (e.g., mean) for Quebec, southern Quebec (south of the 49th parallel), and the various administrative regions of Quebec.
+- If multiple data sources are available, the level of agreement among the different data sources.
+
+### Findings
+
+Provide a few key messages that summarize the status, changes, spatial variability, and the level of available information related to the topic.
+Assess the reliability of each finding based on the quantity, quality, and level of agreement among the sources related to that finding.
+These findings should also be reiterated in an executive summary for each chapter.
+
+## Principles and Frameworks to Follow
+
+### Use of Knowledge and Data
+
+::: callout-caution
+The best way to implement these principles is still under discussion within the assessment’s executive committee and will undergo an external review process.
+:::
+
+Integrating the CARE, PCAP®, and FAIR principles maximizes the potential utility of the evaluation by making data accessible while respecting Indigenous communities’ data governance (see @imp-ind-data).
+
+Note that you may need to make trade-offs to reconcile FAIR principles with CARE or PCAP® [@gudde2026].
+If so, be sure to take an ethical and informed stance by explicitly justifying your choices.
+
+::: {#imp-ind-data .callout-important}
+##### Biodiversity data is Indigenous data
+
+Indigenous data encompasses both data produced by Indigenous peoples—such as traditional and local knowledge—and data produced by governments and other institutions about Indigenous peoples, their territories, and the living beings found there [@carroll2020; @rainie2018; @FNIGC2020].
+Because most of Quebec is part of the ancestral territory of various Indigenous peoples [@nativeland2024], the vast majority of data and knowledge related to biodiversity in Quebec can be classified as Indigenous data.
+
+The principles of Indigenous data therefore apply to the use of the vast majority of data concerning biodiversity in Quebec.
+:::
+
+#### CARE: collective benefit, oversight authority, accountability, ethics
+
+The CARE principles stipulate that Indigenous data (see @imp-ind-data) must be used for the collective benefit, remain under the authority of the communities concerned, be used responsibly, and adhere to Indigenous ethical principles [@carroll2020].
+In the context of the assessment, this involves using [Local Context notices](https://localcontexts.org/notices/about-the-notices/) to indicate the presence of Indigenous data and committing to collaboration with Indigenous communities [@liggins2021; @carroll2021].
+For example, the “[BC Notice](https://localcontexts.org/notice/bc-notice/)” is used to flag data generated from biodiversity.
+However, the CARE principles are not limited to Local Context, and you are responsible for understanding and keeping these principles in mind to ensure that your use of the data complies with them.
+
+#### PCAP®: Ownership, Control, Access, Location
+
+The CARE principles are applicable internationally but direct users toward more local governance systems.
+The PCAP® principles were created by Canadian First Nations for Indigenous data from Canadian First Nations (this does not include Inuit or Métis data).
+
+The goal of the PCAP® principles is to ensure explicit governance of First Nations communities’ data by First Nations communities [@FNIGC_PCAP].
+Therefore, when you wish to use Indigenous knowledge, keep in mind that it belongs to the communities concerned and that the storage, interpretation, use, and sharing of the data must remain under the governance of the communities.
+This type of Indigenous data may therefore require approvals from the communities concerned.
+
+PCAP® is a registered trademark of the First Nations Information Governance Centre (FNIGC).
+
+#### FAIR: Findable, Accessible, Interoperable, and Reusable {#sec-FAIR}
+
+The FAIR principles are designed to facilitate the reuse of data [@wilkinson2016].
+In practical terms, this means that all derived products—including the data used to create tables and graphs—must be made available in an open and accessible format and accompanied by metadata.
+By extension, all source code used to generate analyses must also be readable, portable, and shareable.
+This principle is integrated into the proposed data analysis workflow [@sec-flux].
+For each chapter, a metadata file must be available and formatted according to [the template provided by the Canadian Federated Research Data Repository](https://demo.frdr-dfdr.ca/docs/txt/README.txt).
+
+### Vocabulary and System Analyses
+
+The main objective of the evaluation is to produce a summary.
+Although the use of simple, accessible language is strongly encouraged throughout the web book, the dedicated simplification of content for science communication and outreach purposes will be adressed through the summary for policymakers, social media communications, and other activities.
+
+The use of the IPBES Conservation Standards and conceptual framework ensures the consistency and accessibility of the assessment to those working in the field of conservation in Quebec.
+
+If you encounter conflicts between different vocabularies or ways of representing reality, create different versions of the content based on the various alternative frameworks.
+In prose, indicate the equivalent term in parentheses, and in graphics, separate the different representations[into different tabs](https://quarto.org/docs/interactive/layout.html#tabset-panel)to give users a choice.
+
+#### Conservation Standards
+
+The Conservation Standards define a common vocabulary (in English) and standards for guiding, planning, implementing, and tracking the progress of conservation projects [@cmp2026].
+These standards are particularly important to follow when translating knowledge into practical actions in the field (Part VI – Solutions in the Table of Contents [@sec-TDM]).
+In particular, use the terminology and conventions for scenario templates proposed in the latest version (Version 5) of the document on Open Standards for Conservation Practice ; [see Section 1D and Annex 1 of @cmp2026].
+
+#### IPBES Conceptual Framework
+
+Overall, the assessment follows the IPBES framework, which enables synthesis across different knowledge systems [@díaz2015].
+This framework breaks down the world into six interconnected components: nature, human-made assets, the benefits of nature to people, governance institutions and other indirect drivers of change, direct drivers of change, and quality of life [@díaz2015].
+The table of contents [@sec-TDM] is loosely based on these concepts, and the assessment aims to characterize each of these components.
+
+### Authoring and Authorship
+
+#### Translation
+
+All documents will be translated from French to English or vice versa.
+Try to choose a common language so that all co-authors can contribute as easily as possible.
+If necessary, contact the project manager (Egor,[rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) regarding your translation needs.
+
+Don't forget to create versions of the charts and tables in both languages!
+
+##### English File Naming Convention
+
+The names of files whose content is in English must end with`.en` (e.g., `MoteursChangement.en.qmd`) because French is considered the default language.
+
+#### AI Policy {#sec-pol-IA}
+
+Artificial intelligence (AI) must be used ethically and transparently, while ensuring the credibility of the assessment.
+For more details, please consult the IPBES guide on AI [@IPBES-AI2026].
+
+#### Reproducibility {#sec-repr}
+
+One of the objectives of the assessment is to create a living document that can be updated as new data becomes available.
+It is therefore essential that the methods be transparent and detailed, and that the analytical steps be automated to enable updates.
+
+#### Order of Co-Authors {#sec-ordre-auteurs}
+
+The working group associated with each chapter will be responsible for agreeing on an order of authors.
+
+You are encouraged to follow a rating system like the one proposed by @martinig2026.
+
+## Format
+
+### Prose
+
+Use the Quarto format (`.qmd`) to write your text following [Markdown conventions](https://quarto.org/docs/authoring/markdown-basics.html) (this is very useful for later generating a website or a PDF).
+To make writing with Quarto easier, use [RStudio](https://posit.co/products/open-source/rstudio)’s built-in visual editor, or install [the Quarto extension](https://open-vsx.org/extension/quarto/quarto) for [Visual Studio Code](https://code.visualstudio.com/) or [Positron](https://positron.posit.co/).
+
+For chapters that include data analyses, Quarto’s strength lies in its ability to integrate code with prose, thereby improving the reproducibility of the analysis (@sec-repr).
+Use code sections in the Quarto file to load the results of your intermediate analyses, extract variables of interest, and programmatically insert them into the code.
+
+*Example*:
+
+```` markdown
+```{{r}}
+df <- read.csv("Out/abondance_ours.csv")
+
+min_annee = min(df$annee)
+max_annee = max(df$annee)
+
+pop_base = df[df$annee == min_annee, "population"]
+pop_ajd  = df[df$annee == max_annee, "population"]
+
+dim_pop_ours_prcnt <- -1*round(100*(pop_ajd - pop_base)/pop_base, 2)
+```
+
+La population des ours noir au Québec a diminué de `{{r}} dim_pop_ours_prcnt` % entre `{{r}} min_annee` et `{{r}} max_annee`.
+````
+
+*Result (note: this example is not based on real data)*:
+
+> The black bear population in Quebec decreased by 5.6% between 1980 and 2022.
+
+To speed up performance, avoid including complex calculations or generating charts directly within Quarto files.
+
+### Graphs
+
+Choose perceptually uniform color palettes, as they are suitable for black-and-white printing and for people with color blindness (e.g., the Viridis palette, now available in[ggplot2](https://ggplot2.tidyverse.org/reference/scale_viridis.html)).
+
+When inserting a chart, use [the “tabset” feature](https://quarto.org/docs/output-formats/html-basics.html#tabsets) to also include a table with the data represented in the chart.
+
+If needed, you can also use [Quarto with Shiny](https://quarto.org/docs/interactive/shiny/) to create dashboards.
+
+## Inspiration
+
+If you're looking for inspiration based on what has already been done elsewhere:
+
+- IPBES is the international panel responsible for synthesizing information related to biodiversity and the contributions of nature at the global level [@ipbes2019] and at the level of major global regions [@ipbes2018]. This can serve as a source of inspiration for framing an assessment of biodiversity and the contributions of nature to people.
+- [Nova Scotia](https://storymaps.arcgis.com/collections/6b0e65ee9a984cd18548517a8b78a09f) and [Ontario](https://sobr.ca/) both have biodiversity assessments. Although the scopes of these assessments are more limited than the scope of the Quebec assessment (see @sec-scoping), the web-based formats of these reports may provide inspiration for our e-book.
+- A detailed assessment of biodiversity in Switzerland was conducted as part of the goals to halt biodiversity loss by 2010 in Europe [@lachat2010]. This aligns well with our current situation and the upcoming deadline of 2030 in the context of the Convention on Biological Diversity and the Quebec 2030 Nature Plan [@MELCCFP2024PlanNature2030].
+
+## Data Analysis Workflow {#sec-flux}
+
+### Useful Resources
+
+- The "`git`" application and the collaborative tool "`GitHub`" for sharing updates directly to the repository that feeds content to the website.
+
+- R for analyzing, visualizing, and communicating data
+
+- Basics of Quarto or RMarkdown
+
+The CSBQ will hold GitHub and Quarto training sessions (dates to be announced; contact [rapport\@qcbs.ca](mailto:rapport@qcbs.ca) to express your interest).
+
+### Ensure the reproducibility of results and the portability of code
+
+Use the software`git`to “clone” the assessment repository (folder).
+Save your progress using “commits” and submit a “pull request” to request review of your changes (user guide coming soon).
+Avoid adding large files such as renderings from`.qmd`or databases (see @sec-data-management) to your "commits."
+
+Avoid any manual data manipulation or declaration.
+All components of the assessment should be reproducible using data available online and the source code.
+If you’re having trouble completing a task in a reproducible manner, feel free to ask for help at ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)).
+
+### Managing Data {#sec-data-management}
+
+::: callout-note
+One of the goals of the assessment is to make data accessible.
+Furthermore, storing data directly in theproject’s`git`repositoryallows for better code reproducibility in the event that an external service is temporarily unavailable.
+However, having a repository containing a large volume of data hinders collaboration.
+:::
+
+When you're working, you can save the large datasets you're working with on your computer, but only add the summary data and graphs you generate to the Git repository.
+Don't forget to also include the code for downloading the data to ensure the code is reproducible.
+
+| Refer to external resource    | Add a file to the Git repository  |
+|-------------------------------|-----------------------------------|
+| Mapping resource              | Metadata file                     |
+| Database                      | Intermediate products (summaries) |
+| Other files larger than 10 MB | Generated figures                 |
+
+Be sure to save the intermediate data from your analyses in the `.csv`, or another open and accessible format (@nte-format-ouvert) in the `Out/` subfolder of your chapter folder.
+If you have large datasets that are intermediate products of your analysis, save them separately in a [Zenodo](https://zenodo.org/) or [FRDR](https://www.frdr-dfdr.ca/repo/) repository.
+Be sure to also include a metadata file to accompany the data, following [the template provided by the Canadian Federated Research Data Repository](https://demo.frdr-dfdr.ca/docs/txt/README.txt).
+
+::: {#nte-format-ouvert .callout-note}
+#### Open and Accessible Formats
+
+These are file formats whose specifications are publicly available and that can be read, shared, and reused by a wide variety of software.
+This enables long-term accessibility, interoperability, and reuse of the data (see the FAIR principles @sec-FAIR).
+
+Examples of open formats: CSV, JSON, YAML, GeoJSON, HTML, PNG, SVG, PDF
+
+Examples of proprietary or less accessible formats: Excel, Word, SPSS, Oracle database
+:::
+
+### Produce and document the code
+
+Create functions that can be reused to reproduce similar analyses instead of copying and pasting the same code in multiple places.
+
+Save your (interim) results in the subfolder named `Out` within the folder for the relevant chapter.
+
+:::: panel-tabset
+## R
+
+Follow the [Tidyverse style guide](https://style.tidyverse.org/) to format your code in a readable and consistent manner.
+
+Document your functions according to [Roxygen2 conventions](https://roxygen2.r-lib.org/articles/rd-functions.html).
+Example:
+
+``` r
+#' Map IPCC land use categories to AAFC land use codes  
+#' (one-to-many) mapping 
+#' @param type IPCC land use class 
+#' @param summary_col_name if true, prepend AAFC land use code with "frac_",  
+#' for compatiblity with zonal summary data file. 
+#' @export 
+get_aafc_classes <- function(...) {...}
+```
+
+Prefer using [`box::use`](https://github.com/klmr/box)or explicit references (e.g.,`dplyr::filter()`) instead of`library`,`require`, and`source`.
+Here is an example of using box:
+
+``` r
+# On importe deux fonctions:
+#   `get_aafc_classes` dans un dossier local (module) et 
+#   `select` du package dplyr. 
+# Note: le dossier 2_MoteursChangement requiert le guillmet 
+#       parceque le dossier commence avec un chiffre.
+box::use(`2_MoteursChangement`/R/land_use_aafc[get_aafc_classes],    dplyr[select] )  
+
+# Alternative pour importer toutes les fonctions d'un module ou dun package:
+box::use(`2_MoteursChangement`/R/land_use_aafc[...], dplyr[...] )  
+
+# Vous pouvez maintenant consultez la documentation 
+#  de la fonction `get_aafc_classes` avec box::help
+box::help(get_aafc_classes)
+```
+
+::: callout-important
+##### Working folder (R)
+
+For R scripts, the working directory is the root of the Git repository (`rQEB`).
+However, by default, for`.qmd`files, the working directory is the same as the one containing the`.qmd`file, even when you use a function defined in an R script.
+
+Consequently, when you write functions that are included in an R script:
+
+- The argument for a function you create should preferably be an object rather than a file path.
+
+- If you need to access a file, use `here::here(chemin/du/fichier.csv)` to ensure the path is relative to the `rQEB` directory, regardless of the working directory.
+
+Be sure to test the code within the context of the `.qmd` file.
+:::
+
+To ensure a consistent graphical style, `R/get_fig_style.R` contains a function `style_plot()` that must be added to your `ggplot2` objects and a function `style_patchwork()` that must be added to your `patchwork` objects (to create a figure with multiple plots).
+
+If ggplot2 does not meet your needs, you may suggest an alternative approach, but please contact [rapport\@qcbs.ca](mailto:rapport@qcbs.ca) to discuss it before proceeding.
+
+## Excel
+
+If possible, avoid using Excel for your analyses.
+
+If you insist on using Excel, be sure to explicitly document the sources of all data required for the analysis and the steps to export the analysis results.
+::::
+
+## Project Folder Structure
+
+`rQEB`This folder contains all other folders and files relevant to the project.
+
+- The numbered folders (e.g.,`1_ContexteApproche`or`4_NCP`) contain the files relevant to each chapter.
+  As a contributor, you’ll spend most of your time working in these folders.
+
+  - The file with the same name as the folder and the extension`.qmd`contains the text and describes the content that will be displayed for that chapter on the web book page.
+
+  - The `R` foldercontains the R scripts used for data analysis and to generate graphs.
+
+  - The `Out` foldercontains transformed or intermediate data.
+
+  - The `Fig` foldercontains graphs exported in `.png` format.
+
+  - The working group may choose to modify or enhance this structure to better meet the chapter’s needs.
+
+- `R`contains R scripts that may be useful for developing all chapters.
+  You can contribute to this directory as well, but be careful not to break functionality used elsewhere in the project if you modify existing functions.
+
+- `.github/workflows/`contains`.yml`filesused to automate GitHub Actions for automatically building the web book from Quarto files.
+
+- `dev`contains functions useful for translating content and deploying it to the web.
+
+- `_quarto.yml`and`_quarto-web-book.yml`contain Quarto configurations.
+  `_quarto-web-book.yml`contains the list of Quarto files that will make up the web book.
+
+- The folders`Scoping`,`Notes`,`Comm`, and`Grants`contain files related to project planning and scoping, committee meeting notes, communications, and scholarships offered to CSBQ students as part of the project.
+
+- `rQEB.Rproj`specifies the working directory for R scripts (but not`.qmd`)
+
+- `index.qmd`and`index.en.qmd`contain the content used to generate the homepage of the evaluation website.
+
+- `references.bib`contains a reference library accessible by all chapters.
+
+- `references.qmd`is a template for the chapter containing the list of references for the project.
+
+- `README.md`A README file explaining the folder structure described here.

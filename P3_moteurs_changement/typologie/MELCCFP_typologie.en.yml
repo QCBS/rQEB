@@ -1,0 +1,155 @@
+threat_classification:
+  name: "Standardized Classification of Threats to Biodiversity"
+  version: "v1.0 (2021, Quebec CDC / CMP-IUCN derived)"
+  levels:
+    - level: 1
+      description: "Broad threat categories"
+    - level: 2
+      description: "General threats"
+    - level: 3
+      description: "Detailed threats"
+
+  categories:
+    - id: 1
+      name: "Residential & commercial development"
+      subcategories:
+        - id: 1.1
+          name: "Housing & urban areas"
+          threats: []
+        - id: 1.2
+          name: "Commercial & industrial areas"
+          threats: []
+        - id: 1.3
+          name: "Tourism & recreation areas"
+          threats: []
+
+    - id: 2
+      name: "Agriculture & aquaculture"
+      subcategories:
+        - id: 2.1
+          name: "Annual & perennial non-timber crops"
+          threats:
+            - id: 2.1.1
+              name: "Shifting agriculture"
+            - id: 2.1.2
+              name: "Small-holder farming"
+            - id: 2.1.3
+              name: "Agro-industry farming"
+        - id: 2.2
+          name: "Wood & pulp plantations"
+        - id: 2.3
+          name: "Livestock farming & ranching"
+        - id: 2.4
+          name: "Marine & freshwater aquaculture"
+
+    - id: 3
+      name: "Energy production & mining"
+      subcategories:
+        - id: 3.1
+          name: "Oil & gas drilling"
+        - id: 3.2
+          name: "Mining & quarrying"
+        - id: 3.3
+          name: "Renewable energy"
+
+    - id: 4
+      name: "Transportation & service corridors"
+      subcategories:
+        - id: 4.1
+          name: "Roads & railroads"
+        - id: 4.2
+          name: "Utility & service lines"
+        - id: 4.3
+          name: "Shipping lanes"
+        - id: 4.4
+          name: "Flight paths"
+
+    - id: 5
+      name: "Biological resource use"
+      subcategories:
+        - id: 5.1
+          name: "Hunting & collecting terrestrial animals"
+        - id: 5.2
+          name: "Gathering terrestrial plants"
+        - id: 5.3
+          name: "Logging & wood harvesting"
+        - id: 5.4
+          name: "Fishing & harvesting aquatic resources"
+
+    - id: 6
+      name: "Human intrusions & disturbance"
+      subcategories:
+        - id: 6.1
+          name: "Recreational activities"
+        - id: 6.2
+          name: "War, civil unrest & military exercises"
+        - id: 6.3
+          name: "Work & other activities"
+
+    - id: 7
+      name: "Natural system modifications"
+      subcategories:
+        - id: 7.1
+          name: "Fire & fire suppression"
+        - id: 7.2
+          name: "Dams & water management/use"
+        - id: 7.3
+          name: "Other ecosystem modifications"
+
+    - id: 8
+      name: "Invasive & other problematic species & genes"
+      subcategories:
+        - id: 8.1
+          name: "Invasive non-native species"
+        - id: 8.2
+          name: "Problematic native species"
+        - id: 8.3
+          name: "Introduced genetic material"
+        - id: 8.4
+          name: "Pathogens & microbes"
+
+    - id: 9
+      name: "Pollution"
+      subcategories:
+        - id: 9.1
+          name: "Domestic & urban waste water"
+        - id: 9.2
+          name: "Industrial & military effluents"
+        - id: 9.3
+          name: "Agricultural & forestry effluents"
+        - id: 9.4
+          name: "Garbage & solid waste"
+        - id: 9.5
+          name: "Air-borne pollutants"
+        - id: 9.6
+          name: "Excess energy (noise, heat, light)"
+
+    - id: 10
+      name: "Geological events"
+      subcategories:
+        - id: 10.1
+          name: "Volcanoes"
+        - id: 10.2
+          name: "Earthquakes/tsunamis"
+        - id: 10.3
+          name: "Avalanches/landslides"
+
+    - id: 11
+      name: "Climate change & severe weather"
+      subcategories:
+        - id: 11.1
+          name: "Habitat shifting & alteration"
+        - id: 11.2
+          name: "Droughts"
+        - id: 11.3
+          name: "Temperature extremes"
+        - id: 11.4
+          name: "Storms & flooding"
+
+    - id: 12
+      name: "Other options"
+      subcategories:
+        - id: 12.1
+          name: "Other threat"
+        - id: 12.2
+          name: "Unknown threat"

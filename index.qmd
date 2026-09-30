@@ -1,0 +1,15 @@
+# Accueil {.unnumbered}
+
+Ce site web est une ébauche pour un livre numérique qui contiendra à terme l'évaluation québécoise de la biodiversité et des contributions de la nature aux populations.
+
+L'objectif du projet est du synthétiser les connaissances en lien avec la biodiversité, ses changements, et ses contributions aux populations au Québec de manière scientifiquement crédible et intellectuellement indépendante du gouvernement provincial.[^index-1] Cette synthèse pourra servir à informer des décisions pouvant avoir un impact sur la biodiversité, guider la recherche sur la biodiversité, et informer les populations au Québec.
+
+[^index-1]: Ici on fait référence à l'indépendance intellectuelle, car des employés du gouvernement du Québec et des scientifiques financés par les Fonds de recherche du Québec sont les bienvenus à participer. Par contre, le gouvernement en soi n'aura pas un contrôle sur le contenu de ce livre, ni sur les conclusions de l'évaluation.
+
+Si vous souhaitez contribuer au projet, n'hésitez pas d'écrire à [rapport\@qcbs.ca](rapport@qcbs.ca) et de consulter le @sec-guide-contribution.
+
+À moins d'avis contraire, le contenu du livre est soumis à la licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr).
+
+Ce projet est mené par le [Centre de la science de la biodiversité du Québec](https://qcbs.ca/fr/) avec le soutien de [Biodiversité Québec](https://biodiversite-quebec.ca/fr).
+
+![](assets/logos/logo-binding-vcrop.png)

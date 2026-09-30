@@ -1,0 +1,165 @@
+---
+title: "ResidentialCommercialDev"
+format: html
+execute: 
+  freeze: auto
+---
+
+Menace 1: Développement résidentiel et commercial
+
+None of the BD layers correspond to Menace 1. I think that pulling buildings from OSM maps is a good strategy for this one.
+
+```{r OSM buildings}
+#install.packages("osmextract")
+library(osmextract)
+library(sf)
+options(timeout=9999)
+qc_buildings <- oe_get(
+  place = "Quebec",
+  provider = "geofabrik",
+  layer = "multipolygons",
+  query = "SELECT * FROM multipolygons WHERE building IS NOT NULL"
+)
+
+print(paste("Total buildings in OSM in Quebec:", length(st_geometry(qc_buildings)[[1]]) ))
+
+## Projection for perserving area
+qc_buildings_proj <- st_transform(qc_buildings, 32198)
+
+## Area per building
+areas <- st_area(qc_buildings_proj)
+
+## Calculate total area (in km2)
+
+total_area <- sum(areas, na.rm = TRUE) |> units::set_units(km2)
+total_area # km2
+```
+
+```{r}
+
+## OSM regions
+
+qc_admin <- oe_get(
+  place = "Quebec",
+  provider = "geofabrik",
+  layer = "multipolygons",
+  query = "SELECT * FROM multipolygons WHERE boundary IS NOT NULL AND admin_level IS 6"
+)
+
+MRC <- qc_admin |>
+  filter(!is.na(name)) |>
+  st_make_valid()
+
+
+qc_buildings <- st_transform(qc_buildings_proj, st_crs(regions))
+centroids <- st_centroid(qc_buildings)
+
+buildings_with_region <- st_join(centroids, MRC)
+
+
+regions = st_read('RegionAdminQC/SHP/regio_l.shp')
+qc_buildings_proj_region <- st_transform(qc_buildings_proj, st_crs(regions))
+
+plot(regions)
+
+library(dplyr)
+sf::sf_use_s2(FALSE)
+buildings_by_region <- st_join(qc_buildings_proj_region, regions)
+
+
+```
+
+```{r CanadaBuildingDatabase}
+## Get building polygons
+qc_1 = st_read("~/Maps/ODB_v3_QC_1/ODB_v3_QC_1.gpkg")
+qc_2 = st_read("~/Maps/ODB_v3_QC_2/ODB_v3_QC_2.gpkg")
+
+qc_centroid_1 = st_centroid(qc_1)
+qc_centroid_2 = st_centroid(qc_2)
+
+qc_centroid = rbind(qc_centroid_1, qc_centroid_2)
+nrow(qc_centroid)
+
+st_crs(qc_centroid)
+coords <- st_coordinates(qc_centroid)
+
+## Get Quebec's outer and internal boundaries
+
+qc_admin <- oe_get(
+  place = "Quebec",
+  provider = "geofabrik",
+  layer = "multipolygons",
+  query = "SELECT * FROM multipolygons WHERE boundary IS NOT NULL AND admin_level IS 5"
+)
+qc_admin
+
+qc_border <- st_transform(qc_admin, st_crs(qc_centroid))
+qc_border_vect <- terra::vect(qc_border)
+
+st_crs(qc_border)
+
+## Convert to sp objects
+
+library(sp)
+pts <- SpatialPoints(coords, proj4string = CRS(st_crs(qc_centroid)$wkt))
+
+library(spatstat.geom)
+library(spatstat.explore)
+
+# 
+library(terra)
+
+# convert points to SpatVector
+pts <- vect(qc_centroid)
+
+# raster template (adjust resolution!)
+r <- rast(ext(pts), resolution = 5000)  # 5 km grid
+
+# rasterize counts
+r_count <- rasterize(pts, r, fun = "count", background = 0)
+
+# smooth (Gaussian kernel)
+kde <- focal(r_count, w = focalMat(r_count, 5000, type = "Gauss"))
+
+
+# convert to spatstat
+win <- as.owin(st_union(qc_border))
+
+rx = callr::r_bg(function(win, coords) {
+  spatstat.geom::ppp(
+    x = coords[,1],
+    y = coords[,2],
+    window = win
+  )
+}, args = list(win, coords)
+)
+rx$is_alive()
+pp <- rx$get_result()
+
+kde <- density(pp, sigma = 500)
+
+# library(spatialEco)
+# kde = sf.kde(qc_centroid, bw=1000, res=10000)
+
+## Add quebec boundary layer 
+
+
+# terra::plot(st_geometry(qc_centroid_2), col = "red", pch = 16)
+plot(kde)
+terra::plot(qc_border_vect, add = TRUE, col = NA, border = "black", lwd = 1)
+
+
+```
+
+According to [2016 census data](https://www12.statcan.gc.ca/census-recensement/2016/as-sa/98-200-x/2016005/98-200-x2016005-fra.cfm), there are over 3.5 million private dwellings in Quebec, 45.4% of which are single-family homes.
+
+In 2025, the governament of Canada released the [Open Database of Buildings](https://www150.statcan.gc.ca/n1/pub/34-26-0001/342600012018001-eng.htm) which contains 14.4 million records of buildings from across Canada, of which over 3.6 million are in Quebec. In contrast, open street maps, only has 1.6 million building polygons in Quebec.
+
+Another way to measure this would be residential and commercial zoings. Whearas buildings would be an underestimation of the residential and commercial threat, zoning would be an overestimation. Unfortunately, there is not yet a dataset that includes zoning from all of the municipalities in Quebec (though one does exist for the CCM de Montreal, and several others are publically avaliable).
+
+```{r}
+#| fig.caption: Zoning of the city of Quebec. 
+
+zonage = st_read("~/Maps/vdq-zonagemunicipalzones.geojson")
+plot(zonage)
+```

@@ -1,0 +1,56 @@
+---
+title: "Zonal Statistics for Ecosystem Services"
+author: "Egor Katkov, Fanie Pelletier"
+format: html
+bibliography: references.bib
+lang: en
+---
+
+@mitchell2021 estimated several ecosystem services across Canada. Below are zonal means of the different variables used to estimate ecosystem services for Quebec's administrative regions, and for Quebec as a whole. All values are bounded between 0 and 1, either due to normalization based on the minimum and maximum storage values in the Canada-wide dataset (e.g. for carbon storage), or because the value is a percentage (e.g. proportion of land area covered by ecosystem service hotspots). For more details on the methods and interpretation of the values, see @mitchell2021.
+
+For illustration purposes, we select three data layers to show here:
+
+`total_abovebelow_C_aligned_crop_std@study_area` is the mean sum of below- and abov-ground carbon storage, normalized to 0-1 (based on the full Canada-wide dataset).
+
+`water_provision_2a_norm@Water_sensitivity` are mean freshwater provision values. High values correspond to a high water supply linked to high downstream demand, and without presence of croplands, rangelands or urban areas which are likley to negatively affect water quality.
+
+`recreation_provision_std` mean normalized provision for nature-based recreation obtained by multiplying demand for with capacity for recreation, but weighted more strongly for capacity than demand.
+
+`combined_provision` is the summed provision of the three types of ecosystem services described above.
+
+```{r}
+#| paged-print: true
+#| column: page
+library(gt)
+# zonal_means.csv is generated from "4_NCP/R/estimate_zonal_means.R" 
+readr::read_csv("Out/zonal_means.csv") |> #names()
+  dplyr::select(
+    `Region`,
+    `total_abovebelow_C_aligned_crop_std@study_area`, 
+    `water_provision_2a_norm@Water_sensitivity`,
+    `recreation_provision_std`, 
+    `combined_provision`) |> 
+  gt(rowname_col = "Region", id="one") |>
+  tab_style(
+                style = cell_text(weight = "bold"),
+                locations = cells_column_labels()
+        ) |>
+  data_color(palette="viridis") |>
+  opt_css(
+    css = "
+    #one .gt_stub {
+    position: sticky;
+    left: 0;
+    }
+    
+    #one .gt_col_heading {
+    position: sticky;
+    top: 0;
+    }
+
+    thead th:first-child {
+    left: 0;
+    z-index: 2;
+    }")
+
+```

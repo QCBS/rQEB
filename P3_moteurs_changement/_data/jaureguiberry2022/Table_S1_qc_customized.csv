@@ -1,0 +1,23 @@
+EBV class,EBV assessments,Indicator,Indicator assessments,Key references,Partial search strings
+Community composition,35,Global bird species richness,,72,"bird* AND ""species richness"""
+Community composition,35,Local species richness,11,"73,74","((species OR assemblage*) AND (richness OR diversit*) AND (local OR location* OR sample*)) AND (""time series"" OR ""time-series"" OR temporal)((communit* OR assemblage* OR taxonom* OR species) AND (dominance* OR richness OR turnover OR diversit* OR composition OR similarit*))"
+Community composition,35,Local species turnover,,"73,74","((species OR assemblage*) AND (turnover OR (composition* AND (change OR similarit*))) AND (local OR location* OR sample*)) AND (""time series"" OR ""time-series"" OR temporal)"
+Community composition,35,Mean species abundance,3,"75,76","""mean species abundance"" OR GLOBIO"
+Ecosystem function,21,Net primary productivity,13,77-79,"""net primary product*"""
+Ecosystem structure,33,Area of mangrove forest cover,4,"80,81",(extent OR area OR cover* OR proportion OR percentage OR land OR landscape) AND mangrove* AND forest*
+Ecosystem structure,33,Extent of intact forest landscapes,8,82-85,(extent OR area OR cover* OR proportion OR percentage OR land OR landscape) AND intact* AND forest*
+Ecosystem structure,33,Extent of remaining primary vegetation,,"83,84,86",(extent OR area OR cover* OR proportion OR percentage) AND (primary OR natural) AND vegetation
+Ecosystem structure,33,Extent of remaining wilderness,,"83,87",(extent OR area OR cover* OR proportion OR percentage OR land OR landscape) AND wilderness*
+Ecosystem structure,33,Leaf area index,4,"88,89","""leaf area ind*"""
+Ecosystem structure,33,Percentage of live coral cover,7,90,(extent OR area OR cover* OR proportion OR percentage) AND coral AND live
+Genetic composition,9,Proportion of local breeds at risk/not at risk/unknown,,91,"""local breed*"" AND (livestock* OR (domestic AND animal*)) AND (risk OR extinct* OR threat*)"
+Species populations,116,IUCN red list of threatened species,25,"14,48,92,93","(IUCN OR ""red list"") AND (threat* OR extinct*) AND species NOT ""red list ind*"""
+Species populations,116,Living planet index,1,94,"""living planet ind*"" OR ""living planet report*"""
+Species populations,116,Local species abundance,27,"73,74","((species OR assemblage*) AND abundance AND (local OR location* OR sample*)) AND (""time series"" OR ""time -series"" OR temporal)"
+Species populations,116,Predatory fish biomass,,"95,96",predator* AND fish* AND (biomass OR abundance)
+Species populations,116,Prey fish biomass,,"97,98",prey* AND fish* AND (biomass OR abundance)
+Species populations,116,Proportion of fish stocks within biologically sustainable levels,17,"97,98","fish* AND stock* AND (""sustainab*"" OR safe)"
+Species populations,116,Red list index,11,"99,100","""red list ind*"""
+Species populations,116,Wild bird index,,"72,101,102","""wild bird ind*"""
+Species traits,17,Mean length of fish,6,"95,96,103","(""mean length*"" OR ""average length*"") AND fish*"
+Species traits,17,Proportion of predatory fish,4,"96,104","(proportion OR ratio OR percentage) AND ""predator* fish*"""

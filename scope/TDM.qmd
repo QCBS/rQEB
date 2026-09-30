@@ -1,0 +1,140 @@
+---
+editor: visual
+format: html
+bibliography: references.bib
+---
+
+# Table des matières de travail {#sec-TDM}
+
+Inspiré de l'évaluation globale du International Panel on Biodiversity and Ecosystem Services [@ipbes2019].
+
+### Page d'accueil / couverture {.unnumbered}
+
+- Valeur esthétique, titre, (objectif principal)
+- Description du projet
+- Place des savoirs autochtones
+
+### Partie I — Fondements {.unnumbered}
+
+**Chapitre 1. Raisonnement et approche**
+
+- Cadre général, objectif de l’évaluation, méthodologie et portée de l’analyse.
+- Définition des concepts (la science de la biodiversité, les moteurs de changement, les menaces et la contribution de la nature aux personnes)
+
+### Partie II — Portrait de la biodiversité {.unnumbered}
+
+**Chapitre 2. La biogéographie du Québec**
+
+*Directeur de chapitre: Dominic Gravel*
+
+- Où est la biodiversité
+- Disparité dans les données et les occurrences
+
+**Chapitre 3. Changements historiques**
+
+Portrait historique (pré-colonial) jusqu’à 1990-2000.
+
+**Chapitre 4. Tendances contemporains**
+
+*Directrice de chapitre: Fanie Pelletier*
+
+1990 à Aujourd'hui
+
+**Chapitre 5. Espèces menacées et vulnérables**
+
+**Chapitre 6. Portrait de la recherche**
+
+*En cours de développement (Amine et Guillaume)*
+
+- Thématiques principales
+- Limitations / manquements en connaissances
+- Localisation des études
+- Variables
+- Enjeux sociaux
+- Enjeux autochtones
+
+**Chapitre 7. Gouvernance et opérationalisation**
+
+*Marie Saydeh, Jean-François Bissonnette*
+
+Instances décisionelles, procédures, et mise en œuvre des projets de biodiversité
+
+### Partie III — Moteurs de changement {.unnumbered}
+
+Le table des matières de cette partie tourne autour des moteurs de changements direct, mais chaque moteur devrait aussi être lié aux facteurs indirects. Il faut aussi inclure les projections futures là où les connaissances sont disponibles.
+
+**Chapitre 8. Les pressions sur la biodiversité**
+
+*En cours de développement (Egor)*
+
+Tour d’horizon, importance relative et interactions entre les moteurs de changement
+
+**Chapitre 9. Changement d'affectation des terres**
+
+Jochen Jager participera au développement de ce chapitre.
+
+**Chapitre 10. Exploitation des ressources**
+
+**Chapitre 11. Changements climatiques**
+
+*Dirigé par Dominique Berteaux*
+
+Incluant feux de forêts
+
+**Chapitre 12. Espèces exotiques et invasives**
+
+**Chapitre 13. Pollution**
+
+*Dirigé par Valérie Langlois*
+
+### Partie IV — Contributions de la nature aux populations {.unnumbered}
+
+**Chapitre 14. Quantification et cartographie**
+
+**Chapitre 15. Santé et biodiversité**
+
+*Timothée Poisot participera au dévlopment de ce chapitre.*
+
+En Autome 2026, un groupe d'étudiantes du Centre de formation universitaire en environnement de l’Université Sherbrooke traveillera activement sur une première version de ce chapitre.
+
+**Chapitre 16. Perception de la biodiversité dans l'espace public**
+
+*Samuel Enright sera le superviseur pour ce chapitre*
+
+**Chapitre 17. Perspectives autochtones**
+
+Comme chaque chapitre va contenir de l'information sur les perspectives autochtones, la pertinence d'un chapitre dédié reste à déterminer.
+
+### Partie V — Solutions {.unnumbered}
+
+**Chapitre 18. Aires protégées**
+
+**Chapitre 19. Restauration**
+
+**Chapitre 20. Efficacité des mesures de compensation (politique de perte zéro)**
+
+**Chapitre 21. Finance durable**
+
+**Chapitre 22. Construction et implication avec les premières nations et inuits**
+
+**Chapitre 23. Suivi scientifique de la biodiversité**
+
+*Superviseur.e.s:* Dominique Gravel, Claire-Cécile, Anouk Simard
+
+Le réseau de suivi de la biodiversité québécois
+
+D'autres initiatives de suivi terrain (eDNA).
+
+### Partie VI — Conclusions {.unnumbered}
+
+**Chapitre 24. Conclusion et recommandations**
+
+### Appendices {.unnumbered}
+
+**Guide de contribution**
+
+**Document de cadrage**
+
+**Remerciements**
+
+**Références**

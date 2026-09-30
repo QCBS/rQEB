@@ -1,0 +1,152 @@
+classification_menaces:
+  nom: "Classification standardisée des menaces à la biodiversité"
+  version: "2021 (CDPNQ / CMP-IUCN)"
+  niveaux:
+    - niveau: 1
+      description: "Catégories générales de menaces"
+    - niveau: 2
+      description: "Types de menaces"
+    - niveau: 3
+      description: "Menaces détaillées"
+
+  categories:
+    - id: 1
+      nom: "Développement résidentiel et commercial"
+      sous_categories:
+        - id: 1.1
+          nom: "Zones résidentielles et urbaines"
+        - id: 1.2
+          nom: "Zones commerciales et industrielles"
+        - id: 1.3
+          nom: "Zones touristiques et récréatives"
+
+    - id: 2
+      nom: "Agriculture et aquaculture"
+      sous_categories:
+        - id: 2.1
+          nom: "Cultures annuelles et pérennes autres que le bois"
+          menaces:
+            - id: 2.1.1
+              nom: "Agriculture itinérante"
+            - id: 2.1.2
+              nom: "Petites exploitations agricoles"
+            - id: 2.1.3
+              nom: "Agro-industrie"
+        - id: 2.2
+          nom: "Plantations pour le bois et la pâte"
+        - id: 2.3
+          nom: "Élevage de bétail"
+        - id: 2.4
+          nom: "Aquaculture marine et en eau douce"
+
+    - id: 3
+      nom: "Production d’énergie et exploitation minière"
+      sous_categories:
+        - id: 3.1
+          nom: "Forage pétrolier et gazier"
+        - id: 3.2
+          nom: "Exploitation minière et carrières"
+        - id: 3.3
+          nom: "Énergie renouvelable"
+
+    - id: 4
+      nom: "Corridors de transport et de services"
+      sous_categories:
+        - id: 4.1
+          nom: "Routes et voies ferrées"
+        - id: 4.2
+          nom: "Lignes de services publics"
+        - id: 4.3
+          nom: "Voies de navigation"
+        - id: 4.4
+          nom: "Trajectoires de vol"
+
+    - id: 5
+      nom: "Utilisation des ressources biologiques"
+      sous_categories:
+        - id: 5.1
+          nom: "Chasse et collecte d’animaux terrestres"
+        - id: 5.2
+          nom: "Récolte de plantes terrestres"
+        - id: 5.3
+          nom: "Exploitation forestière"
+        - id: 5.4
+          nom: "Pêche et récolte de ressources aquatiques"
+
+    - id: 6
+      nom: "Intrusions humaines et perturbations"
+      sous_categories:
+        - id: 6.1
+          nom: "Activités récréatives"
+        - id: 6.2
+          nom: "Guerre, troubles civils et exercices militaires"
+        - id: 6.3
+          nom: "Travail et autres activités"
+
+    - id: 7
+      nom: "Modifications des systèmes naturels"
+      sous_categories:
+        - id: 7.1
+          nom: "Incendies et suppression des incendies"
+        - id: 7.2
+          nom: "Barrages et gestion/utilisation de l’eau"
+        - id: 7.3
+          nom: "Autres modifications des écosystèmes"
+
+    - id: 8
+      nom: "Espèces et gènes envahissants et autres problématiques"
+      sous_categories:
+        - id: 8.1
+          nom: "Espèces exotiques envahissantes"
+        - id: 8.2
+          nom: "Espèces indigènes problématiques"
+        - id: 8.3
+          nom: "Matériel génétique introduit"
+        - id: 8.4
+          nom: "Pathogènes et microbes"
+
+    - id: 9
+      nom: "Pollution"
+      sous_categories:
+        - id: 9.1
+          nom: "Eaux usées domestiques et urbaines"
+        - id: 9.2
+          nom: "Effluents industriels et militaires"
+        - id: 9.3
+          nom: "Effluents agricoles et forestiers"
+        - id: 9.4
+          nom: "Déchets solides"
+        - id: 9.5
+          nom: "Polluants atmosphériques"
+        - id: 9.6
+          nom: "Énergie excédentaire (bruit, chaleur, lumière)"
+
+    - id: 10
+      nom: "Événements géologiques"
+      sous_categories:
+        - id: 10.1
+          nom: "Volcans"
+        - id: 10.2
+          nom: "Tremblements de terre/tsunamis"
+        - id: 10.3
+          nom: "Avalanches/glissements de terrain"
+
+    - id: 11
+      nom: "Changements climatiques et phénomènes météorologiques extrêmes"
+      sous_categories:
+        - id: 11.1
+          nom: "Modification et déplacement des habitats"
+        - id: 11.2
+          nom: "Sécheresses"
+        - id: 11.3
+          nom: "Températures extrêmes"
+        - id: 11.4
+          nom: "Tempêtes et inondations"
+
+    - id: 12
+      nom: "Autres options"
+      sous_categories:
+        - id: 12.1
+          nom: "Autre menace"
+        - id: 12.2
+          nom: "Menace inconnue"

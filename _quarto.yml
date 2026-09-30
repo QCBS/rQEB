@@ -1,0 +1,21 @@
+profile:
+  default: docs
+  group: 
+    - [docs, web-book]
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+license: "CC BY"
+lang: fr
+
+editor: visual
+
+bibliography:
+  - references.bib
+  - scope/references.bib
+
+## Look into managing code execution as project grows
+# https://quarto.org/docs/projects/code-execution.html

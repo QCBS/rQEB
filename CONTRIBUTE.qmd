@@ -1,0 +1,507 @@
+---
+format: html
+author: 'Egor Katkov; El-Amine Mimouni; Guillaume Banchet; Fanie Pelletier'
+date: last-modified
+editor_options:
+  markdown:
+    wrap: sentence
+    canonical: true
+---
+
+::: callout-caution
+Ce chapitre est en état de révision et risque de changer.
+:::
+
+# Guide de contribution {#sec-guide-contribution}
+
+{{< include assets/local_context_notices/collab_notice.qmd >}}
+
+Merci de prendre le temps de consulter ce guide !
+Ce guide permettra à l'évaluation ([@nte-eval]) d'avoir une allure unifiée, de permettre l'adaptation par les utilisateurs pour leurs besoins, et d'assurer sa reproductibilité pour des mises à jour futures.
+
+L'objectif principal de l'évaluation est de synthétiser les connaissances et données existantes afin de les rendre accessibles pour des personnes qui ne sont pas nécessairement des scientifiques, mais qui risquent de devoir prendre des décisions en lien avec la biodiversité du Québec.
+
+::: {#nte-eval .callout-note}
+### Glossaire
+
+**Évaluation** : Évaluation québécoise de la biodiversité et des contributions de la nature aux populations.
+Ceci inclut le livre électronique, le sommaire exécutif, ainsi que tout le code source, les données et le travail de synthèse qui y sont associés.
+
+**Partie** : une des grandes thématiques de l'évaluation :
+
+1.  Préambule
+2.  Raisonnement et approche
+3.  Portrait de la biodiversité
+4.  Moteurs de changement
+5.  Contributions de la nature aux personnes (NCP)
+6.  Possibilités futures
+7.  Solutions
+8.  Conclusions et recommandations
+
+**Chapitre** : une partie de l'évaluation qui pourrait être publiée indépendamment des autres.
+Voir [@sec-TDM] pour la table des matières incluant la liste préliminaire des chapitres.
+:::
+
+## Types de contribution
+
+### Corrections et suggestions
+
+Tout le monde est invité à soumettre des suggestions et des demandes de corrections.
+Vous êtes invités à commenter sur n'importe quel chapitre ou appendice de ce livre numérique, incluant la table des matières [@sec-TDM], le document de cadrage [@sec-scoping], le module préliminaire sur les changements d'affectation des terres \[À venir d'ici septembre 2026\] ou même le présent guide.
+Votre contribution sera reconnue dans la section des remerciements.
+
+Lorsqu'un chapitre est en état de révision, ce type de contribution est particulièrement encouragé .
+
+Si vous avez un compte GitHub, vous pouvez créer un "Issue" (signaler un problème) ou "pull request" (suggérer une modification) dans [le dépôt du projet](https://github.com/QCBS/rQEB).
+Vous pouvez aussi faire des signalements en envoyant un courriel à [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+### Responsable du développement d'un chapitre (co-auteur·e)
+
+Ce rôle est adapté aux personnes étudiantes, mais reste ouvert plus largement pour des personnes ayant une expertise scientifique et ayant intérêt pour un des chapitres de la table des matières [@sec-TDM].
+Les tâches possibles associés à ce rôle sont multiples, en voici quelques exemples :
+
+- Parcourir la littérature scientifique et grise
+- Rendre accessible des données difficilement réutilisables
+- Rédiger du texte de synthèse en suivant un cadre établi
+- Analyser des données disponibles ouvertement
+
+Pour plus de détails en lien avec la rédaction, voir @sec-anatomie-chapitre et @sec-TDM.
+Votre contribution sera reconnue par l'ajout de votre nom à la liste des auteur·e·s des chapitres auxquels vous avez contribué (voir @sec-ordre-auteurs pour la convention sur l'ordre des auteur·e·s).
+
+Les personnes étudiantes membres du CSBQ ont la possibilité d'appliquer pour deux bourses afin de supporter leur implication dans le projet :
+
+- [Pour contribuer à l'analyse et la rédaction de l'évaluation](https://qcbs.ca/champion-grants-assess-biodiversity-and-natures-contribution-to-people-in-quebec/?et_fb=1&PageSpeed=off)
+- [Pour rendre des données disponibles](https://qcbs.ca/application-champion-grants-to-rescue-quebecs-biodiversity-data/)
+
+Vous serez invités à participer aux groupes de travail (voir dates dans la prochaine section).
+
+Pour signaler votre intérêt, remplissez [ce formulaire](https://forms.cloud.microsoft/r/wGdRbvhqAz), ou écrivez à [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+### Superviser le développement d'un chapitre (co-auteur·e)
+
+Ce rôle est adapté aux personnes ayant une expertise en lien avec au moins un des chapitres de la table des matières [@sec-TDM].
+Les co-chercheur·e·s du [Centre de la science de la biodiversité du Québec](https://qcbs.ca/fr/) sont particulièrement encouragés à participer.
+
+Vous devrez contribuer à assembler une équipe d'experts et d'autres potentiels contributeurs, à planifier le contenu d'un chapitre, à guider les personnes chargées de rédaction et d'analyses, et à réviser les produits finaux et intermédiaires.
+Votre contribution sera reconnue par l'ajout de votre nom aux co-auteur·e·s des chapitres auxquels vous avez contribué (voir @sec-ordre-auteurs pour la convention sur l'ordre des auteur·e·s).
+
+Idéalement, vous devrez être disponibles pour les dates de rencontres pour les groupes de travail.
+Voici les dates pour l'année scolaire 2026-2027 :
+
+- 5-6 novembre 2026
+- 4-5 février 2027
+- 29-30 avril 2027
+
+L'emplacement des rencontres reste à déterminer.
+
+Pour signaler votre intérêt, remplissez [ce formulaire](https://forms.cloud.microsoft/r/wGdRbvhqAz), ou écrivez à [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+### Réviser
+
+Ce rôle est adapté à tous les acteurs du milieu québécois et canadien du milieu de la biodiversité.
+Votre tâche se résume à évaluer la pertinence des constats, la qualité de la méthodologie et la crédibilité des sources de données.
+Vous devrez remplir un formulaire d'évaluation et laisser des commentaires constructifs dans des délais de temps limité.
+
+Votre contribution sera soulignée dans la section des remerciements.
+
+Pour signaler votre intérêt, remplissez [ce formulaire](https://forms.cloud.microsoft/r/wGdRbvhqAz), ou écrivez à [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
+
+## Échéancier suggeré
+
+Cet échéancier est une suggestion.
+Le format modulaire de l'évaluation permet aux chapitre d'être publiés au fur et à mesure qu'ils sont complétés, avec la possibilité de faire des mises à jour futures.
+
+**Septembre à octobre 2026**: Formation des équipes et planification du contenu (sous-thématiques des chapitres)
+
+**➝ 5 novembre 2026**: Rencontre à Bromont (un représentant par chapitre) afin d'arrimer le contenu des chapitres.
+
+**Novembre 2026 à février 2027**: Premier jet de rédaction et identification des blocages
+
+**➝ 4 et 5 février 2027:** Rencontre de déblocage.
+
+**Février à avril 2027**: Rédaction et révision.
+
+**➝ 29 et 30 avril 2027**: Rencontre de suivi.
+
+**Avril et mai 2027**: Finalisation de la révision interne (par l'équipe du chapitre).
+
+**➝ 31 mai 2027**: Date limite suggéré pour la révision interne.
+
+**Été 2027**: Révision externe.
+
+**Automne 2027**: Révision finale et publication avec DOI.
+
+**Après 2027**: mises à jour régulières (DOI versionné).
+
+## Construction d'un chapitre {#sec-anatomie-chapitre}
+
+::: callout-note
+Un gabarit de travail sera rendu disponible pour octobre 2026.
+:::
+
+Pour introduire le chapitre, synthétisez ce qui est connu globalement des rôles, des connaissances et des perspectives autochtones en lien avec la thématique, en prenant compte la pluralité des voix autochtones.
+
+Donnez la perspective large de la science occidentale, en identifiant quelques articles ou analyses ayant un étendue géographique global (idéalement) lié avec la thématique du chapitre.
+Justifiez la pertinence de la thématique.
+Identifiez et justifiez l'utilisation d'un ou plusieurs indicateurs ou variables clés qui pourraient permettre de mesurer le changement temporel et les variations spatiales liés à la thématique.
+
+### Analyse de la littérature
+
+Premièrement, identifiez des sources pertinentes portant sur le territoire du Québec, sans exigence de couverture complète du territoire.
+Pour y arriver, vous disposerez d'une base de données contenant des articles de recherche primaire, et des sources de la littérature grise accompagnées d'un outil d'intelligence artificiel pour y faire des recherches.
+Vous êtes aussi invités à utiliser d'autres outils de recherche (ex : Google Scholar), d'intelligence artificielle (ex : [AstaAI](Asta.allen.ai)), ou de solliciter votre réseau et celui du CSBQ pour obtenir davantage de sources de littérature grise pour les ajouter à notre base de données.
+Portez une attention particulière pour identifier des sources pertinentes aux rôles, perspectives ou connaissances autochtones.
+Notez les détails méthodologiques de votre recherche, tel que les moteurs de recherche utilisés, les mots clés utilisés, les dates des recherches, les personnes contactés et les critères utilisés pour inclure ou rejeter une source.
+
+Deuxièmement, évaluez l'information fournie par chacune des sources sur le plan spatial, temporel et méthodologique.
+Pour les parties sur les moteurs de changement et les solutions, tentez d'évaluer les impacts du moteur ou de la solution en question sur les facettes de la biodiversité, en utilisant le vocabulaire des variables essentiels de la biodiversité (ou [*Essential biodiversity variable (EBV)*](https://geobon.org/ebvs/what-are-ebvs) en anglais; @kissling2018).
+Pour la partie sur les contributions de la nature aux personnes (NCP), tentez d'évaluer l'influence de la biodiversité (vocabulaire des EBV) sur la contribution en question.
+Classifiez les NCP mesurées selon la classification des variables essentielles des services écosystémiques (ou [*Essential Ecosystem Service Variables (EESV)*](https://geobon.org/ebvs/ecosystem-services-working-group/what-are-eesvs/) en anglais; @balvanera2022*)*.
+Précisez le ou les emplacements géographiques associés à chaque source.
+Portez une attention particulière aux sources ayant une composante temporelle pour comprendre l'évolution des variables ou indicateurs dans le temps et prenez note des prédictions.
+Qualifiez brièvement l'approche méthodologique utilisée par les sources.
+Prenez note des manquements, autant sur le plan de la couverture spatiale, temporelle, ou de la fiabilité.
+Vous pouvez vous servir de l'outil IA du CSBQ pour faciliter cette tâche, mais assurez-vous de vérifier les informations fournies (voir la section sur la politique de l'IA @sec-pol-IA).
+
+### Analyse de données disponibles
+
+::: callout-warning
+Avant de plonger dans une analyse, parlez-en avec un représentant de [Biodiversité Québec](https://biodiversite-quebec.ca/fr/contactez_nous) pour ne pas dédoubler des analyses déjà en cours de développement.
+:::
+
+Si une ou plusieurs sources de données sont accessibles et ont une vaste étendue spatiale, il peut être pertinent de produire une analyse adaptée au Québec.
+Pour y parvenir, commencez par décrire chaque source de données en précisant sa méthodologie, incluant la résolution et l'étendue spatiale et temporelle.
+Estimez la puissance des données présentées, spécifiant si les données correspondent à un échantillonnage limité du territoire (puissance : basse) ou à un recensement complet (puissance : élevée).
+Ensuite, utilisez les données pour répondre aux questions sui
+
+- Quel est l'état présent, ou du moins, l'estimation la plus à jour (en spécifiant la date de l'estimation) de la variable ou de l’indicateur ?
+- Comment est-ce que la variable ou l'indicateur a changé depuis les 5, 10, 20, 50 ou 100 dernières années (selon la disponibilité des données) ?
+- Si des prédictions ont été générées, quelles sont ces prédictions et sur quoi se basent-elles ?
+
+Pour chacune de réponses aux questions ci-haut, spécifiez :
+
+- Les statistiques sommaires (ex : moyenne) pour le Québec, le sud du Québec (au sud de la 49e parallèle), et les différentes régions administratives du Québec.
+- S'il y a plusieurs sources de données disponibles, le niveau de concordance entre les différentes sources de données.
+
+### Constats
+
+Proposez quelques messages clés qui résument l'état, les changements, la variabilité spatiale et le niveau d'information disponible en lien avec la thématique.
+Évaluez la fiabilité de chacun des constats en vous basant sur la quantité, la qualité et le niveau de concordance des sources en lien avec le constat.
+Ces constats devront aussi être re-itérés dans un sommaire exécutif de chaque chapitre.
+
+## Principes et cadres à suivre
+
+### Utilisation des connaissances et des données
+
+::: callout-caution
+La meilleure manière d’implémenter ces principes est encore en cours de discussion au sein du comité exécutif de l'évaluation et avan de passer par par un processus de révision externe.
+:::
+
+L’intégration des principes CARE, PCAP® et FAIR permet de maximiser l'utilité potentielle de l'évaluation en rendant les données accessibles tout en respectant la gouvernance des données par les communautés autochtones (voir @imp-ind-data).
+
+Notez qu'il est possible que vous aurez à faire des choix pour réconcilier les principes de FAIR avec CARE ou PCAP® [@gudde2026].
+Si c'est le cas, assurez-vous d'adopter une position éthique et éclairée en justifiant explicitement vos choix.
+
+::: {#imp-ind-data .callout-important}
+##### Les données de biodiversité sont des données autochtones
+
+Les données autochtones englobent à la fois les données produites par les autochtones, telles que les connaissances traditionnelles et locales que celles produites par les gouvernements et d’autres institutions au sujet les peuples autochtones, leurs territoires et les êtres vivants qui s'y trouvent [@carroll2020; @rainie2018; @FNIGC2020].
+Parce que la majeure partie du Québec fait partie du territoire ancestral des diverses peuples autochtones [@nativeland2024], la grande majorité des données et connaissances en lien avec la biodiversité au Québec peuvent être classées comme des données autochtones.
+
+Les principes des données autochtones se rapportent donc à l'utilisation de la grande majorité des données concernant la biodiversité du Québec.
+:::
+
+#### CARE: bénéfice collectif, autorité de contrôle, responsabilité, éthique
+
+Les principes de CARE stipulent que les données autochtones [voir @imp-ind-data] doivent être utilisées pour le bénéfice collectif, en restant sous autorité des communautés concernées, de façon responsable, et selon des principes éthiques autochtones [@carroll2020].
+Dans le cadre de l'évaluation, cela implique l'utilisation des [notifications de Local Context](https://localcontexts.org/notices/about-the-notices/) pour signaler la présence de données autochtones et de s'engager à la collaboration avec les communautés autochtones [@liggins2021; @carroll2021].
+Par exemple, la "[BC Notice](https://localcontexts.org/notice/bc-notice/)" permet de signaler données générées à partir de la biodiversité.
+Par contre, les principes de CARE ne se limitent pas au Local Context et vous êtes responsables de comprendre et de garder ces principes en têtes afin de vous assurer que votre utilisation des données les respecte.
+
+#### PCAP® : propriété, contrôle, accès, position
+
+Les principes de CARE sont applicables à l'international, mais re-dirigent les utilisateurs vers des systèmes de gouvernance plus locaux.
+Les principes de PCAP® ont été créés par les premières nations canadiennes pour les données autochtones des premières nations canadiennes (ceci n'inclut pas les données Inuits ou Métis).
+
+L'objectif des principes de PCAP® est d'assurer une gouvernance explicite des données des communautés des premières nations par les communautés des premières nations [@FNIGC_PCAP].
+Ainsi, lorsque vous souhaitez utiliser les connaissances autochtones, gardez en tête qu'elles appartiennent aux communautés concernées et que le stockage, les interprétations, l'utilisation et le partage des données doit rester sous la gouvernance des communautés.
+Ce type de données autochtones peut donc nécessiter des approbations auprès des communautés concernées.
+
+PCAP® est une marque enregistrée du Centre de gouvernance de l’information des Premières Nations (CGIPN).
+
+#### FAIR: facile à trouver, accessible, interopérable et réutilisable {#sec-FAIR}
+
+Les principes de FAIR sont élaborés pour faciliter la réutilisation des données [@wilkinson2016].
+Concrètement, ça veut dire que tous les produits dérivés, incluant les données utilisés pour construire des tableaux et les graphiques doivent être rendus disponibles dans un format ouvert et accessible et accompagné de métadonnées.
+Par extension, tout le code source utilisé pour générer des analyses doit aussi être lisible, portable et partagé.
+Ce principe est intégré au flux de travail d'analyse des données proposé [@sec-flux].
+Pour chaque chapitre, un fichier de métadonnées doit être disponibles et formatées selon [le gabarit proposé par le Dépôt fédéré de données de recherche canadiennes](https://demo.frdr-dfdr.ca/docs/txt/README.txt).
+
+### Vocabulaire et analyses de système
+
+L’objectif principal de l’évaluation est de produire une synthèse.
+Bien que l’utilisation d’un langage clair et accessible soit fortement encouragée dans l’ensemble du livre numérique, la simplification ciblée du contenu à des fins de communication scientifique et de sensibilisation sera réalisée au moyen de la synthèse à l’intention des décideurs, des communications sur les médias sociaux et d’autres activités de diffusion.
+
+L’utilisation des Normes de conservation et du cadre conceptuel de l’IPBES permet d’assurer la cohérence et l'accessibilité de l'évaluation aux personnes œuvrant dans le domaine de la conservation au Québec.
+
+Si vous rencontrez des conflits entre différents vocabulaires, ou de manières de représenter la réalité, créez différentes versions du contenu en suivant les différents cadres alternatifs.
+Dans la prose, marquez le mot équivalent entre parenthèses, et dans les graphiques, séparez les différentes représentations [sous différents onglets](https://quarto.org/docs/interactive/layout.html#tabset-panel) pour donner le choix aux personnes utilisatrices.
+
+#### Normes de conservation (Conservation Standards)
+
+Les Normes de conservation définissent un vocabulaire commun (en anglais) et des normes pour encadrer, planifier, mettre en place, et suivre le progrès des projets de conservation [@cmp2026].
+Ces normes sont particulièrement importantes à suivre pour traduire les connaissances en actions pratiques sur le terrain (Partie VI – Solutions de la table des matières [@sec-TDM]).
+En particulier, utilisez le vocabulaire et les conventions pour les modèles de situation proposé dans la dernière version (version 5) du document sur les Normes ouvertes de la pratique de la conservation [voir la section 1D et l'Annexe 1 du @cmp2026].
+
+#### Cadre conceptuel de l'IPBES
+
+Globalement, l'évaluation suit le cadre de l'IPBES qui permet la synthèse à partir de différents systèmes de connaissances [@díaz2015].
+Ce cadre décompose le monde en six composantes inter-reliés : la nature, les biens anthropiques, les bénéfices de la nature pour les personnes, les institutions de gouvernance et les autres moteurs de changement indirects, les moteurs de changements directs, et la bonne qualité de vie [@díaz2015].
+La table des matières [@sec-TDM] est librement basée sur ces concepts et l'évaluation vise à caractériser chacune de ces boîtes.
+
+### Rédaction et paternité
+
+#### Traduction
+
+Tous les documents seront traduits du français à l'anglais ou vice-versa.
+Tentez de choisir une langue commune pour que tous les personnes co-autrices puissent y contribuer aussi facilement que possible.
+Au besoin contactez le chargé de projet (Egor, [rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) pour vos besoins en traduction.
+
+N'oubliez pas de créer des versions des graphiques et des tableaux dans les deux langues !
+
+##### Convention de nom pour les fichiers en anglais
+
+Les noms des fichiers dont le contenu est en anglais doivent terminer par `.en`, (ex : `MoteursChangement.en.qmd`) car le français est considéré comme la langue par défaut.
+
+#### Politique d'IA {#sec-pol-IA}
+
+L'intelligence artificielle (IA) doit être utilisée de manière éthique et transparente, tout en assurant la crédibilité de l'évaluation.
+Pour plus de détails, veuillez consulter le guide de IPBES en la matière d'IA [@IPBES-AI2026].
+
+#### Reproductibilité {#sec-repr}
+
+Un des objectifs de l'évaluation est de créer un document vivant qui peut être mis à jour lorsque des nouvelles données sont rendues disponibles.
+Il est donc essentiel que les méthodes soient transparentes et détaillées, et que les étapes analytiques soient automatisées pour permettre la mise à jour.
+
+#### Ordre des co-auteur·e·s {#sec-ordre-auteurs}
+
+Le groupe de travail associé avec chaque chapitre sera responsable de s'entendre sur un ordre d'auteurs.
+
+Vous êtes encouragés à suivre un système de pointage comme celui proposé par @martinig2026.
+
+## Format
+
+### Prose
+
+Utilisez le format Quarto (`.qmd`) pour rédiger la prose en suivant [la convention Markdown](https://quarto.org/docs/authoring/markdown-basics.html) (ceci est très utile pour pouvoir ensuite générer un site web ou un PDF).
+Pour rendre la rédaction avec Quarto plus facile, utilisez l'éditeur visuel intégré de [RStudio](https://posit.co/products/open-source/rstudio), ou installer [l'extension Quarto](https://open-vsx.org/extension/quarto/quarto) pour l'application [Visual Studio Code](https://code.visualstudio.com/) ou [Positron](https://positron.posit.co/).
+
+Pour les chapitres incluant des analyses de données, la puissance de Quarto est la capacité d'intégrer le code avec la prose, permettant de bonifier la reproductibilité de l'évaluation (@sec-repr).
+Utilisez des sections de code dans le fichier Quarto pour charger les résultats de vos analyses intermédiaires, extraire des variables d'intérêt, et les insérer de manière programmatique dans le code.
+
+*Exemple* :
+
+```` markdown
+```{{r}}
+df <- read.csv("Out/abondance_ours.csv")
+
+min_annee = min(df$annee)
+max_annee = max(df$annee)
+
+pop_base = df[df$annee == min_annee, "population"]
+pop_ajd  = df[df$annee == max_annee, "population"]
+
+dim_pop_ours_prcnt <- -1*round(100*(pop_ajd - pop_base)/pop_base, 2)
+```
+
+La population des ours noir au Québec a diminué de `{{r}} dim_pop_ours_prcnt` % entre `{{r}} min_annee` et `{{r}} max_annee`.
+````
+
+*Résultat (attention, cet exemple n'est pas basé sur de vraies données)* :
+
+> La population des ours noir au Québec a diminué de 5.6 % entre 1980 et 2022.
+
+Pour accélérer le processus de rendement, évitez de mettre des calculs complexes ou de générer des graphiques directement dans les fichiers Quarto.
+
+### Graphiques
+
+Choisissez des palettes de couleur perceptuellement uniformes, car elles sont adaptées pour l'impression en noir et blanc et pour les personnes daltoniennes (ex : la palette viridis, maintenant disponible dans [ggplot2](https://ggplot2.tidyverse.org/reference/scale_viridis.html)).
+
+Lorsque vous insérez un graphique, utilisez [la fonctionnalité "tabset"](https://quarto.org/docs/output-formats/html-basics.html#tabsets) pour inclure aussi un tableau avec les données représentées dans le graphique.
+
+Au besoin, vous pouvez aussi utiliser [Quarto avec Shiny](https://quarto.org/docs/interactive/shiny/) pour créer des tableaux de bord.
+
+## Inspiration
+
+Si vous cherchez de l'inspiration basé sur ce qui s'est déjà fait ailleurs:
+
+- Le IPBES est le panel international qui assure la synthèse de l'information en lien avec la biodiversité et les contributions de la nature au niveau planétaire [@ipbes2019] et au niveau des grandes régions planétaires [@ipbes2018].
+  Ceci peut est une source d'inspiration pour le cadrage d'une évaluation de la biodiversité et des contributions de la nature aux populations.
+
+- [La Nouvelle-Écosse](https://storymaps.arcgis.com/collections/6b0e65ee9a984cd18548517a8b78a09f) et [l'Ontario](https://sobr.ca/) ont des évaluations des états de la biodiversité.
+  Bien que les cadres de ces évaluations sont plus limités que le cadre de l'évaluation québécoise (voir @sec-scoping), les formats web de ces rapports peuvent offrir une l'inspiration pour notre livre numérique.
+
+- Une évaluation détaillée de la biodiversité Suisse a été effectuée dans le cadre des objectifs de frein à la perte de la biodiversité avant 2010 en Europ [@lachat2010].
+  Ceci correspond bien à notre situation actuelle avec la Convention sur la diversité biologique et le Plan Nature québécois 2030 [@MELCCFP2024PlanNature2030].
+
+## Flux de travail d'analyse des données {#sec-flux}
+
+### Connaissances utiles
+
+- L'application `git`, et l'outil collaboratif `GitHub` pour partager les mises à jour directement sur le dépôt qui alimente le contenu du site web.
+
+- R pour analyser, visualiser et communiquer les données
+
+- Bases de Quarto ou RMarkdown
+
+Le CSBQ tiendra des formations de GitHub et Quarto (date à venir, contactez [rapport\@qcbs.ca](mailto:rapport@qcbs.ca) pour signaler votre intérêt).
+
+### Assurer la reproductibilité des résultats et la portabilité du code
+
+Utilisez le logiciel `git` pour "cloner" le dépôt (dossier) de l'évaluation.
+Sauver votre progrès à l'aide de "commits" et de faites un "pull request" pour demander la révision de vos changements (guide d'utilisation à venir).
+Évitez d'ajouter des fichiers lourds comme les rendus des fichiers `.qmd` ou des bases de données (voir @sec-data-management) aux "commits".
+
+Évitez toute manipulation ou déclaration de donnée manuelle.
+Toutes les composantes de l'évaluation devraient pouvoir être recrées à partir de données disponibles en ligne et de code source.
+Si vous avez de la difficulté à accomplir une tâche de manière reproductible, n'hésitez pas à demander pour de l'aide à ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)).
+
+### Gérer les données {#sec-data-management}
+
+::: callout-note
+Un des objectifs de l'évaluation est de rendre des données accessibles.
+De plus, avoir des données sauvées directement dans le dépôt `git` du projet permet une meilleure reproductibilité du code dans le cas où un service externe serait temporairement indisponible.
+Par contre, avoir un dépôt contenant un grand volume de données nuit à la collaboration.
+:::
+
+Lorsque vous travaillez, vous pouvez sauver les données volumineuses avec lesquelles vous travaillez sur votre ordinateur, mais n'ajoutez au dépôt git que les données sommaires et les graphiques que vous générez.
+N'oubliez pas d'inclure aussi le code pour télécharger les données pour assurer la reproductibilité du code.
+
+| Référer à ressource externe      | Ajouter du fichier au dépôt git     |
+|----------------------------------|-------------------------------------|
+| Ressource cartographique         | Fichier de métadonnées              |
+| Base de données                  | Produits intermédiaires (sommaires) |
+| Autres fichiers de plus de 10 MB | Figures générées                    |
+
+Assurez-vous de sauvegarder les données intermédiaires de vos analyses en format `.csv` ou un autre format ouvert et accessible ([@nte-format-ouvert]) dans le sous-dossier `Out/` de votre chapitre.
+Si vous avez des données volumineuses qui sont un produit intermédiaire de votre analyse, sauvez-les à part dans un dépôt [Zenodo](https://zenodo.org/) ou [FRDR](https://www.frdr-dfdr.ca/repo/).
+Assurez-vous d'inclure aussi un fichier de métadonnées pour accompagner les données en suivant [le gabarit proposé par le Dépôt fédéré de données de recherche canadiennes](https://demo.frdr-dfdr.ca/docs/txt/README.txt).
+
+::: {#nte-format-ouvert .callout-note}
+#### Format ouvert et accessible
+
+Ce sont des formats de fichier dont les spécifications sont disponibles publiquement et qui peuvent être lus, partagés et réutilisés par une grande variété de logiciels.
+Ceci permet l'accessibilité à long terme, l'interopérabilité et la réutilisation des données (voir les principes FAIR @sec-FAIR).
+
+Exemples de formats ouverts : CSV, JSON, YAML, GeoJSON, HTML, PNG, SVG, PDF
+
+Exemples de formats propriétaires ou peu accessibles : Excel, Word, SPSS, base de données Oracle
+:::
+
+### Produire et documenter le code
+
+Créez des fonctions qui peuvent être réutilisées pour reproduire des analyses similaires au lieu de copier-coller le même code à plusieurs endroits.
+
+Sauvez vos résultats (intermédiaires) dans le sous-dossier nommé `Out` dans le dossier du chapitre pertinent.
+
+:::: panel-tabset
+## R
+
+Suivez le [Tidyverse style guide](https://style.tidyverse.org/) pour formater votre code de manière lisible et cohérente.
+
+Documentez vos fonctions conformément aux [conventions de Roxygen2](https://roxygen2.r-lib.org/articles/rd-functions.html).
+Exemple :
+
+``` r
+#' Map IPCC land use categories to AAFC land use codes  
+#' (one-to-many) mapping 
+#' @param type IPCC land use class 
+#' @param summary_col_name if true, prepend AAFC land use code with "frac_",  
+#' for compatiblity with zonal summary data file. 
+#' @export 
+get_aafc_classes <- function(...) {...}
+```
+
+Préconisez l'usage de [`box::use`](https://github.com/klmr/box) ou de références explicites (ex : `dplyr::filter()`) à la place de `library`, `require` et `source`.
+Voici un exemple de l'usage de box :
+
+``` r
+# On importe deux fonctions:
+#   `get_aafc_classes` dans un dossier local (module) et 
+#   `select` du package dplyr. 
+# Note: le dossier 2_MoteursChangement requiert le guillmet 
+#       parceque le dossier commence avec un chiffre.
+box::use(   `2_MoteursChangement`/R/land_use_aafc[get_aafc_classes],    dplyr[select] )  
+
+# Alternative pour importer toutes les fonctions d'un module ou dun package:
+box::use(   `2_MoteursChangement`/R/land_use_aafc[...],    dplyr[...] )  
+
+# Vous pouvez maintenant consultez la documentation 
+#  de la fonction `get_aafc_classes` avec box::help
+box::help(get_aafc_classes)
+```
+
+::: callout-important
+##### Dossier de travail (R)
+
+Pour les scripts R, le dossier de travail est à la base du dépôt git (`rQEB`).
+Par contre, par défaut, pour les fichiers `.qmd`, le dossier de travail est le même que celui où se trouve de ficher `.qmd`, même lorsque vous utilisez une fonction dont la définition se trouve dans un script R.
+
+Par conséquence, lorsque vous composez des fonctions qui se retrouvent dans un script R :
+
+- L'argument d'une fonction que vous créez devrait préférablement être un objet et non le chemin d'un fichier.
+
+- Si vous devez accéder un fichier, utilisez `here::here(chemin/du/fichier.csv)` pour vous assurer que le chemin soit relatif au dossier `rQEB`, peu importe le dossier de travail.
+
+Assurez-vous de tester le code dans le contexte du fichier `.qmd`.
+:::
+
+Afin d'avoir un style graphique uniforme, `R/get_fig_style.R` contient une fonction `style_plot()` qui devrait être appliquée à vos objets `ggplot2` et une fonction `style_patchwork()` qui doit être appliquée à vos objets `patchwork` (pour créer une figure avec plusieurs graphiques).
+
+Si ggplot2 ne correspondent pas à vos besoins, vous pouvez suggérer une autre approche, mais contactez [rapport\@qcbs.ca](mailto:rapport@qcbs.ca) pour en discuter avant de vous y lancer.
+
+## Excel
+
+Si possible, évitez d'utiliser Excel pour vos analyses.
+
+Si tenez à utiliser Excel, assurez-vous de documenter explicitement les sources de toutes les données nécessaires pour l'analyse et les étapes pour exporter les produits de l'analyse.
+::::
+
+## Structure des dossiers du projet
+
+`rQEB` ce dossier contient tous les autres dossiers et fichiers pertinents au projet.
+
+- Les dossiers numérotés (ex : `1_ContexteApproche` ou `4_NCP`) contiennent les fichiers pertinents pour chacun des chapitres.
+  En tant que contributeur, c'est dans ces dossiers que vous passerez la majorité de votre temps.
+
+  - Le fichier avec le même nom que le dossier et l'extension `.qmd` inclut la prose et décrit le contenu qui sera affiché pour ce chapitre sur la page du livre web.
+
+  - Le dossier `R` contient les scripts R utilisés pour l'analyse de données et à produire des graphiques.
+
+  - Le dossier `Out` contient des données transformées out intermédiaires.
+
+  - Le dossier `Fig` contient des graphiques exportés en format `.png`.
+
+  - Le groupe de travail peut choisir de modifier ou de bonifier cette structure pour mieux répondre aux besoins du chapitre.
+
+- `R` contient les scripts R pouvant être utile pour le développement de tous les chapitres.
+  Vous pouvez y contribuer aussi, mais faites attention de ne pas briser des fonctionnalités utilisées ailleurs dans le projet si vous modifiez des fonctions existantes.
+
+- `.github/workflows/` contient des fichiers `.yml` qui servent à automatiser des Actions GitHub pour bâtir le livre-web automatiquement à partir des fichiers Quarto.
+
+- `dev` contient des fonctions utiles pour la traduction du contenu et au déploiement du contenu sur le web.
+
+- `_quarto.yml` et `_quarto-web-book.yml` contiennent des configurations Quarto.
+  `_quarto-web-book.yml` contient la liste de fichiers quarto qui composeront le livre web.
+
+- Les dossiers `Scoping`, `Notes`, `Comm` et `Grants` contiennent des fichiers pertinents à la planification et au cadrage du projet, aux notes des rencontres des comités, aux communications et aux bourses offertes aux étudiants du CSBQ dans le cadre du projet.
+
+- `rQEB.Rproj` spécifie le dossier de travail pour les scripts R (mais pas `.qmd`)
+
+- `index.qmd` et `index.en.qmd` contiennent le contenu pour générer la page d'accueil du site web de l'évaluation.
+
+- `references.bib` contient une bibliothèque de références accessible par tous les chapitres.
+
+- `references.qmd` est un squelette pour le chapitre contenant la liste des références pour le projet.
+
+- `README.md` un fichier README pour expliquer la structure de dossiers décrite ici.

@@ -1,0 +1,23 @@
+---
+bibliography: references.bib
+---
+
+::: callout-warning
+Ce chapitre est en cours de développement actif et n'est pas prêt à être utilisé pour la prise de décision.
+:::
+
+# Raisonnement et approche
+
+Le déclin accéléré de la biodiversité représente un enjeu critique à l’échelle mondiale en raison des contributions importantes de la nature à la vie humaine sur Terre [@ipbes2019]. C'est cette réalisation qui a motivé l'adoption de la **Convention sur la diversité biologique** (CBD; ou convention de Rio), un traité international ayant trois but principaux [@CBD_Article1_1992]:
+
+1.  Conservation de la diversité biologique
+2.  Utilisation durable de la biodiversité
+3.  Partage juste et équitable des avantages découlant de l'utilisation des ressources génétiques.
+
+C'est dans le cadre d'une conférence des parties de la CBD qu'un plan stratégique ambitieux pour la décennie 2020-2030 à été signé. Ce plan s'appelle le Cadre mondial pour la biodiversité Kunming–Montréal et comporte 23 cibles orientées vers des actions au niveau national [@CBD_COP15_Decision4_2022]. Tous les pays participants sont dans l’obligation de soumettre un plan national pour l'atteinte de ces cibles [@CBD_COP15_Decision4_2022]. Bien que le Canada ait élaboré sa ­«Stratégie pour la nature 2030», le gouvernement du Québec s'en est exclu, préférant adopter son propre ­«Plan nature 2030» [@Canada_NatureStrategy2030_2023; @Quebec_PlanNature2030_2024].
+
+Comme le CBD, la **Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques** (IPBES) est une organisations œuvrant à l'échelle internationale, mais dont l'objectif est de vulgariser l'expertise scientifique pour la rendre utile et accessible aux gouvernements, aux entreprises et à la société civile [@ipbes2019]. Le IPBES réunit des scientifiques de partout dans le monde pour produire des évaluations globales et ciblées (par continent, ou par thème). Les activités et l'étendue du réseau de IPBES lui accordent une grande crédibilité auprès des organisation politiques. Armé de crédibilité et d'expertise, le IPBES fournit des conseils scientifiques aux conférences des parties du CBD et ainsi, impacte la politique au niveau international.
+
+Par contre, avant maintenant, il n'y a pas eu d'organisation ayant fait un travail comparable au IPBES mais au niveau Canadien ou Québécois. En effet, il y a plusieurs organismes œuvrant dans le milieu de la biodiversité (par exemple, la Fondation David Suzuki, Canards Canada Illimités, Nature Québec, et plusieurs autres). Par exemple, le Par contre, ces organismes sont concentrés à travailler sur des projets localisés, des politiques particulières ou un aspect limité de la biodiversité. Au Québec, le «Ministère de l'environnement, de la lutte contre les changements climatiques, de la faune et des parcs» a des données précieuses et des études sur la biodiversité au Québec, mais ne peut pas se qualifier comme un conseiller indépendant, étant un organe gouvernemental. Un livre scientifique sur l'état de la biodiversité a été rédigé par Dominique Berteaux (UQTR), mais porte principalement sur les impacts des changements climatiques sur la biodiversité [@berteaux2014].
+
+Maintenant, le regroupement de chercheurs «Centre de la science de la biodiversité du Québec» (CSBQ) se porte volontaire pour faire la synthèse des recherches, des connaissances, et des données sur la biodiversité. En effet, le CSBQ a un objectif similaire au IPBES: utiliser la science de la biodiversité pour informer les décisions politiques. C'est pourquoi nous croyons que le CSBQ est le bon véhicule pour développer une rapport sur l'état de la biodiversité et de la contribution de la nature aux personnes au Québec.

@@ -1,0 +1,84 @@
+name: "render_book"
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+
+jobs:
+  quarto-render-and-deploy:
+    runs-on: ubuntu-latest
+    continue-on-error: false # Fail fast if any step fails
+    steps:
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        
+      - name: Install libcurl
+        run: |
+          sudo apt install -y libcurl4-openssl-dev
+      
+      - name: Get R and OS version
+        id: get-version
+        run: |
+          cat("##[set-output name=os-version;]", sessionInfo()$running, "\n", sep = "")
+          cat("##[set-output name=r-version;]", R.Version()$version.string, sep = "")
+        shell: Rscript {0}
+        
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/work/_temp/Library
+            ~/R/Library
+          key: ${{ steps.get-version.outputs.os-version }}-${{ steps.get-version.outputs.r-version }}-${{ hashFiles('**/pkg.lock') }}
+          restore-keys: |
+            ${{ steps.get-version.outputs.os-version }}-${{ steps.get-version.outputs.r-version }}-
+    
+      - name: Install R dependencies
+        run: |
+          Rscript dev/install_report_dependencies.R
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: release # Use latest release for up-to-date features
+          tinytex: true # Include TinyTeX for LaTeX/PDF support
+
+      - name: Render Multilingual Babelquarto Book Project
+        run: |
+          Rscript -e 'babelquarto::render_book()'
+        env:
+          QUARTO_PROFILE: web-book
+          BABELQUARTO_CI_URL: https://quebio.ca/rapport/_book
+
+      - name: Set up SSH key
+        run: |
+          env
+          mkdir -p ~/.ssh
+          echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p ${{ secrets.HOST_PORT }} ${{ secrets.HOST }} >> ~/.ssh/known_hosts
+
+      - name: Create dest folder
+        if: github.ref_name != 'main'
+        run: ssh -p ${{ secrets.HOST_PORT }} quebio@${{ secrets.HOST }} "mkdir -p /var/www/quebio.ca/quebio_new/rapport/${{ github.ref_name }}"
+  
+      - name: Deploy to QueBio
+        run: scp -r -P ${{ secrets.HOST_PORT }} _book quebio@${{ secrets.HOST }}:/var/www/quebio.ca/quebio_new/rapport/${{ case( github.ref_name == 'main', '', github.ref_name ) }}
+
+      # - name: Render all Quarto Documents
+      #   uses: quarto-dev/quarto-actions/render@v2
+      #   env:
+      #     QUARTO_PROFILE: ""
+      # # Upload to Drive
+      # - name: Deploy rendered documents to Google Drive
+      #   uses: adityak74/google-drive-upload-git-action@main
+      #   with:
+      #     credentials: secrets.<GOOGLE_CREDENTIALS>
+      #     folderID: <DRIVE_FOLDER>
+      #     filename: _docx
+      #     mirrorDirectoryStructure: "true"

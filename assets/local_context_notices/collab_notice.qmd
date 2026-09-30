@@ -1,0 +1,26 @@
+```{r}
+lc_dir = here::here("assets/local_context_notices/Open_to_Collaborate_Notice")
+
+notice = readr::read_lines(
+  fs::path(lc_dir, "Translated Text/French_Open_To_Collaborate.txt"))
+```
+
+:::: {.callout-note appearance="simple" icon="false"}
+## `r notice[1]`
+
+::: {style="float: left; margin: 5px 15px 5px 5px;"}
+```{r}
+#| out-width: "100px"
+
+img_path = fs::path(lc_dir, "Open_To_Collaborate.png")
+knitr::include_graphics(img_path)
+
+```
+:::
+
+`r notice[3]`
+
+Quebec Center for Biodiversity Science
+
+Pour plus d'information sur cette notification, consultez [localcontexts.org](localcontexts.org).
+::::

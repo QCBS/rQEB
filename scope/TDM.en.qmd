@@ -1,0 +1,140 @@
+---
+editor: visual
+format: html
+bibliography: references.bib
+---
+
+# Working Table of Contents {#sec-TDM}
+
+Inspired by the Global Assessment Report of the International Panel on Biodiversity and Ecosystem Services [@ipbes2019] .
+
+### Home Page / Cover {.unnumbered}
+
+- Aesthetic value, title, (main objective)
+- Project description
+- Role of Indigenous Knowledge
+
+### Part I — Foundations {.unnumbered}
+
+**Chapter 1. Rationale and Approach**
+
+- General framework, evaluation objective, methodology, and scope of the analysis.
+- Definition of Concepts (the science of biodiversity, drivers of change, threats, and nature’s contribution to people)
+
+### Part II — Overview of Biodiversity {.unnumbered}
+
+**Chapter 2. The Biogeography of Quebec**
+
+*Chapter Director: Dominic Gravel*
+
+- Where Is Biodiversity?
+- Disparities in Data and Occurrences
+
+**Chapter 3. Historical Changes**
+
+Historical overview (pre-colonial) through 1990–2000.
+
+**Chapter 4. Contemporary Trends**
+
+*Chapter Director: Fanie Pelletier*
+
+1990–Present
+
+**Chapter 5. Threatened and Vulnerable Species**
+
+**Chapter 6. An Overview of the Research**
+
+*Currently in development (Amine and Guillaume)*
+
+- Main Themes
+- Limitations / Knowledge Gaps
+- Location of Studies
+- Variables
+- Social issues
+- Indigenous Issues
+
+**Chapter 7. Governance and Implementation**
+
+*Marie Saydeh, Jean-François Bissonnette*
+
+Decision-making bodies, procedures, and implementation of biodiversity projects
+
+### Part III — Drivers of Change {.unnumbered}
+
+The table of contents for this section focuses on direct drivers of change, but each driver should also be linked to indirect factors. Future projections should also be included where information is available.
+
+**Chapter 8. Pressures on Biodiversity**
+
+*Currently in development (Egor)*
+
+Overview, Relative Importance, and Interactions Among the Drivers of Change
+
+**Chapter 9. Land-Use Change**
+
+Jochen Jager will participate in the development of this chapitre.
+
+**Chapter 10. Resource Exploitation**
+
+**Chapter 11. Climate Change**
+
+*Directed by Dominique Berteaux*
+
+Including wildfires
+
+**Chapter 12. Exotic and Invasive Species**
+
+**Chapter 13. Pollution**
+
+*Directed by Valérie Langlois*
+
+### Part IV — Nature’s Contributions to People {.unnumbered}
+
+**Chapter 14. Quantification and Mapping**
+
+**Chapter 15. Health and Biodiversity**
+
+*Timothée Poisot will contribute to the development of this chapter.*
+
+In the fall of 2026, a group of students from the *Centre de formation universitaire en environnement* at Sherbroke University will be actively working on a first draft of this chapter.
+
+**Chapter 16. Perceptions of Biodiversity in Public Spaces**
+
+*Samuel Enright will serve as the supervisor for this chapter*
+
+**Chapter 17. Indigenous Perspectives**
+
+Since each chapter will include information on Indigenous perspectives, the need for a dedicated chapter remains to be determined.
+
+### Part V — Solutions {.unnumbered}
+
+**Chapter 18. Protected Areas**
+
+**Chapter 19. Restoration**
+
+**Chapter 20. Effectiveness of Compensation Measures (Zero-Loss Policy)**
+
+**Chapter 21. Sustainable Finance**
+
+**Chapter 22. Collaboration and Engagement with First Nations and Inuit**
+
+**Chapter 23. Scientific Monitoring of Biodiversity**
+
+*Collaborators:* Dominique Gravel, Claire-Cécile, Anouk Simard
+
+The Quebec Biodiversity Monitoring Network
+
+Other field monitoring initiatives and eDNA.
+
+### Part VI — Conclusions {.unnumbered}
+
+**Chapter 24. Conclusion and Recommendations**
+
+### Appendices {.unnumbered}
+
+**Contribution Guide**
+
+**Scoping Document**
+
+**Acknowledgments**
+
+**References**

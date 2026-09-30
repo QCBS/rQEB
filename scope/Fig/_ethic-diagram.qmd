@@ -1,0 +1,124 @@
+---
+format:
+  # pdf:
+  #   fig-pos: 'h'
+  html:
+    embed-resources: true
+fig-subcap: false 
+mermaid: 
+  theme: neutral
+---
+
+:::::: {layout="[[52,48], [100]]"}
+<div>
+
+<figcaption>
+
+(a) 
+
+</figcaption>
+
+```{mermaid}
+---
+config:
+  theme: base
+  flowchart: 
+    padding: 0
+---
+
+flowchart TD
+
+A["Le projet implique-t-il des connaissances autochtones<br>ou des données collectées sur un territoire autochtone?"]
+
+A -->|Non| Z["Appliquer les standards généraux<br>de gouvernance et d’éthique"]
+
+A -->|Oui| B["Identifier la nation ou communauté concernée"]
+
+B --> Y["La recherche implique-t-elle<br>des données personnelles?"]
+
+Y -->|Oui| Q["Approbation d’un comité<br>d’éthique universitaire"]
+Y -->|Non| C["Engager les autorités légitimes"]
+
+Q --> C
+```
+
+</div>
+
+<div>
+
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gouvernance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+
+(b) 
+
+</figcaption>
+
+```{mermaid}
+---
+config:
+  flowchart: 
+    padding: 0
+  theme: base
+---
+
+flowchart TD
+
+C["Engagement avec les autorités légitimes"]
+
+C --> D["Consentement libre, préalable et éclairé (FPIC) obtenu?"]
+
+D -->|Non| X["Ne pas procéder"]
+
+D -->|Oui| E["Définir une entente formelle<br>de gouvernance des données"]
+
+E --> F["Restrictions ou conditions spécifiques?"]
+
+F -->|Oui| G["Intégrer conditions dans<br>protocoles et métadonnées"]
+
+F -->|Non| H["Procéder selon l’entente"]
+
+G --> I["Collecte / Analyse"]
+H --> I
+```
+
+</div>
+
+<div>
+
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gouvernance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+
+(c) 
+
+</figcaption>
+
+```{mermaid}
+---
+config:
+  theme: base
+  flowchart: 
+    padding: 0
+    nodeSpacing: 10
+    rankSpacing: 20
+---
+
+flowchart LR
+
+I["Collecte / <br> Analyse"]
+
+I --> J["Publication ou<br>diffusion<br>prévue?"]
+
+J -->|Oui| K["Soumettre<br>pour révision<br>et approbation<br>communautaire"]
+
+J -->|Non| L["Archiver selon l’entente"]
+
+K --> M["Approbation<br>accordée?"]
+
+M -->|Non| N["Modifier ou retirer contenu"]
+
+M -->|Oui| O["Diffusion conforme aux conditions"]
+
+O --> P["Suivi et gouvernance continue"]
+L --> P
+```
+
+</div>
+::::::

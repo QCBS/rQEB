@@ -1,0 +1,75 @@
+---
+title: "BQ"
+format: 
+  html:
+    embed-resources: true
+---
+
+::: column-screen-inset
+```{r class-output}
+library(gdalcubes)
+library(rstac)
+library(knitr)
+library(stars)
+
+s_obj <- stac("https://io.biodiversite-quebec.ca/stac/")
+collections <- s_obj |> collections() |> get_request()
+df <- data.frame(id=character(),title=character(),description=character())
+
+for (c in collections[['collections']]){
+  df<-rbind(df,data.frame(id=c$id,title=c$title,description=c$description))
+}
+
+write.csv(df, file = 'BQ_collections.csv')
+kable(df)
+
+```
+:::
+
+Some relevant layers:
+
+- stressors_qc
+- earthenv_landcover
+- global-mammals (habitat avaliability)
+- fragmentation-rmf
+- distance_to_roads
+- cec_land_cover_percentage
+- aafc_land_use
+- hirst-pearson_2022_canadian_human_footprint
+- 
+
+**This text is AI-generated, use for guidance purposes only** https://notebooklm.google.com/notebook/c856341a-6daa-4984-8c91-35863a00e2ca
+
+Based on the provided sources, the "typology" refers to the **standardized classification of threats affecting biodiversity**, which is organized into 11 main categories (Level 1). Several data layers from the `BQ_collections.csv` are directly relevant to these categories and can be used to map or analyze these threats.
+
+### 1. Residential and Commercial Development
+
+This category includes urban expansion and human infrastructure. \* **Global Human Modification of Terrestrial Systems (`ghmts`)**: Provides a 0-1 metric of human modification based on 13 anthropogenic stressors. \* **Accessibility - Time to access cities (`accessibility_to_cities`)**: Measures travel time to densely populated areas, representing the proximity to urban development. \* **The Canadian Human Footprint (`canadian_human_footprint` / `hirst-pearson_2022_canadian_human_footprint`)**: Specifically maps areas under anthropogenic pressure in Canada.
+
+### 2. Agriculture and Aquaculture
+
+Threats related to agricultural expansion and intensification. \* **ESA Land cover time series (`esacci-lc`)** and **EarthEnv - Consensus Land Cover (`earthenv_landcover`)**: Identify global agricultural land cover classes. \* **CEC North American Land Cover (`cec_land_cover`)**: Contains specific land cover categories for North America, including agriculture. \* **Cartes d'utilisation des terres d'AAC (`aafc_land_use`)**: Provides detailed 30m resolution data on land use in Canada, including agricultural types.
+
+### 4. Transportation and Service Corridors
+
+This category covers roads, railways, and utility lines. \* **Distance to roads (`distance_to_roads`)**: Measures the distance to all roads in the Global Roads Inventory Project (GRIP) dataset. \* **Functional landscape connectivity (`pither_functional_connectivity`)**: While an indicator of connectivity, it uses a movement cost layer based on expert opinion of **anthropogenic land cover features** like roads.
+
+### 5. Biological Resource Use
+
+Includes logging, hunting, and fishing. \* **Global Forest Watch - Loss year (`gfw-lossyear`)**: Directly tracks forest removal and loss over time. \* **Relative Magnitude of Fragmentation (RMF) (`fragmentation-rmf`)**: Derived from land cover maps to calculate an indicator of **ecosystem degradation** (e.g., forest fragmentation). \* **Modèle de hauteur de canopée (`mhc`)**: LiDAR-derived canopy height that can help assess forest structure and removal.
+
+### 7. Modifications of Natural Systems
+
+Covers dams, water management, and hydrological changes. \* **GRHQ Distances au réseau hydrographique du Québec (`GRHQ`)**: Includes distances to artificial water constructions and linear networks. \* **Milieux humides potentiels (`mhp2023`)**: Essential for tracking threats like **drainage in agricultural or forest environments**. \* **Indice d'humidité topographique (`twi`)**: A LiDAR-derived index reflecting soil moisture and drainage patterns.
+
+### 9. Pollution
+
+Material or energy introduced into the environment. \* **Potential Stressors of Québec's Biodiversity (`stressors_qc`)**: A collection of indicators capturing various biodiversity stressors across the province.
+
+### 11. Climate Change and Severe Weather
+
+Includes habitat transformation and shifts in temperature or precipitation. \* **CHELSA Climatologies and Projections (`chelsa-clim`, `chelsa-clim-proj`)**: Provide historical and projected global climate data. \* **Ouranos climate layers (`ouranos_climate_projections`, `ouranos_past_climate_yearly`, etc.)**: Offer high-resolution historical and projected bioclimatic variables for North America. \* **NDVImax (`ndvi_max_qc`)** and **Verdissement (`verdissement_qc`)**: Monitor changes in vegetation productivity and greening rates over decades, serving as indicators of **habitat transformation** and climate response.
+
+### General Context and Species Data
+
+While not threats themselves, these layers provide the "conservation targets" (habitats/species) that the typology's threats act upon: \* **Global habitat availability for mammals (`global-mammals`)**. \* **Occurrence density maps (`gbif_heatmaps`, `inat_canada_heatmaps`)**. \* **Topography and Geology (`earthenv_topography`, `cop-dem-glo`, `geologie_du_socle`)**: Provide the abiotic baseline for defining ecosystems.

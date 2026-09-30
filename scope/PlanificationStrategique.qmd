@@ -1,0 +1,67 @@
+---
+title: "Planification stratégique"
+format: html
+date: 2026-05-19
+---
+
+À la rencontre d'aujourd'hui, nous avons eu un débat quant à l'impact de la stratégie à adopter pour les étapes suivantes. En particulier, Dominique à signalé le besoin d'avancer rapidement pour produire des livrables avant la COP, et l'évaluation du CSBQ au FRQ.
+
+Dominique suggère de moins dépendre des solutions analytiques et de se baser plus directement sur les expertises de chercheurs. Andy a suggéré de consulter [@isbell2022] pour l'inspiration.
+
+```{mermaid}
+%%| column: body-outset
+
+flowchart TD
+A["Stratégie: Avancer rapidement sur certains modules"]
+A --> B["Faire analyses in-house"]
+B --> C["Préparer des modules préliminaires"]
+C --> D["Donner un point de départ aux groupes de travail"]
+
+E["Stratégie à long-terme via groupes de travail"]
+E --> H["Journée de travail (12 juin) pour planifier les grandes questions à évaluer et une méthodologie"]
+B --> H
+H --> I["Contacter chercheurs"]
+I --> J["Former groupes de travail"]
+
+Q["Stratégie: Avancer rapidement pour produire de grands constats"]
+Q --> T["Planifier journée de travail avec plusieurs scientifiques avant la COP"]
+T --> R["Générer 10 constats sur la biodviersité au Québec"]
+R --> S["Écrire texte pour supporter chaque constat"]
+
+```
+
+Voir @sec-wg-workflow pour davantage d'information sur le flux de travail des groupes de travail et [ce document de travail](https://docs.google.com/spreadsheets/d/1nn3NiB2VS968AaECIvrDkZKpKNs1o93USfua9eluPBc/edit?gid=584901296#gid=584901296) pour la planification de la table des matières et des modules.
+
+De mon côté, je me suis amusé à demander à ChatGPT de générer 10 constats sur la biodiversité du Québec, voici sa réponse:
+
+Voici **10 constats importants sur la biodiversité au Québec**, basés sur l’état général des connaissances scientifiques et des tendances observées :
+
+1.  **Une biodiversité riche et nord-américaine unique**\
+    Le Québec couvre plusieurs zones bioclimatiques (forêt boréale, feuillus tempérés, toundra), ce qui lui donne une grande diversité d’espèces et d’écosystèmes.
+
+2.  **La forêt boréale domine le territoire**\
+    Elle représente une immense portion de la province et joue un rôle clé pour les espèces, le carbone et la régulation climatique.
+
+3.  **Une forte pression humaine dans le sud**\
+    La vallée du Saint-Laurent concentre population, agriculture et industrie, ce qui entraîne une fragmentation importante des habitats.
+
+4.  **La perte et fragmentation des habitats restent la principale menace**\
+    L’urbanisation, les routes et l’agriculture réduisent la connectivité écologique essentielle aux espèces.
+
+5.  **Les changements climatiques modifient déjà les écosystèmes**\
+    Déplacement d’aires de répartition, stress thermique, changements dans les cycles saisonniers (migration, reproduction).
+
+6.  **Certaines espèces sont en déclin ou à statut précaire**\
+    Plusieurs espèces de poissons, d’oiseaux et de plantes sont vulnérables ou menacées selon les évaluations provinciales et fédérales.
+
+7.  **Les espèces invasives sont en augmentation**\
+    Elles perturbent les écosystèmes aquatiques et terrestres (ex. certains insectes forestiers, plantes exotiques envahissantes).
+
+8.  **Les écosystèmes aquatiques sont particulièrement sensibles**\
+    Les rivières, lacs et zones humides subissent pollution, barrages, réchauffement et perte d’habitat.
+
+9.  **Une forte dépendance aux services écosystémiques**\
+    Eau potable, pollinisation, régulation du climat et activités économiques (forêt, pêche, tourisme) dépendent directement de la biodiversité.
+
+10. **Les efforts de conservation progressent mais restent insuffisants**\
+    Aires protégées en augmentation et initiatives locales, mais les objectifs de protection et de connectivité écologique ne sont pas encore pleinement atteints.

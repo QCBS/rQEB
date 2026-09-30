@@ -1,0 +1,23 @@
+:::: {.callout-note appearance="simple" icon="false"}
+## Open to collaborate
+
+::: {style="float: left; margin: 5px 15px 5px 5px;"}
+```{r}
+#| out-width: "100px"
+
+img_path = here::here("assets/local_context_notices/Open_to_Collaborate_Notice/Open_To_Collaborate.png")
+knitr::include_graphics(img_path)
+
+```
+:::
+
+```{r results='asis'}
+here::here("assets/local_context_notices/Open_to_Collaborate_Notice/Open_To_Collaborate.txt") |>
+  readLines() |>
+  cat()
+```
+
+Quebec Center for Biodiversity Science.
+
+For more information about this Notice, visit [localcontexts.org](localcontexts.org).
+::::
