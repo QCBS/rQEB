@@ -36,15 +36,11 @@ Inspired by the Global Assessment Report of the International Panel on Biodivers
 
 Historical overview (pre-colonial) through 1990–2000.
 
-**Chapter 4. Contemporary Trends**
+**Chapter 4. Threatened and Vulnerable Species**
 
 *Chapter Director: Fanie Pelletier*
 
-1990–Present
-
-**Chapter 5. Threatened and Vulnerable Species**
-
-**Chapter 6. An Overview of the Research**
+**Chapter 5. An Overview of the Research**
 
 *Currently in development (Amine and Guillaume)*
 
@@ -55,7 +51,7 @@ Historical overview (pre-colonial) through 1990–2000.
 - Social issues
 - Indigenous Issues
 
-**Chapter 7. Governance and Implementation**
+**Chapter 6. Governance and Implementation**
 
 *Marie Saydeh, Jean-François Bissonnette*
 
@@ -65,61 +61,65 @@ Decision-making bodies, procedures, and implementation of biodiversity projects
 
 The table of contents for this section focuses on direct drivers of change, but each driver should also be linked to indirect factors. Future projections should also be included where information is available.
 
-**Chapter 8. Pressures on Biodiversity**
+**Chapter 7. Pressures on Biodiversity**
 
 *Currently in development (Egor)*
 
 Overview, Relative Importance, and Interactions Among the Drivers of Change
 
-**Chapter 9. Land-Use Change**
+**Chapter 8. Land-Use Change**
 
 Jochen Jager will participate in the development of this chapitre.
 
-**Chapter 10. Resource Exploitation**
+**Chapter 9. Resource Exploitation**
 
-**Chapter 11. Climate Change**
+**Chapter 10. Climate Change**
 
 *Directed by Dominique Berteaux*
 
 Including wildfires
 
-**Chapter 12. Exotic and Invasive Species**
+**Chapter 11. Exotic and Invasive Species**
 
-**Chapter 13. Pollution**
+*Contact: Genviève D'Avignong*
+
+**Chapter 12. Pollution**
 
 *Directed by Valérie Langlois*
 
 ### Part IV — Nature’s Contributions to People {.unnumbered}
 
-**Chapter 14. Quantification and Mapping**
+**Chapter 13. Quantification and Mapping**
 
-**Chapter 15. Health and Biodiversity**
+**Chapter 14. Health and Biodiversity**
+
+*Contact: Samuel Enright*
 
 *Timothée Poisot will contribute to the development of this chapter.*
 
 In the fall of 2026, a group of students from the *Centre de formation universitaire en environnement* at Sherbroke University will be actively working on a first draft of this chapter.
 
-**Chapter 16. Perceptions of Biodiversity in Public Spaces**
+**Chapter 15. Perceptions of Biodiversity in Public Spaces**
 
 *Samuel Enright will serve as the supervisor for this chapter*
 
-**Chapter 17. Indigenous Perspectives**
+**Chapter 16. Indigenous Perspectives**
 
 Since each chapter will include information on Indigenous perspectives, the need for a dedicated chapter remains to be determined.
 
 ### Part V — Solutions {.unnumbered}
 
-**Chapter 18. Protected Areas**
+**Chapter 17. Protected Areas**
 
-**Chapter 19. Restoration**
+**Chapter 18. Restoration**
 
-**Chapter 20. Effectiveness of Compensation Measures (Zero-Loss Policy)**
+**Chapter 19. Effectiveness of Compensation Measures (Zero-Loss Policy)**
 
-**Chapter 21. Sustainable Finance**
+**Chapter 20. Sustainable Finance**
 
-**Chapter 22. Collaboration and Engagement with First Nations and Inuit**
+**Chapter 21. Collaboration and Engagement with First Nations and Inuit**
 
-**Chapter 23. Scientific Monitoring of Biodiversity**
+**Chapter 22. Scientific Monitoring of Biodiversity**
 
 *Collaborators:* Dominique Gravel, Claire-Cécile, Anouk Simard
 
@@ -129,7 +129,7 @@ Other field monitoring initiatives and eDNA.
 
 ### Part VI — Conclusions {.unnumbered}
 
-**Chapter 24. Conclusion and Recommendations**
+**Chapter 23. Conclusion and Recommendations**
 
 ### Appendices {.unnumbered}
 

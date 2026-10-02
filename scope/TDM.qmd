@@ -36,15 +36,11 @@ Inspiré de l'évaluation globale du International Panel on Biodiversity and Eco
 
 Portrait historique (pré-colonial) jusqu’à 1990-2000.
 
-**Chapitre 4. Tendances contemporains**
+**Chapitre 4. Espèces menacées et vulnérables**
 
 *Directrice de chapitre: Fanie Pelletier*
 
-1990 à Aujourd'hui
-
-**Chapitre 5. Espèces menacées et vulnérables**
-
-**Chapitre 6. Portrait de la recherche**
+**Chapitre 5. Portrait de la recherche**
 
 *En cours de développement (Amine et Guillaume)*
 
@@ -55,7 +51,7 @@ Portrait historique (pré-colonial) jusqu’à 1990-2000.
 - Enjeux sociaux
 - Enjeux autochtones
 
-**Chapitre 7. Gouvernance et opérationalisation**
+**Chapitre 6. Gouvernance et opérationalisation**
 
 *Marie Saydeh, Jean-François Bissonnette*
 
@@ -65,61 +61,61 @@ Instances décisionelles, procédures, et mise en œuvre des projets de biodiver
 
 Le table des matières de cette partie tourne autour des moteurs de changements direct, mais chaque moteur devrait aussi être lié aux facteurs indirects. Il faut aussi inclure les projections futures là où les connaissances sont disponibles.
 
-**Chapitre 8. Les pressions sur la biodiversité**
+**Chapitre 7. Les pressions sur la biodiversité**
 
 *En cours de développement (Egor)*
 
 Tour d’horizon, importance relative et interactions entre les moteurs de changement
 
-**Chapitre 9. Changement d'affectation des terres**
+**Chapitre 8. Changement d'affectation des terres**
 
 Jochen Jager participera au développement de ce chapitre.
 
-**Chapitre 10. Exploitation des ressources**
+**Chapitre 9. Exploitation des ressources**
 
-**Chapitre 11. Changements climatiques**
+**Chapitre 10. Changements climatiques**
 
 *Dirigé par Dominique Berteaux*
 
 Incluant feux de forêts
 
-**Chapitre 12. Espèces exotiques et invasives**
+**Chapitre 11. Espèces exotiques et invasives**
 
-**Chapitre 13. Pollution**
+**Chapitre 12. Pollution**
 
 *Dirigé par Valérie Langlois*
 
 ### Partie IV — Contributions de la nature aux populations {.unnumbered}
 
-**Chapitre 14. Quantification et cartographie**
+**Chapitre 13. Quantification et cartographie**
 
-**Chapitre 15. Santé et biodiversité**
+**Chapitre 14. Santé et biodiversité**
 
 *Timothée Poisot participera au dévlopment de ce chapitre.*
 
 En Autome 2026, un groupe d'étudiantes du Centre de formation universitaire en environnement de l’Université Sherbrooke traveillera activement sur une première version de ce chapitre.
 
-**Chapitre 16. Perception de la biodiversité dans l'espace public**
+**Chapitre 15. Perception de la biodiversité dans l'espace public**
 
 *Samuel Enright sera le superviseur pour ce chapitre*
 
-**Chapitre 17. Perspectives autochtones**
+**Chapitre 16. Perspectives autochtones**
 
 Comme chaque chapitre va contenir de l'information sur les perspectives autochtones, la pertinence d'un chapitre dédié reste à déterminer.
 
 ### Partie V — Solutions {.unnumbered}
 
-**Chapitre 18. Aires protégées**
+**Chapitre 17. Aires protégées**
 
-**Chapitre 19. Restauration**
+**Chapitre 18. Restauration**
 
-**Chapitre 20. Efficacité des mesures de compensation (politique de perte zéro)**
+**Chapitre 19. Efficacité des mesures de compensation (politique de perte zéro)**
 
-**Chapitre 21. Finance durable**
+**Chapitre 20. Finance durable**
 
-**Chapitre 22. Construction et implication avec les premières nations et inuits**
+**Chapitre 21. Construction et implication avec les premières nations et inuits**
 
-**Chapitre 23. Suivi scientifique de la biodiversité**
+**Chapitre 22. Suivi scientifique de la biodiversité**
 
 *Superviseur.e.s:* Dominique Gravel, Claire-Cécile, Anouk Simard
 
@@ -129,7 +125,7 @@ D'autres initiatives de suivi terrain (eDNA).
 
 ### Partie VI — Conclusions {.unnumbered}
 
-**Chapitre 24. Conclusion et recommandations**
+**Chapitre 23. Conclusion et recommandations**
 
 ### Appendices {.unnumbered}
 
