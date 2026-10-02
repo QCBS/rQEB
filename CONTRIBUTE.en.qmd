@@ -16,6 +16,14 @@ This chapter is currently under review and is subject to change.
 
 {{< include assets/local_context_notices/collab_notice.en.qmd >}}
 
+::: callout-tip
+Info sessions have been organized to share the information contained in this document.
+You can find the recordings on the YouTube channel of the QCBS.
+
+- [Session d'information en français](https://www.youtube.com/watch?v=Wcmnm1WbO2s)
+- [Info session recording in English](https://www.youtube.com/watch?v=c9vDBAY7wBo)
+:::
+
 Thank you for taking the time to review this guide!
 This guide will ensure that the evaluation (@nte-eval) has a consistent format, allows users to adapt it to their needs, and ensures its reproducibility for future updates.
 

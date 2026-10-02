@@ -16,6 +16,14 @@ Ce chapitre est en état de révision et risque de changer.
 
 {{< include assets/local_context_notices/collab_notice.qmd >}}
 
+::: callout-tip
+Des sessions d'information ont été organisées pour partager les informations contenues dans ce document.
+Vous pouvez trouver les eregistements sur la chaîne YouTube du CSBQ.
+
+- [Session d'information en français](https://www.youtube.com/watch?v=Wcmnm1WbO2s)
+- [Info session recording in English](https://www.youtube.com/watch?v=c9vDBAY7wBo)
+:::
+
 Merci de prendre le temps de consulter ce guide !
 Ce guide permettra à l'évaluation ([@nte-eval]) d'avoir une allure unifiée, de permettre l'adaptation par les utilisateurs pour leurs besoins, et d'assurer sa reproductibilité pour des mises à jour futures.
 
