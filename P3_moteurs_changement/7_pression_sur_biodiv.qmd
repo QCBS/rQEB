@@ -18,11 +18,11 @@ Ce chapitre est en cours de développement actif et n'est pas prêt à être uti
 
 2.  Hiérarchie des pressions dans le monde versus au Québec et selon les contextes.
 
-3.  Complexes et intéractions entre les moteurs de changement.
+3.  Complexes et intéractions entre les moteurs de changement au Québec.
 
-4.  Sommaire des moteurs de changement indirects.
+4.  Sommaire des moteurs de changement indirects (à développer).
 
-5.  Empreinte humaine, Human Modification Index, Biodiversity Intactness Index, Forest Landscape Integrity, Habitat fragmentation metrics.
+5.  Comparaison et contraste des métriques générales (Empreinte humaine, Human Modification Index, Biodiversity Intactness Index, Forest Landscape Integrity, Habitat fragmentation metrics).
 
 ## Hiérarchie des pressions
 
