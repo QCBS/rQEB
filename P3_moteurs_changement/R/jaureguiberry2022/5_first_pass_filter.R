@@ -1,3 +1,15 @@
+install.packages(c(
+  "ollamar",
+  "here",
+  "dplyr",
+  "readr",
+  "purrr",
+  "httr2",
+  "tidyr",
+  "glue",
+  "tibble"
+))
+
 ollamar::test_connection()
 ollamar::pull("nimble")
 
@@ -6,12 +18,6 @@ input_file <- here::here(
   "P3_moteurs_changement/out/jaureguiberry2022/search_results/unique_abstracts_from_doi.csv"
 )
 df <- readr::read_csv(input_file)
-
-screening_prompt <- readr::read_file(
-  here::here(
-    "P3_moteurs_changement/R/jaureguiberry2022/first_pass_prompt_short.md"
-  )
-)
 
 driver_classes <- readr::read_csv(here::here(
   "P3_moteurs_changement/_data/jaureguiberry2022/Table_S2.csv"
