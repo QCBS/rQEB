@@ -12,7 +12,7 @@ editor_options:
 This chapter is currently under review and is subject to change.
 :::
 
-# Contribution Guide
+# Contribution Guide {#sec-guide-contribution}
 
 {{< include assets/local_context_notices/collab_notice.en.qmd >}}
 
