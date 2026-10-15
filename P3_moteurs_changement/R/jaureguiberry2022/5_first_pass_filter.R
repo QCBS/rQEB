@@ -1,19 +1,18 @@
-install.packages(c(
-  "ollamar",
-  "here",
-  "dplyr",
-  "readr",
-  "purrr",
-  "httr2",
-  "tidyr",
-  "glue",
-  "tibble"
-))
-
-ollamar::test_connection()
-ollamar::pull("nimble")
+# ollamar::test_connection()
+# ollamar::pull("nimble")
 
 # ---- Input ---------------------------------------------------------------
+args <- commandArgs(trailingOnly = TRUE)
+# Check if arguments are provided
+if (length(args) == 0) {
+  test <- FALSE
+} else if (args[1] == "test") {
+  test <- TRUE
+} else {
+  test <- FALSE
+}
+
+
 input_file <- here::here(
   "P3_moteurs_changement/out/jaureguiberry2022/search_results/unique_abstracts_from_doi.csv"
 )
@@ -156,18 +155,18 @@ out_dir <- here::here(
   "P3_moteurs_changement/out/jaureguiberry2022/first_pass_chunks"
 )
 
-# test_df <- df |>
-#   tidyr::drop_na(doi, abstract) |>
-#   dplyr::distinct(doi, .keep_all = TRUE) |>
-#   dplyr::sample_n(10)
-
+if (test) {
+  df <- df |>
+    tidyr::drop_na(doi, abstract) |>
+    dplyr::distinct(doi, .keep_all = TRUE) |>
+    dplyr::sample_n(10)
+}
 failed <- run_in_chunks(
   papers = df, # full dataset; the function drops NA doi/abstract
   fn = prompt_nimble, # must return the raw response
   out_dir = out_dir,
-  chunk_size = 10
+  chunk_size = ifelse(test, 3, 100)
 )
-
 #--------Retain studies
 
 retain_studies <- function(
