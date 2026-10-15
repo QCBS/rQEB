@@ -5,7 +5,6 @@
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
 
-
 PI_ACCOUNT=def-pollock
 REPO_NAME=rQEB
 PROJECT_DIR=~/links/projects/$PI_ACCOUNT/$USER

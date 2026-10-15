@@ -1,0 +1,2 @@
+# Keep linux-stle end of lines for bash scripts
+*.sh text eol=lf
