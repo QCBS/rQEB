@@ -1,0 +1,7 @@
+./P3_moteurs_changement/R/jaureguiberry2022/5_slurm_job.sh
+./P3_moteurs_changement/R/jaureguiberry2022/5_install_deps.sh
+./P3_moteurs_changement/R/jaureguiberry2022/5_first_pass_filter.R
+./P3_moteurs_changement/out/jaureguiberry2022/4_abstracts.csv
+./P3_moteurs_changement/_data/jaureguiberry2022/Table_S2.csv
+./P3_moteurs_changement/_data/jaureguiberry2022/EBV_general.csv
+./rQEB.Rproj

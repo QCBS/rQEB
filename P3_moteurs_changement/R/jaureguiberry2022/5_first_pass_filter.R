@@ -14,7 +14,7 @@ if (length(args) == 0) {
 
 
 input_file <- here::here(
-  "P3_moteurs_changement/out/jaureguiberry2022/search_results/unique_abstracts_from_doi.csv"
+  "P3_moteurs_changement/out/jaureguiberry2022/4_abstracts.csv"
 )
 df <- readr::read_csv(input_file)
 
@@ -199,6 +199,8 @@ retain_studies <- function(
 }
 
 res <- load_results(out_dir)
+
+
 retained <- retain_studies(res$response, res$dois)
 retained$dois
 retained$summary
@@ -206,5 +208,5 @@ retained$summary
 retained$dois |>
   tibble::as_tibble_col("doi") |>
   readr::write_csv(here::here(
-    "P3_moteurs_changement/out/jaureguiberry2022/first_pass_response.test_retained_dois.csv"
+    "P3_moteurs_changement/out/jaureguiberry2022/first_pass_response_retained_dois.csv"
   ))
