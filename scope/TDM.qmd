@@ -44,12 +44,11 @@ Portrait historique (pré-colonial) jusqu’à 1990-2000.
 
 *En cours de développement (Amine et Guillaume)*
 
-- Thématiques principales
-- Limitations / manquements en connaissances
-- Localisation des études
-- Variables
-- Enjeux sociaux
-- Enjeux autochtones
+- Couverture taxonomique
+- Thèmatiques de recherche
+- Approches
+- Qui fait la recherche
+- Forces et lacunes
 
 **Chapitre 6. Gouvernance et opérationalisation**
 
@@ -69,9 +68,7 @@ Tour d’horizon, importance relative et interactions entre les moteurs de chang
 
 **Chapitre 8. Changement d'affectation des terres**
 
-Jochen Jager participera au développement de ce chapitre.
-
-**Chapitre 9. Exploitation des ressources**
+**Chapitre 9. Utilisation et gestion des espèces et des écosystèmes**
 
 **Chapitre 10. Changements climatiques**
 
@@ -80,6 +77,8 @@ Jochen Jager participera au développement de ce chapitre.
 Incluant feux de forêts
 
 **Chapitre 11. Espèces exotiques et invasives**
+
+*Personne contact: Genviève D'Avignon*
 
 **Chapitre 12. Pollution**
 
@@ -113,7 +112,7 @@ Comme chaque chapitre va contenir de l'information sur les perspectives autochto
 
 **Chapitre 20. Finance durable**
 
-**Chapitre 21. Construction et implication avec les premières nations et inuits**
+**Chapitre 21. Governance et initiatives des peuples autochtones**
 
 **Chapitre 22. Suivi scientifique de la biodiversité**
 
