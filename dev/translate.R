@@ -30,15 +30,16 @@ babeldown::deepl_update(
 
 babeldown::deepl_translate_quarto(
   ".",
-  "Scoping/TDM.qmd",
+  "scope/TDM.qmd",
   source_lang = "FR",
   target_lang = "EN-US",
+  # force = T,
   render = F
 )
 
 babeldown::deepl_update(
-  "Scoping/TDM.qmd",
-  "Scoping/TDM.en.qmd",
+  "scope/TDM.qmd",
+  "scope/TDM.en.qmd",
   source_lang = "FR",
   target_lang = "EN-US"
 )
