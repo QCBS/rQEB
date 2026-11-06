@@ -3,7 +3,6 @@ editor: visual
 format: html
 bibliography: references.bib
 ---
-
 # Table of Contents {#sec-TDM}
 
 Inspired by the Global Assessment of the International Panel on Biodiversity and Ecosystem Services[@ipbes2019].
@@ -30,11 +29,11 @@ Inspired by the Global Assessment of the International Panel on Biodiversity and
 - Where Is Biodiversity?
 - Disparities in Data and Occurrences
 
-**Chapter 3. Historical Changes**
+**Chapter 3. Precolonial History of Biodiversity**
 
-*Chapter Director: Hans Larsson*
+*Confirmed co-authors: Alexandre Demers-Potvin, Louis-Philippe Bateman, Hans Larsson,*
 
-Historical Overview (Pre-Colonial) through 1990–2000.
+Historical Overview (Pre-Colonial)
 
 **Chapter 4. Threatened and Vulnerable Species**
 
@@ -94,9 +93,11 @@ Including wildfires
 
 In the fall of 2026, a group of students from the University of Sherbrooke’s Center for Environmental Education will be actively working on a first draft of this chapter.
 
-**Chapter 15. Perceptions of Biodiversity in Public Spaces**
+**Chapter 15. Society and Biodiversity**
 
 *Samuel Enright will serve as the supervisor for this chapter*
+
+This chapter will focus on the connections between different social groups and biodiversity. We will examine the perceptions of the Quebec population regarding biodiversity, media coverage, and the integration of biodiversity into educational practices, corporate decisions and practices, as well as into Quebec culture, heritage, and identity. The chapter will conclude with a discussion of inequalities in access to and contact with nature.
 
 **Chapter 16. Indigenous Perspectives**
 
