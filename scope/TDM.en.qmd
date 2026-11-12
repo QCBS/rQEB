@@ -3,7 +3,8 @@ editor: visual
 format: html
 bibliography: references.bib
 ---
-# Table of Contents {#sec-TDM}
+
+# Living Table of Contents {#sec-TDM}
 
 Inspired by the Global Assessment of the International Panel on Biodiversity and Ecosystem Services[@ipbes2019].
 
@@ -69,6 +70,8 @@ Overview, Relative Importance, and Interactions Among the Drivers of Change
 
 **Chapter 9. Use and Management of Species and Ecosystems**
 
+*Directed by Martin Leclerc*
+
 **Chapter 10. Climate Change**
 
 *Directed by Dominique Berteaux*
@@ -103,7 +106,7 @@ This chapter will focus on the connections between different social groups and b
 
 Since each chapter will include information on Indigenous perspectives, the need for a dedicated chapter remains to be determined.
 
-### Part V — Solutions {.unnumbered}
+### Part V — Strategies {.unnumbered}
 
 **Chapter 17. Protected Areas**
 

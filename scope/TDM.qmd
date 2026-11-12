@@ -4,7 +4,7 @@ format: html
 bibliography: references.bib
 ---
 
-# Table des matières de travail {#sec-TDM}
+# Table des matières vivante {#sec-TDM}
 
 Inspiré de l'évaluation globale du International Panel on Biodiversity and Ecosystem Services [@ipbes2019].
 
@@ -70,6 +70,8 @@ Tour d’horizon, importance relative et interactions entre les moteurs de chang
 
 **Chapitre 9. Utilisation et gestion des espèces et des écosystèmes**
 
+*Dirigé par Matin Leclerc*
+
 **Chapitre 10. Changements climatiques**
 
 *Dirigé par Dominique Berteaux*
@@ -104,7 +106,7 @@ Ce chapitre s'attardera aux liens qu'ont les différents groupes de la société
 
 Comme chaque chapitre va contenir de l'information sur les perspectives autochtones, la pertinence d'un chapitre dédié reste à déterminer.
 
-### Partie V — Solutions {.unnumbered}
+### Partie V — Stratégies {.unnumbered}
 
 **Chapitre 17. Aires protégées**
 
@@ -114,7 +116,7 @@ Comme chaque chapitre va contenir de l'information sur les perspectives autochto
 
 **Chapitre 20. Finance durable**
 
-**Chapitre 21. Governance et initiatives des peuples autochtones**
+**Chapitre 21. Gouvernance et initiatives des peuples autochtones**
 
 **Chapitre 22. Suivi scientifique de la biodiversité**
 
