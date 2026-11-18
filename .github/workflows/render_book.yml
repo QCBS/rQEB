@@ -47,7 +47,7 @@ jobs:
         with:
           version: release # Use latest release for up-to-date features
           tinytex: true # Include TinyTeX for LaTeX/PDF support
-
+          
       - name: Render Multilingual Babelquarto Book Project
         run: |
           Rscript -e 'babelquarto::render_book()'

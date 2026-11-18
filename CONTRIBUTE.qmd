@@ -27,10 +27,10 @@ Vous pouvez trouver les enregistrements sur la chaîne YouTube du CSBQ.
 Merci de prendre le temps de consulter ce guide !
 Ce guide permettra à l'évaluation ([@nte-eval]) d'avoir une allure unifiée, de permettre l'adaptation par les utilisateurs pour leurs besoins, et d'assurer sa reproductibilité pour des mises à jour futures.
 
-L'objectif principal de l'évaluation est de synthétiser les connaissances et données existantes afin de les rendre accessibles pour des personnes qui ne sont pas nécessairement des scientifiques, mais qui risquent de devoir prendre des décisions en lien avec la biodiversité du Québec.
+L'objectif principal de l'évaluation est de synthétiser les connaissances et données existantes (un sorte de [*assessment IPBES*](https://www.ipbes.net/global-assessment) sous-national) afin de les rendre accessibles pour des personnes qui ne sont pas nécessairement des scientifiques, mais qui risquent de devoir prendre des décisions en lien avec la biodiversité du Québec.
 
 ::: {#nte-eval .callout-note}
-### Glossaire
+### Glossaire pour ce document
 
 **Évaluation** : Évaluation québécoise de la biodiversité et des contributions de la nature aux populations.
 Ceci inclut le livre électronique, le sommaire exécutif, ainsi que tout le code source, les données et le travail de synthèse qui y sont associés.
@@ -43,7 +43,7 @@ Ceci inclut le livre électronique, le sommaire exécutif, ainsi que tout le cod
 4.  Moteurs de changement
 5.  Contributions de la nature aux personnes (NCP)
 6.  Possibilités futures
-7.  Solutions
+7.  Stratégies (anciennement, Solutions)
 8.  Conclusions et recommandations
 
 **Chapitre** : une partie de l'évaluation qui pourrait être publiée indépendamment des autres.
@@ -221,7 +221,7 @@ Qualifiez brièvement l'approche méthodologique utilisée par les différentes 
 
 Prenez note des manquements, autant sur le plan de la couverture spatiale, temporelle, ou de la fiabilité.
 
-Vous pouvez tabuler les sources pour faciliter l'évaluation.
+Vous pouvez tabuler les sources pour faciliter l'évaluation et l'extraction des constats.
 
 ### Analyse de données disponibles
 
@@ -254,7 +254,7 @@ Comparez la situation au Québec avec la situation globale, résumée dans l'int
 Évaluez chaque constat selon la quantité, la qualité et le niveau de concordance des sources en lien avec le constat (@tbl-confiance).
 
 ::: {#tbl-conf}
-Classification des niveaux de confiance des constats.
+Classification des niveaux de confiance des constats, inspiré du [guide d'auteur du IPBES](https://www.ipbes.net/guide-production-assessments).
 
 |  |  |  |
 |------------------------|------------------------|------------------------|
@@ -313,25 +313,12 @@ Pour chaque chapitre, un fichier de métadonnées doit être disponibles et form
 
 ### Vocabulaire et analyses de système
 
-L’objectif principal de l’évaluation est de produire une synthèse.
-Bien que l’utilisation d’un langage clair et accessible soit fortement encouragée dans l’ensemble du livre numérique, la simplification ciblée du contenu à des fins de communication scientifique et de sensibilisation sera réalisée au moyen de la synthèse à l’intention des décideurs, des communications sur les médias sociaux et d’autres activités de diffusion.
+Utilisez en bonifiez le [glossaire vivant](https://docs.google.com/spreadsheets/d/1Q-cr7V4HtU418kz9OR_D7s_hWGWTEDYPjDlZ5o8RWAg/edit?usp=sharing) de notre évaluation.
+Ce glossaire est basé sur le Normes de conservation [@cmp2026; annexe 1].
+Ce cadre est compatible avec le cadre de l'IPBES, qui structure la table des matières [@díaz2015].
 
-L’utilisation des Normes de conservation et du cadre conceptuel de l’IPBES permet d’assurer la cohérence et l'accessibilité de l'évaluation aux personnes œuvrant dans le domaine de la conservation au Québec.
-
-Si vous rencontrez des conflits entre différents vocabulaires, ou de manières de représenter la réalité, créez différentes versions du contenu en suivant les différents cadres alternatifs.
-Dans la prose, marquez le mot équivalent entre parenthèses, et dans les graphiques, séparez les différentes représentations [sous différents onglets](https://quarto.org/docs/interactive/layout.html#tabset-panel) pour donner le choix aux personnes utilisatrices.
-
-#### Normes de conservation (Conservation Standards)
-
-Les Normes de conservation définissent un vocabulaire commun et des normes pour encadrer, planifier, mettre en place, et suivre le progrès des projets de conservation [@cmp2026].
-Ces normes sont particulièrement importantes à suivre pour traduire les connaissances en actions pratiques sur le terrain (Partie VI – Stratégies de la table des matières [@sec-TDM]).
-En particulier, utilisez le vocabulaire et les conventions pour les modèles de situation proposé dans la dernière version (version 5) du document sur les Normes ouvertes de la pratique de la conservation [voir la section 1D et l'Annexe 1 du @cmp2026fr].
-
-#### Cadre conceptuel de l'IPBES
-
-Globalement, l'évaluation suit le cadre de l'IPBES qui permet la synthèse à partir de différents systèmes de connaissances [@díaz2015].
-Ce cadre, généralement compatible avec celui des Normes de conservation décompose le monde en six composantes inter-reliés : la nature, les biens anthropiques, les bénéfices de la nature pour les personnes, les institutions de gouvernance et les autres moteurs de changement indirects, les moteurs de changements directs, et la bonne qualité de vie [@díaz2015].
-La table des matières [@sec-TDM] est librement basée sur ces concepts et l'évaluation vise à caractériser chacune de ces boîtes.
+La rédaction du livre numérique constitue un exercice de synthèse et non de vulgarisation.
+Un exercies de vulgraisation sera fait par la suite.
 
 ### Rédaction et paternité
 
@@ -404,7 +391,7 @@ La population des ours noir au Québec a diminué de `{{r}} dim_pop_ours_prcnt` 
 
 Pour accélérer le processus de rendement, évitez de mettre des calculs complexes ou de générer des graphiques directement dans les fichiers Quarto.
 
-### Graphiques
+### Graphiques et tableaux de bord
 
 Une palette de couleurs perceptuellement uniformes vous sera proposée.
 Ce type de palette permet l'impression et la distinction des couleurs par des personnes daltoniennes.
@@ -414,6 +401,13 @@ Pour chaque graphique, préparez un ficher .csv qui contient les données repré
 Vous pouvez aussi utiliser [Quarto avec Shiny](https://quarto.org/docs/interactive/shiny/) pour créer des tableaux de bord afin de permettre l'exploration de données plus complexes.
 Ces tableaux de bord seront ajoutés dans un annexe du livre numérique.
 Communiquez avec Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) avant de créer un tableau de bord.
+
+### Diagrammes pour théories de changement
+
+Lorsque nous serons prêts à bâtir des diagrammes pour représenter des théories de changement [@cmp2026; ], nous allons nous abonner au logiciel [Miradi conservation software](https://www.miradishare.org/ux/home) pour créer plus facilement ces diagrammes conformes aux Standards de conservation.
+Écrivez à Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) dès que vous êtes prêts à procéder à cette étape.
+
+![Exemple de diagramme de théorie du changement, crée en suivant les normes de conservation avec le logiciel Miradi.](scope/conceptual_model_of_nature.png){#fig-conceptual-model .lightbox}
 
 ## Inspiration
 
