@@ -18,7 +18,7 @@ Ce chapitre est en état de révision et risque de changer.
 
 ::: callout-tip
 Des sessions d'information ont été organisées pour partager les informations contenues dans ce document.
-Vous pouvez trouver les eregistements sur la chaîne YouTube du CSBQ.
+Vous pouvez trouver les enregistrements sur la chaîne YouTube du CSBQ.
 
 - [Session d'information en français](https://www.youtube.com/watch?v=Wcmnm1WbO2s)
 - [Info session recording in English](https://www.youtube.com/watch?v=c9vDBAY7wBo)
@@ -114,16 +114,24 @@ Votre contribution sera soulignée dans la section des remerciements.
 
 Pour signaler votre intérêt, remplissez [ce formulaire](https://forms.cloud.microsoft/r/wGdRbvhqAz), ou écrivez à [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
 
-## Échéancier suggeré
+## Échéancier suggéré
 
 Cet échéancier est une suggestion.
 Le format modulaire de l'évaluation permet aux chapitre d'être publiés au fur et à mesure qu'ils sont complétés, avec la possibilité de faire des mises à jour futures.
+
+Certains chapitres seront commencés plus tard, mais les étapes resteront similaires.
 
 **Septembre à octobre 2026**: Formation des équipes et planification du contenu (sous-thématiques des chapitres)
 
 **➝ 5 novembre 2026**: Rencontre à Bromont (un représentant par chapitre) afin d'arrimer le contenu des chapitres.
 
-**Novembre 2026 à février 2027**: Premier jet de rédaction et identification des blocages
+**Novembre 2026 à février 2027**
+
+- Rencontres d'équipe pour la division des tâches
+
+- Identification des blocages
+
+- Premier jet de rédaction
 
 **➝ 4 et 5 février 2027:** Rencontre de déblocage.
 
@@ -143,33 +151,77 @@ Le format modulaire de l'évaluation permet aux chapitre d'être publiés au fur
 
 ## Construction d'un chapitre {#sec-anatomie-chapitre}
 
+### Préparez un plan
+
+Minimalement, le plan devrait proposer :
+
+- Des objectifs, ou des questions auxquelles le chapitre tentera de répondre
+
+- Les sections et sous-sections du chapitre
+
+- Des personnes pouvant contribuer à chacune des (sous-)sections
+
+- Quelques sources synthétiques pertinentes
+
+### Préparez une Introduction
+
 ::: callout-note
-Un gabarit de travail sera rendu disponible pour octobre 2026.
+Un gabarit de travail sera rendu disponible pour décembre 2026.
 :::
 
-Pour introduire le chapitre, synthétisez ce qui est connu globalement des rôles, des connaissances et des perspectives autochtones en lien avec la thématique, en prenant compte la pluralité des voix autochtones.
+Très brièvement, justifiez la pertinence de la thématique.
 
-Donnez la perspective large de la science occidentale, en identifiant quelques articles ou analyses ayant un étendue géographique global (idéalement) lié avec la thématique du chapitre.
-Justifiez la pertinence de la thématique.
-Identifiez et justifiez l'utilisation d'un ou plusieurs indicateurs ou variables clés qui pourraient permettre de mesurer le changement temporel et les variations spatiales liés à la thématique.
+Résumez l'information synthétique déjà disponible à l'échelle modale (constats globaux).
+Généralement, ce type d'information peut être rapidement identifiée grâce à l'évaluation globale du IPBES [@ipbes2019], ou des méta-analyses et revues de littérature plus récentes.
+Cette synthése peut inclure les connaissances et des perspectives autochtones ainsi que celles de la science occidentale.
 
-### Analyse de la littérature
+Si pertinent, identifiez et justifiez l'utilisation d'un ou plusieurs indicateurs ou variables clés qui pourraient permettre de mesurer les changements temporels et les variations spatiales liés à la thématique et qui seront analysés par la suite.
 
-Premièrement, identifiez des sources pertinentes portant sur le territoire du Québec, sans exigence de couverture complète du territoire.
-Pour y arriver, vous disposerez d'une base de données contenant des articles de recherche primaire, et des sources de la littérature grise accompagnées d'un outil d'intelligence artificiel pour y faire des recherches.
-Vous êtes aussi invités à utiliser d'autres outils de recherche (ex : Google Scholar), d'intelligence artificielle (ex : [AstaAI](Asta.allen.ai)), ou de solliciter votre réseau et celui du CSBQ pour obtenir davantage de sources de littérature grise pour les ajouter à notre base de données.
+Créez des liens avec d'autres chapitres du livre ayant des interactions ou chevauchements en lien avec la thématique de votre chapitre.
+
+Mettez en place le contexte québécois qui encadre la thématique.
+Par exemple, des lois ou des parties intééréssées québécoises ayant un lien fort et direct avec la thématique.
+
+### Revue de littérature
+
+Pour la majorité des chapitres, une approche de revue de littérature est à privilégier.
+
+#### Identifier les sources
+
+Identifiez des sources pertinentes portant sur le territoire du Québec, sans exigence de couverture complète du territoire.
 Portez une attention particulière pour identifier des sources pertinentes aux rôles, perspectives ou connaissances autochtones.
+
+Outils à votre disposition:
+
+- Réseau du CSBQ.
+  Demandez à des personnes expertes pour des références et connaissances pertinentes.
+
+- Base de données contenant des articles de recherche primaire, et des sources de la littérature grise accompagnées d'un outil d'intelligence artificiel pour y faire des recherches créa par le CSBQ (lien à venir).
+  Entre temps, écrivez à Amine pour y faire des recherches ([data\@qcbs.ca](mailto:data@qcbs.ca)).
+
+- Outils de recherche (ex : Google Scholar), d'intelligence artificielle (ex : [AstaAI](Asta.allen.ai)), ou de solliciter votre réseau et celui du CSBQ pour obtenir davantage de sources de littérature grise pour les ajouter à notre base de données.
+
 Notez les détails méthodologiques de votre recherche, tel que les moteurs de recherche utilisés, les mots clés utilisés, les dates des recherches, les personnes contactés et les critères utilisés pour inclure ou rejeter une source.
+Vous pouvez avoir recours à un annexe au besoin.
+
+Lorsque vous traitez des moteurs de changements, n'oubliez pas de considérer les études qui se penchent sur les causes sous-jacentes des moteurs directs.
+
+#### Évaluer les sources 
 
 Deuxièmement, évaluez l'information fournie par chacune des sources sur le plan spatial, temporel et méthodologique.
-Pour les parties sur les moteurs de changement et les solutions, tentez d'évaluer les impacts du moteur ou de la solution en question sur les facettes de la biodiversité, en utilisant le vocabulaire des variables essentiels de la biodiversité (ou [*Essential biodiversity variable (EBV)*](https://geobon.org/ebvs/what-are-ebvs) en anglais; @kissling2018).
+
+Pour les parties sur les moteurs de changement et les stratégies, tentez d'évaluer les impacts du moteur ou de la stratégie en question sur les facettes de la biodiversité, en utilisant le vocabulaire des variables essentiels de la biodiversité (ou [*Essential biodiversity variable (EBV)*](https://geobon.org/ebvs/what-are-ebvs) en anglais; @kissling2018) ou sur les contributions de la nature aux personnes.
+
 Pour la partie sur les contributions de la nature aux personnes (NCP), tentez d'évaluer l'influence de la biodiversité (vocabulaire des EBV) sur la contribution en question.
 Classifiez les NCP mesurées selon la classification des variables essentielles des services écosystémiques (ou [*Essential Ecosystem Service Variables (EESV)*](https://geobon.org/ebvs/ecosystem-services-working-group/what-are-eesvs/) en anglais; @balvanera2022*)*.
-Précisez le ou les emplacements géographiques associés à chaque source.
+
 Portez une attention particulière aux sources ayant une composante temporelle pour comprendre l'évolution des variables ou indicateurs dans le temps et prenez note des prédictions.
-Qualifiez brièvement l'approche méthodologique utilisée par les sources.
+
+Qualifiez brièvement l'approche méthodologique utilisée par les différentes sources.
+
 Prenez note des manquements, autant sur le plan de la couverture spatiale, temporelle, ou de la fiabilité.
-Vous pouvez vous servir de l'outil IA du CSBQ pour faciliter cette tâche, mais assurez-vous de vérifier les informations fournies (voir la section sur la politique de l'IA @sec-pol-IA).
+
+Vous pouvez tabuler les sources pour faciliter l'évaluation.
 
 ### Analyse de données disponibles
 
@@ -178,9 +230,10 @@ Avant de plonger dans une analyse, parlez-en avec un représentant de [Biodivers
 :::
 
 Si une ou plusieurs sources de données sont accessibles et ont une vaste étendue spatiale, il peut être pertinent de produire une analyse adaptée au Québec.
-Pour y parvenir, commencez par décrire chaque source de données en précisant sa méthodologie, incluant la résolution et l'étendue spatiale et temporelle.
-Estimez la puissance des données présentées, spécifiant si les données correspondent à un échantillonnage limité du territoire (puissance : basse) ou à un recensement complet (puissance : élevée).
-Ensuite, utilisez les données pour répondre aux questions sui
+
+Commencez par décrire chaque source de données en précisant sa méthodologie, incluant la résolution et l'étendue spatiale et temporelle.
+
+Ensuite, utilisez les données pour répondre aux questions suivantes:
 
 - Quel est l'état présent, ou du moins, l'estimation la plus à jour (en spécifiant la date de l'estimation) de la variable ou de l’indicateur ?
 - Comment est-ce que la variable ou l'indicateur a changé depuis les 5, 10, 20, 50 ou 100 dernières années (selon la disponibilité des données) ?
@@ -193,16 +246,29 @@ Pour chacune de réponses aux questions ci-haut, spécifiez :
 
 ### Constats
 
-Proposez quelques messages clés qui résument l'état, les changements, la variabilité spatiale et le niveau d'information disponible en lien avec la thématique.
-Évaluez la fiabilité de chacun des constats en vous basant sur la quantité, la qualité et le niveau de concordance des sources en lien avec le constat.
-Ces constats devront aussi être re-itérés dans un sommaire exécutif de chaque chapitre.
+Peu importe l'approche, proposez quelques messages clés qui résument l'état, les changements, la variabilité spatiale et le niveau d'information disponible en lien avec les thématiques principales.
+Ces constats seront repris lors de l'écriture des sommaires exécutifs.
+
+Comparez la situation au Québec avec la situation globale, résumée dans l'introduction.
+
+Évaluez chaque constat selon la quantité, la qualité et le niveau de concordance des sources en lien avec le constat (@tbl-confiance).
+
+::: {#tbl-conf}
+Classification des niveaux de confiance des constats.
+
+|  |  |  |
+|------------------------|------------------------|------------------------|
+| **Donnée probantes / Accord** | **Accord élevé** | **Accord faible** |
+| **Données abondantes et de bonne qualité** | **Bien établi** (Well established) : Données robustes et consensus scientifique clair. | **Non résolu** (Unresolved) : Beaucoup d'études existent, mais leurs résultats se contredisent. |
+| **Données limitées ou de basse qualité** | **Établi mais incomplet** (Established but incomplete) : Accord général des experts, mais les données de terrain manquent. | **Non concluant** (Inconclusive) : Très peu de données et aucun accord au sein de la communautée |
+:::
 
 ## Principes et cadres à suivre
 
 ### Utilisation des connaissances et des données
 
 ::: callout-caution
-La meilleure manière d’implémenter ces principes est encore en cours de discussion au sein du comité exécutif de l'évaluation et avan de passer par par un processus de révision externe.
+La meilleure manière d’implémenter ces principes est encore en cours de discussion au sein du comité exécutif de l'évaluation et avant de passer par par un processus de révision externe.
 :::
 
 L’intégration des principes CARE, PCAP® et FAIR permet de maximiser l'utilité potentielle de l'évaluation en rendant les données accessibles tout en respectant la gouvernance des données par les communautés autochtones (voir @imp-ind-data).
@@ -257,14 +323,14 @@ Dans la prose, marquez le mot équivalent entre parenthèses, et dans les graphi
 
 #### Normes de conservation (Conservation Standards)
 
-Les Normes de conservation définissent un vocabulaire commun (en anglais) et des normes pour encadrer, planifier, mettre en place, et suivre le progrès des projets de conservation [@cmp2026].
-Ces normes sont particulièrement importantes à suivre pour traduire les connaissances en actions pratiques sur le terrain (Partie VI – Solutions de la table des matières [@sec-TDM]).
-En particulier, utilisez le vocabulaire et les conventions pour les modèles de situation proposé dans la dernière version (version 5) du document sur les Normes ouvertes de la pratique de la conservation [voir la section 1D et l'Annexe 1 du @cmp2026].
+Les Normes de conservation définissent un vocabulaire commun et des normes pour encadrer, planifier, mettre en place, et suivre le progrès des projets de conservation [@cmp2026].
+Ces normes sont particulièrement importantes à suivre pour traduire les connaissances en actions pratiques sur le terrain (Partie VI – Stratégies de la table des matières [@sec-TDM]).
+En particulier, utilisez le vocabulaire et les conventions pour les modèles de situation proposé dans la dernière version (version 5) du document sur les Normes ouvertes de la pratique de la conservation [voir la section 1D et l'Annexe 1 du @cmp2026fr].
 
 #### Cadre conceptuel de l'IPBES
 
 Globalement, l'évaluation suit le cadre de l'IPBES qui permet la synthèse à partir de différents systèmes de connaissances [@díaz2015].
-Ce cadre décompose le monde en six composantes inter-reliés : la nature, les biens anthropiques, les bénéfices de la nature pour les personnes, les institutions de gouvernance et les autres moteurs de changement indirects, les moteurs de changements directs, et la bonne qualité de vie [@díaz2015].
+Ce cadre, généralement compatible avec celui des Normes de conservation décompose le monde en six composantes inter-reliés : la nature, les biens anthropiques, les bénéfices de la nature pour les personnes, les institutions de gouvernance et les autres moteurs de changement indirects, les moteurs de changements directs, et la bonne qualité de vie [@díaz2015].
 La table des matières [@sec-TDM] est librement basée sur ces concepts et l'évaluation vise à caractériser chacune de ces boîtes.
 
 ### Rédaction et paternité
@@ -272,10 +338,10 @@ La table des matières [@sec-TDM] est librement basée sur ces concepts et l'év
 #### Traduction
 
 Tous les documents seront traduits du français à l'anglais ou vice-versa.
-Tentez de choisir une langue commune pour que tous les personnes co-autrices puissent y contribuer aussi facilement que possible.
+Tentez de choisir une langue commune pour que tous les personnes co-autrices sur un chapitre puissent y contribuer aussi facilement que possible.
 Au besoin contactez le chargé de projet (Egor, [rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) pour vos besoins en traduction.
 
-N'oubliez pas de créer des versions des graphiques et des tableaux dans les deux langues !
+N'oubliez pas de créer des versions des graphiques et des tableaux dans les deux langues si vous avez la capacité !
 
 ##### Convention de nom pour les fichiers en anglais
 
@@ -300,6 +366,13 @@ Vous êtes encouragés à suivre un système de pointage comme celui proposé pa
 ## Format
 
 ### Prose
+
+Pour la rédaction, vous avez deux options:
+
+1.  Commencer avec un document Word ou Google Docs pour faciliter la collaboration. À l'étape de la révision externe, le document sera exporté en format Quarto par Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)). Suite à l'exportation, la mise à jour du chapitre se fera au niveau du document
+2.  Commencez directement avec le format Quarto. Cette approche est surtout à privilégier si vous planifiez faire des analyses de données.
+
+#### Quarto
 
 Utilisez le format Quarto (`.qmd`) pour rédiger la prose en suivant [la convention Markdown](https://quarto.org/docs/authoring/markdown-basics.html) (ceci est très utile pour pouvoir ensuite générer un site web ou un PDF).
 Pour rendre la rédaction avec Quarto plus facile, utilisez l'éditeur visuel intégré de [RStudio](https://posit.co/products/open-source/rstudio), ou installer [l'extension Quarto](https://open-vsx.org/extension/quarto/quarto) pour l'application [Visual Studio Code](https://code.visualstudio.com/) ou [Positron](https://positron.posit.co/).
@@ -333,11 +406,14 @@ Pour accélérer le processus de rendement, évitez de mettre des calculs comple
 
 ### Graphiques
 
-Choisissez des palettes de couleur perceptuellement uniformes, car elles sont adaptées pour l'impression en noir et blanc et pour les personnes daltoniennes (ex : la palette viridis, maintenant disponible dans [ggplot2](https://ggplot2.tidyverse.org/reference/scale_viridis.html)).
+Une palette de couleurs perceptuellement uniformes vous sera proposée.
+Ce type de palette permet l'impression et la distinction des couleurs par des personnes daltoniennes.
 
-Lorsque vous insérez un graphique, utilisez [la fonctionnalité "tabset"](https://quarto.org/docs/output-formats/html-basics.html#tabsets) pour inclure aussi un tableau avec les données représentées dans le graphique.
+Pour chaque graphique, préparez un ficher .csv qui contient les données représentés dans le graphique sous forme tabulaire.
 
-Au besoin, vous pouvez aussi utiliser [Quarto avec Shiny](https://quarto.org/docs/interactive/shiny/) pour créer des tableaux de bord.
+Vous pouvez aussi utiliser [Quarto avec Shiny](https://quarto.org/docs/interactive/shiny/) pour créer des tableaux de bord afin de permettre l'exploration de données plus complexes.
+Ces tableaux de bord seront ajoutés dans un annexe du livre numérique.
+Communiquez avec Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) avant de créer un tableau de bord.
 
 ## Inspiration
 
@@ -349,10 +425,37 @@ Si vous cherchez de l'inspiration basé sur ce qui s'est déjà fait ailleurs:
 - [La Nouvelle-Écosse](https://storymaps.arcgis.com/collections/6b0e65ee9a984cd18548517a8b78a09f) et [l'Ontario](https://sobr.ca/) ont des évaluations des états de la biodiversité.
   Bien que les cadres de ces évaluations sont plus limités que le cadre de l'évaluation québécoise (voir @sec-scoping), les formats web de ces rapports peuvent offrir une l'inspiration pour notre livre numérique.
 
-- Une évaluation détaillée de la biodiversité Suisse a été effectuée dans le cadre des objectifs de frein à la perte de la biodiversité avant 2010 en Europ [@lachat2010].
+- Une évaluation détaillée de la biodiversité Suisse a été effectuée dans le cadre des objectifs de frein à la perte de la biodiversité avant 2010 en Europe [@lachat2010].
   Ceci correspond bien à notre situation actuelle avec la Convention sur la diversité biologique et le Plan Nature québécois 2030 [@MELCCFP2024PlanNature2030].
 
-## Flux de travail d'analyse des données {#sec-flux}
+- En Colombie, une [évaluation annuelle de l'état de la biodiversité](https://reporte.humboldt.org.co/biodiversidad) est présenté dans un format interactif intéressante (en espagnol).
+
+## Flux de travail simplifié {#sec-flux}
+
+Pour collaborer simplement, vous pouvez le faire dans un Drive partagé (cette approche requiert un compte Google).
+Envoyez votre courriel Google à Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) pour avoir les droits d'édition.
+
+Pour avoir accès au dossier partagé directement depuis votre ordinateur
+
+1.  Installez [Google Drive sur votre ordinateur](https://workspace.google.com/intl/en_ca/products/drive/#download)
+2.  Ouvrez le [Drive partagé](https://drive.google.com/drive/folders/1tM2c5sOOavlmsjOaHHuwWQJcHC94-x-x?usp=sharing).
+3.  eval_qc_biodiv_ncp \> Organiser \> Ajouter un raccourci \> Tous les emplacements \> Mon disque \> Ajouter
+
+S'il n'existe pas déjà, vous pouvez créer un dossier de travail pour votre chapitre: `livre_source > Px_[nom_de_partie] > XX_[nom_du_chapitre]`.
+Où `PX` correspond au numéro de la partie, et \`XX\` au numéro du chapitre.
+
+Assurez-vous de garder toutes les documents sources pour reproduire vos documents.
+Ceci inclut, mais ne se limite pas:
+
+- Données, (ou sources de données, si grande taille)
+- Code
+- Figures
+- Bibliothèque de références
+- Liste de termes de recherche
+
+## Flux de travail pour une analyse des données
+
+Ce flux de travail est pertinent si vous comptez faire des analyses de données dans le contexte de votre rédaction.
 
 ### Connaissances utiles
 
