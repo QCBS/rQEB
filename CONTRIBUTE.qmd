@@ -27,7 +27,8 @@ Vous pouvez trouver les enregistrements sur la chaîne YouTube du CSBQ.
 Merci de prendre le temps de consulter ce guide !
 Ce guide permettra à l'évaluation ([@nte-eval]) d'avoir une allure unifiée, de permettre l'adaptation par les utilisateurs pour leurs besoins, et d'assurer sa reproductibilité pour des mises à jour futures.
 
-L'objectif principal de l'évaluation est de synthétiser les connaissances et données existantes (un sorte de [*assessment IPBES*](https://www.ipbes.net/global-assessment) sous-national) afin de les rendre accessibles pour des personnes qui ne sont pas nécessairement des scientifiques, mais qui risquent de devoir prendre des décisions en lien avec la biodiversité du Québec.
+L'objectif principal de l'évaluation est de synthétiser les connaissances et données existantes (dans le style d'un [*IPBES*](https://www.ipbes.net/global-assessment)[*assessment*](#0){style="font-size: 11pt;"} à l'échelle sous-national).
+Cette synthèse permettra de produire des résumés exécutifs et d’autres outils d’aide à la décision afin de rendre les connaissances synthétiques accessibles à une catégorie de personnes délibérément large qui sont les décideurs québécois.
 
 ::: {#nte-eval .callout-note}
 ### Glossaire pour ce document
@@ -206,7 +207,7 @@ Vous pouvez avoir recours à un annexe au besoin.
 
 Lorsque vous traitez des moteurs de changements, n'oubliez pas de considérer les études qui se penchent sur les causes sous-jacentes des moteurs directs.
 
-#### Évaluer les sources 
+#### Évaluer les sources
 
 Deuxièmement, évaluez l'information fournie par chacune des sources sur le plan spatial, temporel et méthodologique.
 
@@ -257,7 +258,7 @@ Comparez la situation au Québec avec la situation globale, résumée dans l'int
 Classification des niveaux de confiance des constats, inspiré du [guide d'auteur du IPBES](https://www.ipbes.net/guide-production-assessments).
 
 |  |  |  |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Donnée probantes / Accord** | **Accord élevé** | **Accord faible** |
 | **Données abondantes et de bonne qualité** | **Bien établi** (Well established) : Données robustes et consensus scientifique clair. | **Non résolu** (Unresolved) : Beaucoup d'études existent, mais leurs résultats se contredisent. |
 | **Données limitées ou de basse qualité** | **Établi mais incomplet** (Established but incomplete) : Accord général des experts, mais les données de terrain manquent. | **Non concluant** (Inconclusive) : Très peu de données et aucun accord au sein de la communautée |
