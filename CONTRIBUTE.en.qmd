@@ -17,8 +17,8 @@ This chapter is currently under review and is subject to change.
 {{< include assets/local_context_notices/collab_notice.en.qmd >}}
 
 ::: callout-tip
-Info sessions have been organized to share the information contained in this document.
-You can find the recordings on the YouTube channel of the QCBS.
+Information sessions were held to share the information contained in this document.
+You can find the recordings on the CSBQ's YouTube channel.
 
 - [Session d'information en français](https://www.youtube.com/watch?v=Wcmnm1WbO2s)
 - [Info session recording in English](https://www.youtube.com/watch?v=c9vDBAY7wBo)
@@ -27,10 +27,11 @@ You can find the recordings on the YouTube channel of the QCBS.
 Thank you for taking the time to review this guide!
 This guide will ensure that the evaluation (@nte-eval) has a consistent format, allows users to adapt it to their needs, and ensures its reproducibility for future updates.
 
-The main objective of the assessment is to synthesize existing knowledge and data in order to make them accessible to people who are not necessarily scientists but who may need to make decisions related to Quebec’s biodiversity.
+The main objective of the assessment is to synthesize existing knowledge and data (a subnational [IPBES-style assessment](https://www.ipbes.net/global-assessment)).
+The synthesis will enable us to make executive summaries and other decision-making tools in order to make the synthetic knowledge accessible to the deliberately braod category of Quebec’s decision makers .
 
 ::: {#nte-eval .callout-note}
-### Glossary
+### Glossary for this document
 
 **Assessment**: The Quebec Assessment of Biodiversity and Nature’s Contributions to People.
 This includes the e-book, the executive summary, as well as all associated source code, data, and synthesis work.
@@ -43,7 +44,7 @@ This includes the e-book, the executive summary, as well as all associated sourc
 4.  Drivers of Change
 5.  Nature’s Contributions to People (NCP)
 6.  Future Opportunities
-7.  Solutions
+7.  Strategies (formerly Solutions)
 8.  Conclusions and Recommendations
 
 **Chapter**: a section of the assessment that could be published independently of the others.
@@ -114,16 +115,22 @@ Your contribution will be acknowledged in the acknowledgments section.
 
 To express your interest, please fill out [this form](https://forms.cloud.microsoft/r/wGdRbvhqAz) or email [rapport\@qcbs.ca](mailto:rapport@qcbs.ca).
 
-## Tentative Timeline
+## Suggested Timeline
 
 This timeline is a suggestion.
 The modular format of the assessment allows the publication of chapters as they are ready, and the possibility of future updates.
+
+Some chapters will be started later, but the steps will remain the same.
 
 **September–October 2026**: Team formation and planning of chapter contents (sub-themes).
 
 **➝ November 5, 2026**: Meeting in Bromont between chapter supervisors to align chapter content.
 
-**November 2026–February 2027**: First draft writing and identification of roadblocks.
+**November 2026 through February 2027**
+
+- Team meetings to assign tasks
+- Identifying Obstacles
+- First draft
 
 **➝ February 4–5, 2027**: Troubleshooting and problem-solving meeting.
 
@@ -143,33 +150,67 @@ The modular format of the assessment allows the publication of chapters as they 
 
 ## Development of a chapter {#sec-anatomie-chapitre}
 
+### Make a plan
+
+At a minimum, the plan should include:
+
+- Objectives, or questions the chapter will attempt to answer
+- The sections and subsections of the chapter
+- People who can contribute to each of the (sub)sections
+- Some relevant synthetic sources
+
+### Write an Introduction
+
 ::: callout-note
-A working template will be made available by October 2026.
+A working template will be made available by December 2026
 :::
 
-To introduce the chapter, summarize what is generally known about Indigenous roles, knowledge, and perspectives related to the theme, taking into account the diversity of Indigenous voices.
+Very briefly, explain why this topic is relevant.
 
-Provide a broad overview of Western science by identifying a few articles or analyses with a global geographic scope (ideally) related to the chapter’s theme.
-Justify the relevance of the theme.
-Identify and justify the use of one or more key indicators or variables that could be used to measure temporal change and spatial variations related to the topic.
+Summarize the overview information already available at the modal level (overall findings).
+Generally, this type of information can be quickly identified through the IPBES Global Assessment [@ipbes2019] or more recent and topical meta-analyses and literature reviews.
+This synthesis may include Indigenous knowledge and perspectives as well as those of Western science.
+
+If applicable, identify and justify the use of one or more key indicators or variables that could be used to measure temporal changes and spatial variations related to the topic and that will be analyzed later.
+
+Create links to other chapters in the book that interact with or overlap with the theme of your chapter.
+
+Provide the Quebec context that frames the topic.
+For example, Quebec laws or stakeholders with a strong and direct connection to the topic.
 
 ### Literature Review
 
-First, identify relevant sources pertaining to the province of Quebec; comprehensive coverage of the province is not required.
-To do so, you will have access to a database containing primary research articles and gray literature sources, along with an artificial intelligence tool to conduct searches within it.
-You are also encouraged to use other research tools (e.g., Google Scholar) or artificial intelligence tools (e.g., [AstaAI](Asta.allen.ai)), or to reach out to your network and that of the CSBQ to obtain additional gray literature sources to add to our database.
-Pay particular attention to identifying sources relevant to Indigenous roles, perspectives, or knowledge.
-Note the methodological details of your search, such as the search engines used, the keywords used, the dates of the searches, the people contacted, and the criteria used to include or exclude a source.
+For most chapters, a literature review approach is recommended.
 
-Second, evaluate the information provided by each source in terms of its spatial, temporal, and methodological aspects.
-For the sections on drivers of change and solutions, try to assess the impacts of the driver or solution in question on aspects of biodiversity, using the vocabulary of Essential Biodiversity Variables ([EBVs](https://geobon.org/ebvs/what-are-ebvs); @kissling2018).
+#### Identify the sources
+
+Identify relevant sources pertaining to the territory of Quebec; complete coverage of the territory is not required.
+Pay particular attention to identifying sources relevant to Indigenous roles, perspectives, or knowledge.
+
+Tools available to you:
+
+- CSBQ Network. Ask experts for relevant references and insights.
+- A database containing primary research articles and gray literature sources, along with an artificial intelligence tool for searching the database, created by the CSBQ (link coming soon). In the meantime, please contact Amine to conduct searches ([data\@qcbs.ca](mailto:data@qcbs.ca)).
+- Search tools (e.g., Google Scholar), artificial intelligence tools (e.g., [AstaAI](Asta.allen.ai)), or reaching out to your network and the CSBQ’s network to obtain additional sources of gray literature to add to our database. Record the methodological details of your research, such as the search engines used, the keywords used, the dates of the searches, the people contacted, and the criteria used to include or exclude a source. You may use an appendix if necessary.
+
+When discussing drivers of change, be sure to consider studies that examine the underlying causes of the direct drivers.
+
+#### Evaluate Sources
+
+Second, evaluate the information provided by each source in terms of space, time, and methodology.
+
+For the sections on drivers of change and strategies, try to assess the impacts of the driver or strategy in question on the various aspects of biodiversity, using the terminology of essential biodiversity variables ([*EBVs*](https://geobon.org/ebvs/what-are-ebvs); @kissling2018) or on nature’s contributions to people.
+
 For the section on nature’s contributions to people (NCPs), try to assess the influence of biodiversity (EBV terminology) on the contribution in question.
-Classify the measured NCPs according to the classification of Essential Ecosystem Service Variables ([EESV](https://geobon.org/ebvs/ecosystem-services-working-group/what-are-eesvs/); @balvanera2022).
-Specify the geographic location(s) associated with each source.
-Pay particular attention to sources with a temporal component to understand how the variables or indicators change over time, and take note of any predictions.
-Briefly describe the methodological approach used by the sources.
-Note any shortcomings, whether in terms of spatial or temporal coverage, or reliability.
-You may use the CSBQ’s AI tool to facilitate this task, but be sure to verify the information provided (see the section on AI policy @sec-pol-IA).
+Classify the measured NCPs according to the classification of Essential Ecosystem Service Variables ([*EESV*](https://geobon.org/ebvs/ecosystem-services-working-group/what-are-eesvs/); @balvanera2022).
+
+Pay particular attention to sources that include a temporal component to understand how variables or indicators change over time, and take note of any predictions.
+
+Briefly describe the methodological approach used by the various sources.
+
+Take note of any gaps, whether in terms of spatial or temporal coverage, or reliability.
+
+You can organize the sources into a table to make it easier to evaluate and extract findings.
 
 ### Analysis of Available Data
 
@@ -177,10 +218,11 @@ You may use the CSBQ’s AI tool to facilitate this task, but be sure to verify 
 Before diving into an analysis, discuss it with a representative from [Biodiversité Québec](https://biodiversite-quebec.ca/fr/contactez_nous) to avoid duplicating analyses already in progress.
 :::
 
-If one or more data sources are available and cover a wide spatial area, it may be appropriate to produce an analysis tailored to Quebec.
-To do this, start by describing each data source, specifying its methodology, including resolution and spatial and temporal scope.
-Assess the strength of the data presented, specifying whether the data represent a limited sample of the territory (strength: low) or a complete census (strength: high).
-Next, use the data to answer the following questions
+If one or more data sources are available and cover a large geographic area, it may be appropriate to conduct an analysis tailored to Quebec.
+
+Start by describing each data source, specifying its methodology, including its resolution and spatial and temporal scope.
+
+Next, use the data to answer the following questions:
 
 - What is the current status, or at least the most up-to-date estimate (specifying the date of the estimate), of the variable or indicator?
 - How has the variable or indicator changed over the past 5, 10, 20, 50, or 100 years (depending on data availability)?
@@ -193,16 +235,29 @@ For each answer to the questions above, specify:
 
 ### Findings
 
-Provide a few key messages that summarize the status, changes, spatial variability, and the level of available information related to the topic.
-Assess the reliability of each finding based on the quantity, quality, and level of agreement among the sources related to that finding.
-These findings should also be reiterated in an executive summary for each chapter.
+Regardless of the approach, provide a few key messages that summarize the status, changes, spatial variability, and level of available information related to the main themes.
+These findings will be incorporated when drafting the executive summaries.
+
+Compare the situation in Quebec with the overall situation, as summarized in the introduction.
+
+Evaluate each finding based on the quantity, quality, and level of consistency among the sources related to that finding (@tbl-confidence).
+
+::: {#tbl-conf}
+Classification of confidence levels for findings, based on [the IPBES author’s guide](https://www.ipbes.net/guide-production-assessments).
+
+|  |  |  |
+|----|----|----|
+| **Evidence / Agreement** | **High Agreement** | **Low agreement** |
+| **Abundant, high-quality data** | Well **established**: Robust data and clear scientific consensus. | Unresolved: Many studies exist, but their results are contradictory. |
+| **Limited or low-quality data** | **Established but incomplete**: General agreement among experts, but field data are lacking. | **Inconclusive**: Very little data and no consensus within the scientific community |
+:::
 
 ## Principles and Frameworks to Follow
 
 ### Use of Knowledge and Data
 
 ::: callout-caution
-The best way to implement these principles is still under discussion within the assessment’s executive committee and will undergo an external review process.
+The best way to implement these principles is still under discussion within the Evaluation Executive Committee and will undergo an external review process.
 :::
 
 Integrating the CARE, PCAP®, and FAIR principles maximizes the potential utility of the evaluation by making data accessible while respecting Indigenous communities’ data governance (see @imp-ind-data).
@@ -247,35 +302,22 @@ For each chapter, a metadata file must be available and formatted according to [
 
 ### Vocabulary and System Analyses
 
-The main objective of the evaluation is to produce a summary.
-Although the use of simple, accessible language is strongly encouraged throughout the web book, the dedicated simplification of content for science communication and outreach purposes will be adressed through the summary for policymakers, social media communications, and other activities.
+Please make use of and contribute to the[dynamic glossary](https://docs.google.com/spreadsheets/d/1Q-cr7V4HtU418kz9OR_D7s_hWGWTEDYPjDlZ5o8RWAg/edit?usp=sharing)for our assessment.
+This glossary is based on the Conservation Standards[@cmp2026].
+This framework is compatible with the IPBES framework, which structures the table of contents[@díaz2015].
 
-The use of the IPBES Conservation Standards and conceptual framework ensures the consistency and accessibility of the assessment to those working in the field of conservation in Quebec.
-
-If you encounter conflicts between different vocabularies or ways of representing reality, create different versions of the content based on the various alternative frameworks.
-In prose, indicate the equivalent term in parentheses, and in graphics, separate the different representations[into different tabs](https://quarto.org/docs/interactive/layout.html#tabset-panel)to give users a choice.
-
-#### Conservation Standards
-
-The Conservation Standards define a common vocabulary (in English) and standards for guiding, planning, implementing, and tracking the progress of conservation projects [@cmp2026].
-These standards are particularly important to follow when translating knowledge into practical actions in the field (Part VI – Solutions in the Table of Contents [@sec-TDM]).
-In particular, use the terminology and conventions for scenario templates proposed in the latest version (Version 5) of the document on Open Standards for Conservation Practice ; [see Section 1D and Annex 1 of @cmp2026].
-
-#### IPBES Conceptual Framework
-
-Overall, the assessment follows the IPBES framework, which enables synthesis across different knowledge systems [@díaz2015].
-This framework breaks down the world into six interconnected components: nature, human-made assets, the benefits of nature to people, governance institutions and other indirect drivers of change, direct drivers of change, and quality of life [@díaz2015].
-The table of contents [@sec-TDM] is loosely based on these concepts, and the assessment aims to characterize each of these components.
+Writing this e-book is an exercise in synthesis, not in popularization.
+An exercise in popularization will follow.
 
 ### Authoring and Authorship
 
 #### Translation
 
 All documents will be translated from French to English or vice versa.
-Try to choose a common language so that all co-authors can contribute as easily as possible.
-If necessary, contact the project manager (Egor,[rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) regarding your translation needs.
+Try to choose a common language so that all co-authors of a chapter can contribute as easily as possible.
+If necessary, contact the project manager (Egor, [rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) regarding your translation needs.
 
-Don't forget to create versions of the charts and tables in both languages!
+Don't forget to create versions of the charts and tables in both languages if you're able to!
 
 ##### English File Naming Convention
 
@@ -300,6 +342,13 @@ You are encouraged to follow a rating system like the one proposed by @martinig2
 ## Format
 
 ### Prose
+
+When writing, you have two options:
+
+1.  Start with a Word or Google Docs file to facilitate collaboration. During the external review phase, Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) will export the document to Quarto format. After the export, the chapter will be updated in the document.
+2.  Start right away with the Quarto format. This approach is especially recommended if you plan to perform data analysis.
+
+#### Quarto
 
 Use the Quarto format (`.qmd`) to write your text following [Markdown conventions](https://quarto.org/docs/authoring/markdown-basics.html) (this is very useful for later generating a website or a PDF).
 To make writing with Quarto easier, use [RStudio](https://posit.co/products/open-source/rstudio)’s built-in visual editor, or install [the Quarto extension](https://open-vsx.org/extension/quarto/quarto) for [Visual Studio Code](https://code.visualstudio.com/) or [Positron](https://positron.posit.co/).
@@ -331,13 +380,23 @@ La population des ours noir au Québec a diminué de `{{r}} dim_pop_ours_prcnt` 
 
 To speed up performance, avoid including complex calculations or generating charts directly within Quarto files.
 
-### Graphs
+### Charts and Dashboards
 
-Choose perceptually uniform color palettes, as they are suitable for black-and-white printing and for people with color blindness (e.g., the Viridis palette, now available in[ggplot2](https://ggplot2.tidyverse.org/reference/scale_viridis.html)).
+You will be presented with a palette of perceptually uniform colors.
+This type of palette allows people with color blindness to perceive and distinguish colors.
 
-When inserting a chart, use [the “tabset” feature](https://quarto.org/docs/output-formats/html-basics.html#tabsets) to also include a table with the data represented in the chart.
+For each graph, create a `.csv` file that contains the data shown in the graph in tabular form.
 
-If needed, you can also use [Quarto with Shiny](https://quarto.org/docs/interactive/shiny/) to create dashboards.
+You can also use [Quarto with Shiny](https://quarto.org/docs/interactive/shiny/) to create dashboards that allow for the exploration of more complex data.
+These dashboards will be included in an appendix to the e-book.
+Please contact Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) before creating a dashboard.
+
+### Diagrams for Theories of Change
+
+When we are ready to create diagrams to represent theories of change [@cmp2026] we will subscribe to [Miradi conservation software](https://www.miradishare.org/ux/home) to make it easier to create these diagrams in accordance with conservation standards.
+Please email Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) as soon as you are ready to proceed to this step.
+
+![Example of a theory of change diagram, created in accordance with conservation standards using the Miradi software.](scope/conceptual_model_of_nature.png)![](scope/conceptual_model_of_nature.png){#fig-conceptual-model .lightbox}
 
 ## Inspiration
 
@@ -345,9 +404,35 @@ If you're looking for inspiration based on what has already been done elsewhere:
 
 - IPBES is the international panel responsible for synthesizing information related to biodiversity and the contributions of nature at the global level [@ipbes2019] and at the level of major global regions [@ipbes2018]. This can serve as a source of inspiration for framing an assessment of biodiversity and the contributions of nature to people.
 - [Nova Scotia](https://storymaps.arcgis.com/collections/6b0e65ee9a984cd18548517a8b78a09f) and [Ontario](https://sobr.ca/) both have biodiversity assessments. Although the scopes of these assessments are more limited than the scope of the Quebec assessment (see @sec-scoping), the web-based formats of these reports may provide inspiration for our e-book.
-- A detailed assessment of biodiversity in Switzerland was conducted as part of the goals to halt biodiversity loss by 2010 in Europe [@lachat2010]. This aligns well with our current situation and the upcoming deadline of 2030 in the context of the Convention on Biological Diversity and the Quebec 2030 Nature Plan [@MELCCFP2024PlanNature2030].
+- A detailed assessment of biodiversity in Switzerland was conducted as part of the effort to halt biodiversity loss in Europe by 2010 [@lachat2010]. This aligns well with our current situation under the Convention on Biological Diversity and Quebec’s Nature Plan 2030 [@MELCCFP2024PlanNature2030].
+- In Colombia, an [annual assessment of the state of biodiversity](https://reporte.humboldt.org.co/biodiversidad) is presented in an interesting interactive format (in Spanish).
 
-## Data Analysis Workflow {#sec-flux}
+## Simplified Workflow {#sec-flux}
+
+To collaborate easily, you can do so in a shared Drive (this approach requires a Google account).
+Send your Google email address to Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) to get editing permissions.
+
+To access the shared folder directly from your computer:
+
+1.  Install[Google Drive on your computer](https://workspace.google.com/intl/en_ca/products/drive/#download)
+2.  Open the[shared Drive](https://drive.google.com/drive/folders/1tM2c5sOOavlmsjOaHHuwWQJcHC94-x-x?usp=sharing).
+3.  eval_qc_biodiv_ncp \> Organize \> Add a Shortcut \> All Locations \> My Drive \> Add
+
+If one does not already exist, you can create a working folder for your chapter: \``livre_source > Px_[nom_de_partie] > XX_[nom_du_chapitre]`\`.
+Where`PX`corresponds to the part number, and \`XX\` to the chapter number.
+
+Be sure to keep all source documents so you can reproduce your documents.
+This includes, but is not limited to:
+
+- Data (or data sources, if large)
+- Code
+- Figures
+- Reference Library
+- List of Search Terms
+
+## Workflow for Data Analysis
+
+This workflow is useful if you plan to perform data analysis as part of your writing process.
 
 ### Useful Resources
 
