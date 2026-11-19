@@ -77,7 +77,7 @@ There are many possible tasks associated with this role; here are a few examples
 For more details regarding the writing process, see @sec-anatomie-chapitre and @sec-TDM.
 Your contribution will be acknowledged by adding your name to the list of authors for the chapters to which you contributed (see @sec-ordre-auteurs for the convention on author order).
 
-CSBQ student members may apply for two grants to support their involvement in the project:
+QCBS student members may apply for two grants to support their involvement in the project:
 
 - [To contribute to the analysis and drafting of the evaluation](https://qcbs.ca/champion-grants-assess-biodiversity-and-natures-contribution-to-people-in-quebec/)
 - [To make data available and accessible](https://qcbs.ca/champion-grants-to-rescue-quebecs-biodiversity-data/)
@@ -189,9 +189,9 @@ Pay particular attention to identifying sources relevant to Indigenous roles, pe
 
 Tools available to you:
 
-- CSBQ Network. Ask experts for relevant references and insights.
-- A database containing primary research articles and gray literature sources, along with an artificial intelligence tool for searching the database, created by the CSBQ (link coming soon). In the meantime, please contact Amine to conduct searches ([data\@qcbs.ca](mailto:data@qcbs.ca)).
-- Search tools (e.g., Google Scholar), artificial intelligence tools (e.g., [AstaAI](Asta.allen.ai)), or reaching out to your network and the CSBQ’s network to obtain additional sources of gray literature to add to our database. Record the methodological details of your research, such as the search engines used, the keywords used, the dates of the searches, the people contacted, and the criteria used to include or exclude a source. You may use an appendix if necessary.
+- QCBS Network. Ask experts for relevant references and insights.
+- A database containing primary research articles and gray literature sources, along with an artificial intelligence tool for searching the database, created by the QCBS (link coming soon). In the meantime, please contact Amine to conduct searches ([data\@qcbs.ca](mailto:data@qcbs.ca)).
+- Search tools (e.g., Google Scholar), artificial intelligence tools (e.g., [AstaAI](Asta.allen.ai)), or reaching out to your network and the QCBS’s network to obtain additional sources of gray literature to add to our database. Record the methodological details of your research, such as the search engines used, the keywords used, the dates of the searches, the people contacted, and the criteria used to include or exclude a source. You may use an appendix if necessary.
 
 When discussing drivers of change, be sure to consider studies that examine the underlying causes of the direct drivers.
 
@@ -442,7 +442,7 @@ This workflow is useful if you plan to perform data analysis as part of your wri
 
 - Basics of Quarto or RMarkdown
 
-The CSBQ will hold GitHub and Quarto training sessions (dates to be announced; contact [rapport\@qcbs.ca](mailto:rapport@qcbs.ca) to express your interest).
+The QCBS will hold GitHub and Quarto training sessions (dates to be announced; contact [rapport\@qcbs.ca](mailto:rapport@qcbs.ca) to express your interest).
 
 ### Ensure the reproducibility of results and the portability of code
 
@@ -582,7 +582,7 @@ If you insist on using Excel, be sure to explicitly document the sources of all 
 - `_quarto.yml`and`_quarto-web-book.yml`contain Quarto configurations.
   `_quarto-web-book.yml`contains the list of Quarto files that will make up the web book.
 
-- The folders`Scoping`,`Notes`,`Comm`, and`Grants`contain files related to project planning and scoping, committee meeting notes, communications, and scholarships offered to CSBQ students as part of the project.
+- The folders`Scoping`,`Notes`,`Comm`, and`Grants`contain files related to project planning and scoping, committee meeting notes, communications, and scholarships offered to QCBS students as part of the project.
 
 - `rQEB.Rproj`specifies the working directory for R scripts (but not`.qmd`)
 
