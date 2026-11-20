@@ -302,9 +302,9 @@ For each chapter, a metadata file must be available and formatted according to [
 
 ### Vocabulary and System Analyses
 
-Please make use of and contribute to the[dynamic glossary](https://docs.google.com/spreadsheets/d/1Q-cr7V4HtU418kz9OR_D7s_hWGWTEDYPjDlZ5o8RWAg/edit?usp=sharing)for our assessment.
-This glossary is based on the Conservation Standards[@cmp2026].
-This framework is compatible with the IPBES framework, which structures the table of contents[@díaz2015].
+Please make use of and contribute to the [dynamic glossary](https://docs.google.com/spreadsheets/d/1Q-cr7V4HtU418kz9OR_D7s_hWGWTEDYPjDlZ5o8RWAg/edit?usp=sharing) for our assessment.
+This glossary is based on the Conservation Standards [@cmp2026].
+This framework is compatible with the IPBES framework, which structures the table of contents [@díaz2015].
 
 Writing this e-book is an exercise in synthesis, not in popularization.
 An exercise in popularization will follow.
