@@ -302,9 +302,9 @@ For each chapter, a metadata file must be available and formatted according to [
 
 ### Vocabulary and System Analyses
 
-Please make use of and contribute to the[dynamic glossary](https://docs.google.com/spreadsheets/d/1Q-cr7V4HtU418kz9OR_D7s_hWGWTEDYPjDlZ5o8RWAg/edit?usp=sharing)for our assessment.
-This glossary is based on the Conservation Standards[@cmp2026].
-This framework is compatible with the IPBES framework, which structures the table of contents[@díaz2015].
+Please make use of and contribute to the [dynamic glossary](https://docs.google.com/spreadsheets/d/1Q-cr7V4HtU418kz9OR_D7s_hWGWTEDYPjDlZ5o8RWAg/edit?usp=sharing) for our assessment.
+This glossary is based on the Conservation Standards [@cmp2026].
+This framework is compatible with the IPBES framework, which structures the table of contents [@díaz2015].
 
 Writing this e-book is an exercise in synthesis, not in popularization.
 An exercise in popularization will follow.
@@ -396,7 +396,7 @@ Please contact Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) before creating
 When we are ready to create diagrams to represent theories of change [@cmp2026] we will subscribe to [Miradi conservation software](https://www.miradishare.org/ux/home) to make it easier to create these diagrams in accordance with conservation standards.
 Please email Egor ([rapport\@qcbs.ca](mailto:rapport@qcbs.ca)) as soon as you are ready to proceed to this step.
 
-![Example of a theory of change diagram, created in accordance with conservation standards using the Miradi software.](scope/conceptual_model_of_nature.png)![](scope/conceptual_model_of_nature.png){#fig-conceptual-model .lightbox}
+![Example of a theory of change diagram, created in accordance with conservation standards using the Miradi software.](scope/conceptual_model_of_nature.png){#fig-conceptual-model .lightbox}
 
 ## Inspiration
 
