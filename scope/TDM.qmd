@@ -36,89 +36,93 @@ Inspiré de l'évaluation globale du International Panel on Biodiversity and Eco
 
 Portrait historique (pré-colonial)
 
-**Chapitre 4. Espèces menacées et vulnérables**
+**Chapitre 4. Histoire post-coloniale de la biodiversité**
+
+Portrait historique et impact de la colonisation sur la biodiversité (jusqu'à environ 1960). Les changements plus récents seront adressés dans la partie sur les moteurs de changement.
+
+**Chapitre 5. Espèces menacées et vulnérables**
 
 *Directrice de chapitre: Fanie Pelletier*
 
-**Chapitre 5. Portrait de la recherche**
+**Chapitre 6. Survol de la recherche en science de la biodiversité du Québec**
 
-*En cours de développement (Amine et Guillaume)*
+*En cours de développement (Amine Mimouni, Guillaume Larocque, Egor Katkov, April Martinig)*
 
 - Couverture taxonomique
-- Thèmatiques de recherche
+- Thématiques de recherche
 - Approches
 - Qui fait la recherche
 - Forces et lacunes
 
-**Chapitre 6. Gouvernance et opérationalisation**
+**Chapitre 7. Gouvernance et opérationnalisation**
 
 *Marie Saydeh, Jean-François Bissonnette*
 
-Instances décisionelles, procédures, et mise en œuvre des projets de biodiversité
+Instances décisionnelles, procédures, et mise en œuvre des projets de biodiversité
 
 ### Partie III — Moteurs de changement {.unnumbered}
 
 Le table des matières de cette partie tourne autour des moteurs de changements direct, mais chaque moteur devrait aussi être lié aux facteurs indirects. Il faut aussi inclure les projections futures là où les connaissances sont disponibles.
 
-**Chapitre 7. Les pressions sur la biodiversité**
+**Chapitre 8. Les pressions sur la biodiversité**
 
 *En cours de développement (Egor)*
 
 Tour d’horizon, importance relative et interactions entre les moteurs de changement
 
-**Chapitre 8. Changement d'affectation des terres**
+**Chapitre 9. Changement d'affectation des terres**
 
-**Chapitre 9. Utilisation et gestion des espèces et des écosystèmes**
+**Chapitre 10. Utilisation et gestion des espèces et des écosystèmes**
 
 *Dirigé par Matin Leclerc*
 
-**Chapitre 10. Changements climatiques**
+**Chapitre 11. Changements climatiques**
 
 *Dirigé par Dominique Berteaux*
 
 Incluant feux de forêts
 
-**Chapitre 11. Espèces exotiques et invasives**
+**Chapitre 12. Espèces exotiques et invasives**
 
 *Personne contact: Genviève D'Avignon*
 
-**Chapitre 12. Pollution**
+**Chapitre 13. Pollution**
 
 *Dirigé par Valérie Langlois*
 
 ### Partie IV — Contributions de la nature aux populations {.unnumbered}
 
-**Chapitre 13. Quantification et cartographie**
+**Chapitre 14. Quantification et cartographie**
 
-**Chapitre 14. Santé et biodiversité**
+**Chapitre 15. Santé et biodiversité**
 
 *Timothée Poisot participera au dévlopment de ce chapitre.*
 
 En Autome 2026, un groupe d'étudiantes du Centre de formation universitaire en environnement de l’Université Sherbrooke traveillera activement sur une première version de ce chapitre.
 
-**Chapitre 15. Société et biodiversité**
+**Chapitre 16. Société et biodiversité**
 
 *Samuel Enright sera le superviseur pour ce chapitre*
 
 Ce chapitre s'attardera aux liens qu'ont les différents groupes de la société avec la biodiversité. On s'intéresse aux perceptions de la population québécoise face à la biodiversité, la couverture médiatique, l'intégration de la biodiversité dans les pratiques en éducation, dans les décisions et pratiques d'entreprises, dans la culture, le patrimoine et l'identité québécoise. La question des inégalités face à l'accès et au contact avec la nature fermera le chapitre
 
-**Chapitre 16. Perspectives autochtones**
+**Chapitre 17. Perspectives autochtones**
 
 Comme chaque chapitre va contenir de l'information sur les perspectives autochtones, la pertinence d'un chapitre dédié reste à déterminer.
 
 ### Partie V — Stratégies {.unnumbered}
 
-**Chapitre 17. Aires protégées**
+**Chapitre 18. Aires protégées**
 
-**Chapitre 18. Restauration**
+**Chapitre 19. Restauration**
 
-**Chapitre 19. Efficacité des mesures de compensation (politique de perte zéro)**
+**Chapitre 20. Efficacité des mesures de compensation (politique de perte zéro)**
 
-**Chapitre 20. Finance durable**
+**Chapitre 21. Finance durable**
 
-**Chapitre 21. Gouvernance et initiatives des peuples autochtones**
+**Chapitre 22. Gouvernance et initiatives des peuples autochtones**
 
-**Chapitre 22. Suivi scientifique de la biodiversité**
+**Chapitre 23. Suivi scientifique de la biodiversité**
 
 *Superviseur.e.s:* Dominique Gravel, Claire-Cécile, Anouk Simard
 
@@ -128,7 +132,7 @@ D'autres initiatives de suivi terrain (eDNA).
 
 ### Partie VI — Conclusions {.unnumbered}
 
-**Chapitre 23. Conclusion et recommandations**
+**Chapitre 24. Conclusion et recommandations**
 
 ### Appendices {.unnumbered}
 
