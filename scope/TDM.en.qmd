@@ -3,7 +3,6 @@ editor: visual
 format: html
 bibliography: references.bib
 ---
-
 # Living Table of Contents {#sec-TDM}
 
 Inspired by the Global Assessment Report of the International Panel on Biodiversity and Ecosystem Services [@ipbes2019]
@@ -108,6 +107,8 @@ This chapter will focus on the connections between different social groups and b
 
 **Chapter 17. Indigenous Perspectives**
 
+*Directed by: Hugo Asselin*
+
 Since each chapter will include information on Indigenous perspectives, the need for a dedicated chapter remains to be determined.
 
 ### Part V — Strategies {.unnumbered}
@@ -121,6 +122,8 @@ Since each chapter will include information on Indigenous perspectives, the need
 **Chapter 21. Sustainable Finance**
 
 **Chapter 22. Governance and Indigenous Peoples’ Initiatives**
+
+*Directed by: Sara Teitelbaum*
 
 **Chapter 23. Scientific Monitoring of Biodiversity**
 
