@@ -10,6 +10,6 @@ Si vous souhaitez contribuer au projet, n'hésitez pas d'écrire à [rapport\@qc
 
 À moins d'avis contraire, le contenu du livre est soumis à la licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr).
 
-Ce projet est mené par le [Centre de la science de la biodiversité du Québec](https://qcbs.ca/fr/) avec le soutien de [Biodiversité Québec](https://biodiversite-quebec.ca/fr).
+Ce projet est mené par le [Centre de la science de la biodiversité du Québec](https://qcbs.ca/fr/), financé par le Fonds de recherche du Québec (Subvention 309298, <https://doi.org/10.69777/309298>), avec le soutien de [Biodiversité Québec](https://biodiversite-quebec.ca/fr).
 
 ![](assets/logos/logo-binding-vcrop.png)

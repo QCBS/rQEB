@@ -10,6 +10,6 @@ If you would like to contribute to the project, please feel free to email [rappo
 
 Unless otherwise specified, the content of this book is licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/CC).
 
-This project is led by the [Quebec Center for Biodiversity Science](https://qcbs.ca/) with support from [Biodiversité Québec](https://biodiversite-quebec.ca).
+This project is led by the [Quebec Center for Biodiversity Science](https://qcbs.ca/), financed by the Fonds de recherche du Québec (Subvention 309298, <https://doi.org/10.69777/309298>), with support from [Biodiversité Québec](https://biodiversite-quebec.ca).
 
 ![](assets/logos/logo-binding-vcrop.png)
